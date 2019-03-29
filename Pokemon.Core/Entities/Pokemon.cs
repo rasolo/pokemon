@@ -29,6 +29,10 @@ namespace Pokemon.Core.Entities
 
             set
             {
+                if(Types == null)
+                {
+                    return;
+                }
                 if (string.IsNullOrWhiteSpace(value))
                     Types.Clear();
                 else
