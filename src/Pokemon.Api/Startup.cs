@@ -5,17 +5,21 @@ using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Newtonsoft.Json;
 using Pokemon.Api.Mapper;
+using System.IO;
 
 namespace Pokemon.Api
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup(IConfiguration configuration, IHostingEnvironment env)
         {
             Configuration = configuration;
+            HostingEnvironment = env;
         }
 
+        public IHostingEnvironment HostingEnvironment { get;}
         public IConfiguration Configuration { get; }
         private SqliteConnection inMemorySqlite;
 
@@ -42,16 +46,28 @@ namespace Pokemon.Api
                     .UseSqlite(inMemorySqlite)
                     .Options;
 
+            //TODO: Move to service class. Error handling, logging.
+            var path = Path.GetFullPath(Path.Combine(HostingEnvironment.ContentRootPath, @"..\..\")) + "\\appdata\\json\\pokemon";
+            var files = Directory.GetFiles(path);
+
             using (var context = new Pokemon.Infrastructure.Data.AppDbContext(opts))
             {
                 // Create the schema in the database
                 context.Database.EnsureCreated();
-                context.Pokemon.Add(new Core.Entities.Pokemon() { Name = "Pikachu" });
+                foreach (var file in files)
+                {
+                    var jsonString = System.IO.File.ReadAllText(file);
+                    //TODO: Fix mapping, lots of null props
+                    var pokemonDto = JsonConvert.DeserializeObject<Models.PokemonDto>(jsonString);
+                    Core.Entities.Pokemon pokemon = null;
+                    context.Pokemon.Add(mapper.Map(pokemonDto, pokemon));
+                }
                 context.SaveChanges();
             }
 
             services.AddMvc();
         }
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
