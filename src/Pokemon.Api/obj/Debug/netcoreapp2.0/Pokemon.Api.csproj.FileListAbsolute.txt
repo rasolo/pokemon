@@ -1,0 +1,11 @@
+C:\Users\Rasmus\Documents\visual studio 2017\Projects\Pokemon\src\Pokemon.Api\bin\Debug\netcoreapp2.0\Pokemon.Api.deps.json
+C:\Users\Rasmus\Documents\visual studio 2017\Projects\Pokemon\src\Pokemon.Api\bin\Debug\netcoreapp2.0\Pokemon.Api.runtimeconfig.json
+C:\Users\Rasmus\Documents\visual studio 2017\Projects\Pokemon\src\Pokemon.Api\bin\Debug\netcoreapp2.0\Pokemon.Api.runtimeconfig.dev.json
+C:\Users\Rasmus\Documents\visual studio 2017\Projects\Pokemon\src\Pokemon.Api\bin\Debug\netcoreapp2.0\Pokemon.Api.dll
+C:\Users\Rasmus\Documents\visual studio 2017\Projects\Pokemon\src\Pokemon.Api\bin\Debug\netcoreapp2.0\Pokemon.Api.pdb
+C:\Users\Rasmus\Documents\visual studio 2017\Projects\Pokemon\src\Pokemon.Api\obj\Debug\netcoreapp2.0\Pokemon.Api.csprojAssemblyReference.cache
+C:\Users\Rasmus\Documents\visual studio 2017\Projects\Pokemon\src\Pokemon.Api\obj\Debug\netcoreapp2.0\Pokemon.Api.csproj.CoreCompileInputs.cache
+C:\Users\Rasmus\Documents\visual studio 2017\Projects\Pokemon\src\Pokemon.Api\obj\Debug\netcoreapp2.0\Pokemon.Api.AssemblyInfoInputs.cache
+C:\Users\Rasmus\Documents\visual studio 2017\Projects\Pokemon\src\Pokemon.Api\obj\Debug\netcoreapp2.0\Pokemon.Api.AssemblyInfo.cs
+C:\Users\Rasmus\Documents\visual studio 2017\Projects\Pokemon\src\Pokemon.Api\obj\Debug\netcoreapp2.0\Pokemon.Api.dll
+C:\Users\Rasmus\Documents\visual studio 2017\Projects\Pokemon\src\Pokemon.Api\obj\Debug\netcoreapp2.0\Pokemon.Api.pdb
