@@ -1,0 +1,10 @@
+C:\Users\Rasmus\Documents\Visual Studio 2017\Projects\Pokemon\Pokemon\bin\Debug\netcoreapp2.0\Pokemon.deps.json
+C:\Users\Rasmus\Documents\Visual Studio 2017\Projects\Pokemon\Pokemon\bin\Debug\netcoreapp2.0\Pokemon.runtimeconfig.json
+C:\Users\Rasmus\Documents\Visual Studio 2017\Projects\Pokemon\Pokemon\bin\Debug\netcoreapp2.0\Pokemon.runtimeconfig.dev.json
+C:\Users\Rasmus\Documents\Visual Studio 2017\Projects\Pokemon\Pokemon\bin\Debug\netcoreapp2.0\Pokemon.dll
+C:\Users\Rasmus\Documents\Visual Studio 2017\Projects\Pokemon\Pokemon\bin\Debug\netcoreapp2.0\Pokemon.pdb
+C:\Users\Rasmus\Documents\Visual Studio 2017\Projects\Pokemon\Pokemon\obj\Debug\netcoreapp2.0\Pokemon.csproj.CoreCompileInputs.cache
+C:\Users\Rasmus\Documents\Visual Studio 2017\Projects\Pokemon\Pokemon\obj\Debug\netcoreapp2.0\Pokemon.AssemblyInfoInputs.cache
+C:\Users\Rasmus\Documents\Visual Studio 2017\Projects\Pokemon\Pokemon\obj\Debug\netcoreapp2.0\Pokemon.AssemblyInfo.cs
+C:\Users\Rasmus\Documents\Visual Studio 2017\Projects\Pokemon\Pokemon\obj\Debug\netcoreapp2.0\Pokemon.dll
+C:\Users\Rasmus\Documents\Visual Studio 2017\Projects\Pokemon\Pokemon\obj\Debug\netcoreapp2.0\Pokemon.pdb
