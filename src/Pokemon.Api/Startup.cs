@@ -64,6 +64,8 @@ namespace Pokemon.Api
                 context.SaveChanges();
             }
 
+            services.AddScoped<Core.Contracts.IPokemonRepository, Infrastructure.Data.PokemonRepository>();
+
             services.AddMvc();
         }
 
