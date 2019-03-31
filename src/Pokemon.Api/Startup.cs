@@ -57,7 +57,6 @@ namespace Pokemon.Api
                 foreach (var file in files)
                 {
                     var jsonString = System.IO.File.ReadAllText(file);
-                    //TODO: Fix mapping, lots of null props
                     var pokemonDto = JsonConvert.DeserializeObject<Models.PokemonDto>(jsonString);
                     Core.Entities.Pokemon pokemon = null;
                     context.Pokemon.Add(mapper.Map(pokemonDto, pokemon));
