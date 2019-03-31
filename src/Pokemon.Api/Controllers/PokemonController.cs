@@ -1,5 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using AutoMapper;
+using Pokemon.Infrastructure.Paging;
+using Pokemon.Infrastructure.Repositories;
+using System.Linq;
+using System.Collections.Generic;
+using Pokemon.Api.Models;
 
 namespace Pokemon.Api.Controllers
 {
@@ -7,10 +12,10 @@ namespace Pokemon.Api.Controllers
     [Route("api/v{version:apiVersion}/pokemon")]
     public class PokemonController : Controller
     {
-        private readonly Core.Contracts.IPokemonRepository _pokemonRepository;
+        private readonly IPokemonRepository _pokemonRepository;
         private readonly IMapper _mapper;
 
-        public PokemonController(Core.Contracts.IPokemonRepository pokemonRepository, IMapper mapper)
+        public PokemonController(IPokemonRepository pokemonRepository, IMapper mapper)
         {
             _pokemonRepository = pokemonRepository;
             _mapper = mapper;
@@ -29,6 +34,28 @@ namespace Pokemon.Api.Controllers
             var pokemonDto = _mapper.Map(pokemon, new Api.Models.PokemonDto());
 
             return Ok(pokemonDto);
+        }
+
+        [HttpGet("list", Name = "GetPokemons")]
+        public IActionResult GetPokemons(PagingParams pagingParams)
+        {
+            if (pagingParams == null)
+            {
+                return BadRequest();
+            }
+
+
+            var pokemonEntities =  _pokemonRepository.GetPokemons(pagingParams);
+            IEnumerable<Pokemon.Core.Entities.Pokemon> orderedSites = pokemonEntities.List.OrderBy(s => s.Name).ToList();
+            Response.Headers.Add("X-Pagination", pokemonEntities.GetHeader().ToJson());
+            var outputModel = new ObjectDto
+            {
+                Paging = pokemonEntities.GetHeader(),
+                Pokemons =  pokemonEntities.List.Select(_mapper.Map<Models.PokemonDto>).AsQueryable()
+            };
+
+
+            return Ok(outputModel);
         }
     }
 }

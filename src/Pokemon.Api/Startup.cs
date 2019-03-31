@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
 using Pokemon.Api.Models;
+using Pokemon.Infrastructure.Repositories;
 
 namespace Pokemon.Api
 {
@@ -26,7 +27,6 @@ namespace Pokemon.Api
         public IHostingEnvironment HostingEnvironment { get;}
         public IConfiguration Configuration { get; }
         private SqliteConnection inMemorySqlite;
-        private Pokemon.Infrastructure.Data.AppDbContext dbContext;
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -71,7 +71,7 @@ namespace Pokemon.Api
             }
 
 
-            services.AddScoped<Core.Contracts.IPokemonRepository, Infrastructure.Data.PokemonRepository>();
+            services.AddScoped<IPokemonRepository, Infrastructure.Data.PokemonRepository>();
 
             services.AddApiVersioning(o =>
             {
