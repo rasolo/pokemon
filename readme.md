@@ -25,3 +25,8 @@ Retrieve a single pokemon.
 ### Add Pokemon
 
 Todo
+
+### TODO:
+
+- [ ] Update to Core 3.
+- [ ] Refractor.
