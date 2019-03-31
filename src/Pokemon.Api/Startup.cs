@@ -8,6 +8,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 using Pokemon.Api.Mapper;
 using System.IO;
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.Linq;
+using Pokemon.Api.Models;
 
 namespace Pokemon.Api
 {
@@ -22,6 +26,7 @@ namespace Pokemon.Api
         public IHostingEnvironment HostingEnvironment { get;}
         public IConfiguration Configuration { get; }
         private SqliteConnection inMemorySqlite;
+        private Pokemon.Infrastructure.Data.AppDbContext dbContext;
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -58,13 +63,21 @@ namespace Pokemon.Api
                 {
                     var jsonString = System.IO.File.ReadAllText(file);
                     var pokemonDto = JsonConvert.DeserializeObject<Models.PokemonDto>(jsonString);
-                    Core.Entities.Pokemon pokemon = null;
+                    var pokemon = mapper.Map(pokemonDto, new Core.Entities.Pokemon());
                     context.Pokemon.Add(mapper.Map(pokemonDto, pokemon));
                 }
                 context.SaveChanges();
+
             }
 
+
             services.AddScoped<Core.Contracts.IPokemonRepository, Infrastructure.Data.PokemonRepository>();
+
+            services.AddApiVersioning(o =>
+            {
+                o.AssumeDefaultVersionWhenUnspecified = true;
+                o.DefaultApiVersion = new ApiVersion(1, 0);
+            });
 
             services.AddMvc();
         }

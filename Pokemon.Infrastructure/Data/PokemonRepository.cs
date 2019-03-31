@@ -1,5 +1,5 @@
 ﻿using System.Linq;
-
+using Pokemon.Core.Extensions;
 namespace Pokemon.Infrastructure.Data
 {
    public class PokemonRepository : Core.Contracts.IPokemonRepository
@@ -12,7 +12,8 @@ namespace Pokemon.Infrastructure.Data
 
         public Core.Entities.Pokemon GetByName(string name)
         {
-            return _dbContext.Pokemon.SingleOrDefault(x => x.Name == name);
+            var pokemon = _dbContext.Pokemon.SingleOrDefault(x => x.Name == name.FirstLetterToUpper());
+            return pokemon;
         }
     }
 }
