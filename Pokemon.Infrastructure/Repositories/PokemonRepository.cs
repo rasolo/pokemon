@@ -17,7 +17,8 @@ namespace Pokemon.Infrastructure.Data
         public Core.Entities.Pokemon GetByName(string name)
         {
             var pokemon = _dbContext.Pokemon.SingleOrDefault(x => x.Name == name.FirstLetterToUpper());
-            if(pokemon != null)
+            //TODO: Fix Entity framework so this is not neccesary.
+            if (pokemon != null)
             {
               pokemon.Evolutions = _dbContext.Evolution.Where(e => e.PokemonId == pokemon.PokemonId).ToList();
               pokemon.Moves = _dbContext.Move.Where(m => m.PokemonId == pokemon.PokemonId).ToList();
@@ -28,8 +29,17 @@ namespace Pokemon.Infrastructure.Data
         public PagedList<Core.Entities.Pokemon> GetPokemons(PagingParams pagingParams)
         {
             var query = _dbContext.Pokemon.AsQueryable();
-            return new PagedList<Core.Entities.Pokemon>(
+            var pagedList = new PagedList<Core.Entities.Pokemon>(
                 query, pagingParams.PageNumber, pagingParams.PageSize);
+
+            //TODO: Fix Entity framework so this is not neccesary.
+            foreach (var pokemon in pagedList.List)
+            {
+                pokemon.Evolutions = _dbContext.Evolution.Where(e => e.PokemonId == pokemon.PokemonId).ToList();
+                pokemon.Moves = _dbContext.Move.Where(m => m.PokemonId == pokemon.PokemonId).ToList();
+            }
+
+            return pagedList;
         }
     }
 }
