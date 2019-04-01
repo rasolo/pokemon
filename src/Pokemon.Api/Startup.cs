@@ -13,6 +13,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Pokemon.Api.Models;
 using Pokemon.Infrastructure.Repositories;
+using Pokemon.Core.Services;
 
 namespace Pokemon.Api
 {
@@ -72,6 +73,7 @@ namespace Pokemon.Api
 
 
             services.AddScoped<IPokemonRepository, Infrastructure.Data.PokemonRepository>();
+            services.AddScoped<IPokemonService, PokemonService>();
 
             services.AddApiVersioning(o =>
             {
