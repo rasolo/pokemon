@@ -29,4 +29,5 @@ Todo
 ### TODO:
 
 - [ ] Update to Core 3.
+- [ ] - [ ] Correctly load the collections of Pokemon with Entity Framework (Evolutions and Moves).
 - [ ] Refractor.
