@@ -1,4 +1,7 @@
-## API
+# Pokemon API #
+
+## About ##
+An Api made in .NET core 3 related to Pokemon.
 
 ### List Pokemon
 
@@ -22,12 +25,22 @@ Retrieve a single pokemon.
 | --------- | -------- | -------- | ----------------- |
 | `Name`      | `{string}` | ✅        | Bulbasaur |
 
+## Requirements
+Dotnet core 3 SDK and the runtime: https://dotnet.microsoft.com/download/dotnet-core/3.0
+Visual Studio 2019: https://visualstudio.microsoft.com/downloads/
+Use previews of the .NET Core SDK
+In Visual Studio 2019
+    1. Tools
+    2. Projects and Solutions
+    3. .NET Core
+    4. Check "Use previews of the .NET Core SDK"
+
 ### Add Pokemon
 
 Todo
 
 ### TODO:
 
-- [ ] Update to Core 3.
-- [ ] - [ ] Correctly load the collections of Pokemon with Entity Framework (Evolutions and Moves).
+- [x] Update to Core 3.
+- [ ] Correctly load the collections of Pokemon with Entity Framework (Evolutions and Moves).
 - [ ] Refractor.

@@ -1,31 +1,28 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 using Pokemon.Api.Mapper;
-using System.IO;
-using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Linq;
-using Pokemon.Api.Models;
-using Pokemon.Infrastructure.Repositories;
 using Pokemon.Core.Services;
+using Pokemon.Infrastructure.Repositories;
+using System.IO;
 
 namespace Pokemon.Api
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration, IHostingEnvironment env)
+        public Startup(IConfiguration configuration, IWebHostEnvironment env)
         {
             Configuration = configuration;
             HostingEnvironment = env;
         }
 
-        public IHostingEnvironment HostingEnvironment { get;}
+        public IWebHostEnvironment HostingEnvironment { get;}
         public IConfiguration Configuration { get; }
         private SqliteConnection inMemorySqlite;
 
@@ -81,14 +78,15 @@ namespace Pokemon.Api
                 o.DefaultApiVersion = new ApiVersion(1, 0);
             });
 
-            services.AddMvc();
+            services.AddMvc()
+                .AddNewtonsoftJson();
         }
 
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
+            if (env.EnvironmentName == "Development")
             {
                 app.UseDeveloperExceptionPage();
             }
