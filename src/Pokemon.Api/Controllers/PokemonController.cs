@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using Pokemon.Api.Models;
 using Pokemon.Core.Services;
 using System.Linq.Dynamic.Core;
+using Pokemon.Core.Models;
 
 namespace Pokemon.Api.Controllers
 {
@@ -35,7 +36,7 @@ namespace Pokemon.Api.Controllers
                 return NotFound();
             }
 
-            var pokemonDto = _mapper.Map(pokemon, new Api.Models.PokemonDto());
+            var pokemonDto = _mapper.Map(pokemon, new PokemonDto());
 
             return Ok(pokemonDto);
         }

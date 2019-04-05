@@ -1,4 +1,5 @@
-﻿namespace Pokemon.Api.Models
+﻿namespace Pokemon.Core.Models
+
 {
     public class MoveDto
     {

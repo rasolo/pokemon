@@ -8,9 +8,14 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 using Pokemon.Api.Mapper;
+using Pokemon.Core.Models;
 using Pokemon.Core.Services;
+using Pokemon.Infrastructure.Data;
 using Pokemon.Infrastructure.Repositories;
+using System;
+using System.Buffers;
 using System.IO;
+using System.Text.Json;
 
 namespace Pokemon.Api
 {
@@ -49,10 +54,11 @@ namespace Pokemon.Api
                     .UseSqlite(inMemorySqlite)
                     .Options;
 
+            services.AddScoped<IBufferWriter<byte>, ArrayBufferWriter>();
+
             //TODO: Move to service class. Error handling, logging.
             var path = Path.GetFullPath(Path.Combine(HostingEnvironment.ContentRootPath, @"..\..\")) + "\\appdata\\json\\pokemon";
             var files = Directory.GetFiles(path);
-
             using (var context = new Pokemon.Infrastructure.Data.AppDbContext(opts))
             {
                 // Create the schema in the database
@@ -60,7 +66,7 @@ namespace Pokemon.Api
                 foreach (var file in files)
                 {
                     var jsonString = System.IO.File.ReadAllText(file);
-                    var pokemonDto = JsonConvert.DeserializeObject<Models.PokemonDto>(jsonString);
+                    var pokemonDto = JsonDocumentService.ConvertToPokemonDto(jsonString);
                     var pokemon = mapper.Map(pokemonDto, new Core.Entities.Pokemon());
                     context.Pokemon.Add(mapper.Map(pokemonDto, pokemon));
                 }
@@ -68,7 +74,7 @@ namespace Pokemon.Api
 
             }
 
-
+        
             services.AddScoped<IPokemonRepository, Infrastructure.Data.PokemonRepository>();
             services.AddScoped<IPokemonService, PokemonService>();
 
@@ -81,7 +87,6 @@ namespace Pokemon.Api
             services.AddMvc()
                 .AddNewtonsoftJson();
         }
-
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
