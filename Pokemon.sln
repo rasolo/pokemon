@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2042
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pokemon.Api", "src\Pokemon.Api\Pokemon.Api.csproj", "{EED2695E-F9B8-4CC3-9992-4A2388041652}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokemon.Infrastructure", "src\Pokemon.Infrastructure\Pokemon.Infrastructure.csproj", "{EA66D8C6-65F4-4D85-B04C-6CF90A2B6676}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pokemon.Infrastructure", "src\Pokemon.Infrastructure\Pokemon.Infrastructure.csproj", "{EA66D8C6-65F4-4D85-B04C-6CF90A2B6676}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokemon.Core", "src\Pokemon.Core\Pokemon.Core.csproj", "{402F68E6-00E2-4A80-9556-4E86EC19D712}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pokemon.Core", "src\Pokemon.Core\Pokemon.Core.csproj", "{402F68E6-00E2-4A80-9556-4E86EC19D712}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E1A8723C-DBAF-4A5A-9D60-9428413E97A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +32,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EED2695E-F9B8-4CC3-9992-4A2388041652} = {E1A8723C-DBAF-4A5A-9D60-9428413E97A7}
+		{EA66D8C6-65F4-4D85-B04C-6CF90A2B6676} = {E1A8723C-DBAF-4A5A-9D60-9428413E97A7}
+		{402F68E6-00E2-4A80-9556-4E86EC19D712} = {E1A8723C-DBAF-4A5A-9D60-9428413E97A7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1E3FCAF1-2E70-4580-9768-707E2F011D44}
