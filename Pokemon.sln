@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pokemon.Api", "src\Pokemon.Api\Pokemon.Api.csproj", "{EED2695E-F9B8-4CC3-9992-4A2388041652}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokemon.Infrastructure", "Pokemon.Infrastructure\Pokemon.Infrastructure.csproj", "{EA66D8C6-65F4-4D85-B04C-6CF90A2B6676}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokemon.Infrastructure", "src\Pokemon.Infrastructure\Pokemon.Infrastructure.csproj", "{EA66D8C6-65F4-4D85-B04C-6CF90A2B6676}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokemon.Core", "Pokemon.Core\Pokemon.Core.csproj", "{402F68E6-00E2-4A80-9556-4E86EC19D712}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokemon.Core", "src\Pokemon.Core\Pokemon.Core.csproj", "{402F68E6-00E2-4A80-9556-4E86EC19D712}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

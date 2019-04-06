@@ -6,16 +6,12 @@ using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Newtonsoft.Json;
 using Pokemon.Api.Mapper;
-using Pokemon.Core.Models;
 using Pokemon.Core.Services;
 using Pokemon.Infrastructure.Data;
 using Pokemon.Infrastructure.Repositories;
-using System;
 using System.Buffers;
 using System.IO;
-using System.Text.Json;
 
 namespace Pokemon.Api
 {
@@ -46,11 +42,11 @@ namespace Pokemon.Api
             //Sql lite in-memory DB
             inMemorySqlite = new SqliteConnection("Data Source=:memory:");
             inMemorySqlite.Open();
-            services.AddDbContext<Pokemon.Infrastructure.Data.AppDbContext>(options => {
+            services.AddDbContext<AppDbContext>(options => {
                 options.UseSqlite(inMemorySqlite);
             });
 
-            DbContextOptions<Pokemon.Infrastructure.Data.AppDbContext> opts = new DbContextOptionsBuilder<Pokemon.Infrastructure.Data.AppDbContext>()
+            DbContextOptions<AppDbContext> opts = new DbContextOptionsBuilder<Pokemon.Infrastructure.Data.AppDbContext>()
                     .UseSqlite(inMemorySqlite)
                     .Options;
 
@@ -59,13 +55,13 @@ namespace Pokemon.Api
             //TODO: Move to service class. Error handling, logging.
             var path = Path.GetFullPath(Path.Combine(HostingEnvironment.ContentRootPath, @"..\..\")) + "\\appdata\\json\\pokemon";
             var files = Directory.GetFiles(path);
-            using (var context = new Pokemon.Infrastructure.Data.AppDbContext(opts))
+            using (var context = new AppDbContext(opts))
             {
                 // Create the schema in the database
                 context.Database.EnsureCreated();
                 foreach (var file in files)
                 {
-                    var jsonString = System.IO.File.ReadAllText(file);
+                    var jsonString = File.ReadAllText(file);
                     var pokemonDto = JsonDocumentService.ConvertToPokemonDto(jsonString);
                     var pokemon = mapper.Map(pokemonDto, new Core.Entities.Pokemon());
                     context.Pokemon.Add(mapper.Map(pokemonDto, pokemon));
@@ -75,7 +71,7 @@ namespace Pokemon.Api
             }
 
         
-            services.AddScoped<IPokemonRepository, Infrastructure.Data.PokemonRepository>();
+            services.AddScoped<IPokemonRepository, PokemonRepository>();
             services.AddScoped<IPokemonService, PokemonService>();
 
             services.AddApiVersioning(o =>
