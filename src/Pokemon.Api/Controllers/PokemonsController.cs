@@ -13,13 +13,13 @@ namespace Pokemon.Api.Controllers
 {
     [ApiVersion("1.0")]
     [Route("api/v{version:apiVersion}/pokemon")]
-    public class PokemonController : Controller
+    public class PokemonsController : Controller
     {
         private readonly IPokemonRepository _pokemonRepository;
         private readonly IMapper _mapper;
         private readonly IPokemonService _pokemonService;
 
-        public PokemonController(IPokemonRepository pokemonRepository, IMapper mapper, IPokemonService pokemonService)
+        public PokemonsController(IPokemonRepository pokemonRepository, IMapper mapper, IPokemonService pokemonService)
         {
             _pokemonRepository = pokemonRepository;
             _mapper = mapper;
