@@ -40,8 +40,8 @@ namespace Pokemon.Core.Entities
                     Types = JsonConvert.DeserializeObject<List<string>>(value);
             }
         }
-        public virtual IEnumerable<Evolution> Evolutions { get; set; }
-        public virtual IEnumerable<Move> Moves { get; set; }
+        public ICollection<Evolution> Evolutions { get; set; }
+        public ICollection<Move> Moves { get; set; }
     }
 
     public class Evolution

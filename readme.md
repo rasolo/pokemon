@@ -30,17 +30,15 @@ Dotnet core 3 SDK and the runtime: https://dotnet.microsoft.com/download/dotnet-
 Visual Studio 2019: https://visualstudio.microsoft.com/downloads/
 Use previews of the .NET Core SDK
 In Visual Studio 2019
-    1. Tools
-    2. Projects and Solutions
-    3. .NET Core
-    4. Check "Use previews of the .NET Core SDK"
-
-### Add Pokemon
-
-Todo
+1. Tools
+2. Projects and Solutions
+3. .NET Core
+4. Check "Use previews of the .NET Core SDK"
 
 ### TODO:
 
 - [x] Update to Core 3.
-- [ ] Correctly load the collections of Pokemon with Entity Framework (Evolutions and Moves).
+- [x] Correctly load the collections of Pokemon with Entity Framework (Evolutions and Moves).
 - [ ] Refractor.
+- [ ] Add Pokemon endpoint
+- [ ] Delete Pokemon endpoint
