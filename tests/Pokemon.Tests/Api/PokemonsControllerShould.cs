@@ -1,12 +1,19 @@
-﻿using System;
-using Xunit;
+﻿using Xunit;
 
 namespace Pokemon.Tests.Api
 {
-    public class PokemonsControllerShould
+    public class PokemonsControllerShould : PokemonsControllerTestBase
     {
-	    public PokemonsControllerShould()
-	    {
-	    }
+        [Fact]
+        protected void ReturnNameDescending()
+        {
+            ReturnProperty("name", "desc", "Bulbasaur");
+        }
+
+        [Fact]
+        protected void ReturnNameAscending()
+        {
+            ReturnProperty("name", "asc", "Caterpie");
+        }
     }
 }
