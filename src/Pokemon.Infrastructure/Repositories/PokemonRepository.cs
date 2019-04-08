@@ -9,8 +9,8 @@ namespace Pokemon.Infrastructure.Data
 {
    public class PokemonRepository : IPokemonRepository
     {
-        private readonly AppDbContext _dbContext;
-        public PokemonRepository(AppDbContext dbContext)
+        private readonly PokemonContext _dbContext;
+        public PokemonRepository(PokemonContext dbContext)
         {
             _dbContext = dbContext;
         }

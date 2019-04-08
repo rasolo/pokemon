@@ -42,11 +42,11 @@ namespace Pokemon.Api
             //Sql lite in-memory DB
             inMemorySqlite = new SqliteConnection("Data Source=:memory:");
             inMemorySqlite.Open();
-            services.AddDbContext<AppDbContext>(options => {
+            services.AddDbContext<PokemonContext>(options => {
                 options.UseSqlite(inMemorySqlite);
             });
 
-            DbContextOptions<AppDbContext> opts = new DbContextOptionsBuilder<Pokemon.Infrastructure.Data.AppDbContext>()
+            DbContextOptions<PokemonContext> opts = new DbContextOptionsBuilder<Pokemon.Infrastructure.Data.PokemonContext>()
                     .UseSqlite(inMemorySqlite)
                     .Options;
 
@@ -55,7 +55,7 @@ namespace Pokemon.Api
             //TODO: Move to service class. Error handling, logging.
             var path = Path.GetFullPath(Path.Combine(HostingEnvironment.ContentRootPath, @"..\..\")) + "\\appdata\\json\\pokemon";
             var files = Directory.GetFiles(path);
-            using (var context = new AppDbContext(opts))
+            using (var context = new PokemonContext(opts))
             {
                 // Create the schema in the database
                 context.Database.EnsureCreated();
