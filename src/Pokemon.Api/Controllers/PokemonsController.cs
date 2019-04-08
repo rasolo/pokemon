@@ -63,11 +63,11 @@ namespace Pokemon.Api.Controllers
 
             if (query != null)
             {
-                outputModel.Pokemons = orderedPokemons.Select(_mapper.Map<PokemonDto>).AsQueryable().OrderBy(query);
+                outputModel.Pokemons = orderedPokemons.Select(x => PokemonDto.FromPokemon(x)).AsQueryable().OrderBy(query);
             }
             else
             {
-                outputModel.Pokemons = orderedPokemons.Select(_mapper.Map<PokemonDto>).AsQueryable().OrderBy(x => x.name);
+                outputModel.Pokemons = orderedPokemons.Select(x => PokemonDto.FromPokemon(x)).AsQueryable().OrderBy(x => x.name);
             }
 
 
