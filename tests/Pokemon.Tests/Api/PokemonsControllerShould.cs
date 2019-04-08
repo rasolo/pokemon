@@ -7,13 +7,13 @@ namespace Pokemon.Tests.Api
         [Fact]
         protected void ReturnNameDescending()
         {
-            ReturnProperty("name", "desc", "Bulbasaur");
+            ReturnProperty("name", "desc", "Caterpie");
         }
 
         [Fact]
         protected void ReturnNameAscending()
         {
-            ReturnProperty("name", "asc", "Caterpie");
+            ReturnProperty("name", "asc", "Bulbasaur");
         }
     }
 }
