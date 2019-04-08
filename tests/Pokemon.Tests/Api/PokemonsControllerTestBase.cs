@@ -147,11 +147,11 @@ namespace Pokemon.Tests.Api
             //Act
             IActionResult result = _pokemonsController.GetPokemons(pagingParams);
             var dynamicResult = (dynamic)result;
-            dynamic dynamicPokemons = dynamicResult.Value.Pokemon;
+            dynamic dynamicPokemons = dynamicResult.Value.Pokemons;
 
             EnumerableQuery enumerableQueryPokemons = dynamicPokemons as EnumerableQuery<PokemonDto>;
-            var sites = enumerableQueryPokemons as IQueryable<PokemonDto>;
-            PokemonDto firstPokemon = sites.First();
+            var pokemons = enumerableQueryPokemons as IQueryable<PokemonDto>;
+            PokemonDto firstPokemon = pokemons.First();
 
             //Assert
             switch (propertyToSortOn)
