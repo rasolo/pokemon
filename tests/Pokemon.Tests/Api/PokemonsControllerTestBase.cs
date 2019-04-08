@@ -25,6 +25,7 @@ namespace Pokemon.Tests.Api
 
         public PokemonsControllerTestBase()
         {
+            #region Mocked Pokemon
             _mockedPokemons =
                 new List<Core.Entities.Pokemon>
                 {
@@ -124,10 +125,7 @@ namespace Pokemon.Tests.Api
                         }
                     }
                 }.AsQueryable();
-                
-                    
-                        
-              
+            #endregion
 
             _mockedPokemonRepository = new Mock<IPokemonRepository>();
             _mockedPokemonService = new Mock<IPokemonService>();
