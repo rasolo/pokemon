@@ -52,7 +52,7 @@ namespace Pokemon.Api.Controllers
 
             var pokemonEntities =  _pokemonRepository.GetPokemons(pagingParams);
             IEnumerable<Pokemon.Core.Entities.Pokemon> orderedPokemons = pokemonEntities.List.OrderBy(s => s.Name).ToList();
-            Response.Headers.Add("X-Pagination", pokemonEntities.GetHeader().ToJson());
+            Response?.Headers.Add("X-Pagination", pokemonEntities.GetHeader().ToJson());
             var outputModel = new ObjectDto
             {
                 Paging = pokemonEntities.GetHeader(),
@@ -63,11 +63,11 @@ namespace Pokemon.Api.Controllers
 
             if (query != null)
             {
-                outputModel.Pokemons = orderedPokemons.Select(_mapper.Map<PokemonDto>).AsQueryable().OrderBy(query);
+                outputModel.Pokemons = orderedPokemons.Select(x => PokemonDto.FromPokemon(x)).AsQueryable().OrderBy(query);
             }
             else
             {
-                outputModel.Pokemons = orderedPokemons.Select(_mapper.Map<PokemonDto>).AsQueryable().OrderBy(x => x.name);
+                outputModel.Pokemons = orderedPokemons.Select(x => PokemonDto.FromPokemon(x)).AsQueryable().OrderBy(x => x.name);
             }
 
 
