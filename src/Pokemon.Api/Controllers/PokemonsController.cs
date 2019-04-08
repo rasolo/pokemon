@@ -52,7 +52,7 @@ namespace Pokemon.Api.Controllers
 
             var pokemonEntities =  _pokemonRepository.GetPokemons(pagingParams);
             IEnumerable<Pokemon.Core.Entities.Pokemon> orderedPokemons = pokemonEntities.List.OrderBy(s => s.Name).ToList();
-            Response.Headers.Add("X-Pagination", pokemonEntities.GetHeader().ToJson());
+            Response?.Headers.Add("X-Pagination", pokemonEntities.GetHeader().ToJson());
             var outputModel = new ObjectDto
             {
                 Paging = pokemonEntities.GetHeader(),
