@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace Pokemon.Core.Entities
 {
-   public class Pokemon
+    public class Pokemon
     {
         [Key]
         public int PokemonId { get; set; }
@@ -42,30 +42,5 @@ namespace Pokemon.Core.Entities
         }
         public ICollection<Evolution> Evolutions { get; set; }
         public ICollection<Move> Moves { get; set; }
-    }
-
-    public class Evolution
-    {
-        [Key]
-        public int Id { get; set; }
-        public int PokemonId { get; set; }
-        public int Pokemon { get; set; }
-        public string Event { get; set; }
-    }
-
-    public class Move
-    {
-        [Key]
-        public int Id { get; set; }
-        public int PokemonId { get; set; }
-        public string Level { get; set; }
-        public string Name { get; set; }
-        public string Type { get; set; }
-        public string Category { get; set; }
-        public string Attack { get; set; }
-        public string Accuracy { get; set; }
-        public string PP { get; set; }
-        public string EffectPercent { get; set; }
-        public string Description { get; set; }
     }
 }
