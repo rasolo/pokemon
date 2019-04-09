@@ -52,7 +52,7 @@ namespace Pokemon.Core.Services
 
             foreach (var prop in evolutionDtoProperties)
             {
-                if (!_evolutionDtoMagicStringProperties.ContainsValue(prop.Name))
+                if (!_evolutionDtoMagicStringProperties.ContainsValue(prop.Name?.ToLower()))
                 {
                     throw new Exception("EvolutionDto's properties has changed");
                 }
@@ -107,8 +107,8 @@ namespace Pokemon.Core.Services
             while (evolutionsEnumerator.MoveNext())
             {
                 var evolutionDto = new EvolutionDto();
-                evolutionDto.pokemon =  evolutionsEnumerator.Current.GetProperty(_evolutionDtoMagicStringProperties["pokemon"]).GetInt32();
-                evolutionDto.@event = evolutionsEnumerator.Current.GetProperty(_evolutionDtoMagicStringProperties["event"]).GetString();
+                evolutionDto.Pokemon =  evolutionsEnumerator.Current.GetProperty(_evolutionDtoMagicStringProperties["pokemon"]).GetInt32();
+                evolutionDto.Event = evolutionsEnumerator.Current.GetProperty(_evolutionDtoMagicStringProperties["event"]).GetString();
                 pokemonDto.evolutions.Add(evolutionDto);
 
             }

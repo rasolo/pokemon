@@ -7,7 +7,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Pokemon.Api.Mapper;
+using Pokemon.Core.Repositories;
 using Pokemon.Core.Services;
+using Pokemon.Data.Infrastructure;
 using Pokemon.Infrastructure.Data;
 using Pokemon.Infrastructure.Repositories;
 using System.Buffers;
@@ -46,7 +48,7 @@ namespace Pokemon.Api
                 options.UseSqlite(inMemorySqlite);
             });
 
-            DbContextOptions<PokemonContext> opts = new DbContextOptionsBuilder<Pokemon.Infrastructure.Data.PokemonContext>()
+            DbContextOptions<PokemonContext> opts = new DbContextOptionsBuilder<PokemonContext>()
                     .UseSqlite(inMemorySqlite)
                     .Options;
 

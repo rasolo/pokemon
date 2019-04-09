@@ -16,6 +16,8 @@ namespace Pokemon.Api.Mapper
             CreateMap<MoveDto, Core.Entities.Move>()
                 .ForMember(dest => dest.EffectPercent, opt => opt.MapFrom(src => src.effect_percent));
             CreateMap<EvolutionDto, Core.Entities.Evolution>();
+            CreateMap<EvolutionForCreationDto, Core.Entities.Evolution>();
+            CreateMap<PokemonForCreationDto, Core.Entities.Pokemon>().ReverseMap();
             CreateMap<PokemonDto, Core.Entities.Pokemon>()
                .ForMember(dest => dest.ImageUrl, opt => opt.MapFrom(src => src.image_url)).ReverseMap();
 

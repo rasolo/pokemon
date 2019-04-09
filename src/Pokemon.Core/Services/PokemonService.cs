@@ -1,4 +1,5 @@
 ﻿using Pokemon.Core.Extensions;
+using Pokemon.Core.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,6 +8,13 @@ namespace Pokemon.Core.Services
 {
     public class PokemonService : IPokemonService
     {
+        public IPokemonRepository _pokemonRepository { get; }
+
+        public PokemonService(IPokemonRepository pokemonRepository)
+        {
+            _pokemonRepository = pokemonRepository;
+        }
+
         public IEnumerable<string> GetPokemonPropertyNames(object pokemon)
         {
             foreach (var prop in pokemon.GetType().GetProperties())
@@ -43,7 +51,12 @@ namespace Pokemon.Core.Services
 
             var direction = validDirections.SingleOrDefault(x => x.FirstLetterToLower().Equals(splitSortQuery[1]));
 
-            return sortProperty + " " + direction;
+            return $"{sortProperty} {direction}";
+        }
+
+        public bool NameIsUnique(string name)
+        {
+            return _pokemonRepository.GetByName(name)?.Name != name;
         }
     }
 }

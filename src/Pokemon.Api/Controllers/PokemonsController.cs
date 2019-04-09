@@ -1,13 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using AutoMapper;
-using Pokemon.Infrastructure.Paging;
-using Pokemon.Infrastructure.Repositories;
+using Pokemon.Core.Paging;
 using System.Linq;
 using System.Collections.Generic;
 using Pokemon.Api.Models;
 using Pokemon.Core.Services;
 using System.Linq.Dynamic.Core;
 using Pokemon.Core.Models;
+using Pokemon.Core.Repositories;
+using Pokemon.Api.Filters;
 
 namespace Pokemon.Api.Controllers
 {
@@ -24,6 +25,18 @@ namespace Pokemon.Api.Controllers
             _pokemonRepository = pokemonRepository;
             _mapper = mapper;
             _pokemonService = pokemonService;
+        }
+
+        [HttpPost("{add}", Name = "AddPokemon")]
+        [ValidatePokemonDtoModel]
+        public IActionResult AddPokemon([FromBody] PokemonForCreationDto pokemonForCreateDto)
+        {
+            var pokemon = _mapper.Map<Pokemon.Core.Entities.Pokemon>(pokemonForCreateDto);
+            _pokemonRepository.AddPokemon(pokemon);
+
+            var pokemonDto = _mapper.Map<PokemonDto>(pokemon);
+
+           /*TODO: Fix CreatedAtAction */ return CreatedAtAction("GetPokemon", pokemonDto.name);
         }
 
         [HttpGet("{name}", Name = "GetPokemon")]
@@ -73,5 +86,7 @@ namespace Pokemon.Api.Controllers
 
             return Ok(outputModel);
         }
+
+    
     }
 }

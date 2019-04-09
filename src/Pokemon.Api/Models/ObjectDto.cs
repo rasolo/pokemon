@@ -1,5 +1,5 @@
 ﻿using Pokemon.Core.Models;
-using Pokemon.Infrastructure.Paging;
+using Pokemon.Core.Paging;
 using System.Collections.Generic;
 
 namespace Pokemon.Api.Models

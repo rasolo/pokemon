@@ -2,7 +2,7 @@
 using System;
 using System.Linq;
 
-namespace Pokemon.Infrastructure.Data
+namespace Pokemon.Data.Infrastructure
 {
     public class PokemonContext : DbContext
     {

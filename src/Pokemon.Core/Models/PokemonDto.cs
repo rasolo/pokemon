@@ -7,7 +7,7 @@ namespace Pokemon.Core.Models
     {
         public int index { get; set; }
         public string name { get; set; }
-        public string? image_url { get; set; }
+        public string image_url { get; set; }
         public List<string> types { get; set; }
         public List<EvolutionDto> evolutions { get; set; }
         public List<MoveDto> moves { get; set; }
@@ -31,8 +31,8 @@ namespace Pokemon.Core.Models
                 pokemonDto.evolutions.Add(
                     new EvolutionDto
                     {
-                        @event = evolutionEnumerator.Current.Event,
-                        pokemon = evolutionEnumerator.Current.Pokemon
+                        Event = evolutionEnumerator.Current.Event,
+                        Pokemon = evolutionEnumerator.Current.Pokemon
                     }
                     );
             };
@@ -76,8 +76,8 @@ namespace Pokemon.Core.Models
                 (
                      new Entities.Evolution()
                      {
-                         Event = x.@event,
-                         Pokemon = x.pokemon
+                         Event = x.Event,
+                         Pokemon = x.Pokemon
                      }
                  );
             }

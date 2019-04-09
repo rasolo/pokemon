@@ -3,17 +3,15 @@ using Microsoft.AspNetCore.Mvc;
 using Moq;
 using Pokemon.Api.Controllers;
 using Pokemon.Core.Models;
+using Pokemon.Core.Paging;
+using Pokemon.Core.Repositories;
 using Pokemon.Core.Services;
-using Pokemon.Infrastructure.Data;
-using Pokemon.Infrastructure.Paging;
-using Pokemon.Infrastructure.Repositories;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using Xunit;
 
 namespace Pokemon.Tests.Api
-{ 
+{
     public abstract class PokemonsControllerTestBase
     {
         protected readonly IQueryable<Core.Entities.Pokemon> _mockedPokemons;

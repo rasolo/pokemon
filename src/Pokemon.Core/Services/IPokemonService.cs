@@ -3,5 +3,6 @@
     public interface IPokemonService
     {
         string GetFilteredSortQuery(string sortQuery);
+        bool NameIsUnique(string name);
     }
 }

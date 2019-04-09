@@ -1,9 +1,8 @@
-﻿using Pokemon.Infrastructure.Paging;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Pokemon.Infrastructure.Data
+namespace Pokemon.Core.Paging
 {
     public class PagedList<T>
     {
