@@ -2,6 +2,7 @@
 
 ## About ##
 An Api made in .NET core 3 related to Pokemon.
+___
 
 ### List Pokemon
 
@@ -15,6 +16,7 @@ Retrieve a list of pokemon.
 | `PageSize`   | `{number}`                   |          | 10        |
 | `PageNumber` | `{number}`                   |          | 1         |
 
+___
 ### Get Pokemon
 
 Retrieve a single pokemon.
@@ -24,6 +26,7 @@ Retrieve a single pokemon.
 | Parameter | Value    | Required | Example           |
 | --------- | -------- | -------- | ----------------- |
 | `Name`      | `{string}` | ✅        | Bulbasaur |
+___
 
 ### Add Pokemon
 
@@ -65,6 +68,8 @@ In Visual Studio 2019
 2. Projects and Solutions
 3. .NET Core
 4. Check "Use previews of the .NET Core SDK"
+
+___
 
 ### TODO:
 
