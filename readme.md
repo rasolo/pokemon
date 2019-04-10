@@ -8,6 +8,8 @@ ___
 
 Retrieve a list of pokemon.
 
+Parameters are sent as query parameters.
+
 #### `GET` /api/v1.0/pokemon/list
 
 | Parameter    | Value                        | Required | Example   |
@@ -31,6 +33,8 @@ ___
 ### Add Pokemon
 
 Add a single pokemon.
+
+Parameters are sent as JSON from body.
 
 #### `POST` `api/v1.0/pokemon/add`
 
@@ -56,7 +60,7 @@ Add a single pokemon.
       "description": "The user slams a barrage of hard-shelled seeds down on the target from above."
     }
   ]
-```
+  ```
 
 ___
 ### Delete Pokemon
