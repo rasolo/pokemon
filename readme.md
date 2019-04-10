@@ -78,3 +78,5 @@ ___
 - [ ] Refractor.
 - [x] Add Pokemon endpoint
 - [ ] Delete Pokemon endpoint
+- [ ] Logging
+- [ ] Custom exception handling (return generic api response)
