@@ -12,10 +12,12 @@ using Pokemon.Api.Filters;
 
 namespace Pokemon.Api.Controllers
 {
-    [ApiVersion("1.0")]
-    [Route("api/v{version:apiVersion}/pokemon")]
+    [ApiVersion(ApiVersion)]
+    [Route(ControllerRoute)]
     public class PokemonsController : Controller
     {
+        private const string ApiVersion = "1.0";
+        private const string ControllerRoute = "api/v" + ApiVersion + "/pokemon"; //api/v1.0/pokemon
         private readonly IPokemonRepository _pokemonRepository;
         private readonly IMapper _mapper;
         private readonly IPokemonService _pokemonService;
@@ -36,7 +38,7 @@ namespace Pokemon.Api.Controllers
 
             var pokemonDto = _mapper.Map<PokemonDto>(pokemon);
 
-           /*TODO: Fix CreatedAtAction */ return CreatedAtAction("GetPokemon", pokemonDto.name);
+            return CreatedAtAction(nameof(GetPokemon), new { name = pokemon.Name }, pokemon);
         }
 
         [HttpGet("{name}", Name = "GetPokemon")]
