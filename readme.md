@@ -76,7 +76,7 @@ ___
 - [x] Update to Core 3.
 - [x] Correctly load the collections of Pokemon with Entity Framework (Evolutions and Moves).
 - [ ] Refractor.
-- [x] Add Pokemon endpoint
-- [ ] Delete Pokemon endpoint
+- [x] Add Pokémon endpoint
+- [x] Delete Pokémon endpoint
 - [ ] Logging
 - [ ] Custom exception handling (return generic api response)

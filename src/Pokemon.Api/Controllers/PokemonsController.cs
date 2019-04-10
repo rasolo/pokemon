@@ -58,6 +58,25 @@ namespace Pokemon.Api.Web.Controllers
             return genericApiResponse;
         }
 
+        [HttpDelete("{name}", Name = "DeletePokemon")]
+        public IActionResult DeletePokemon(string name)
+        {
+            List<string> s = new List<string>();
+            var genericApiResponse = new GenericApiResponse<string>();
+            bool success = _pokemonRepository.TryDeletePokemon(name);
+            genericApiResponse.Success = success;
+
+            if (!success)
+            {
+                genericApiResponse.ErrorMessage = $"Unable to delete {name}";
+                return StatusCode(500, genericApiResponse);
+            }
+
+            genericApiResponse.Data = $"{name} deleted.";
+
+            return Ok(genericApiResponse);
+        }
+
         [HttpGet("list", Name = "GetPokemons")]
         public GenericApiResponse<ObjectDto> GetPokemons(PagingParams pagingParams)
         {

@@ -21,6 +21,32 @@ namespace Pokemon.Api.Infrastructure.Repositories
             _dbContext.SaveChanges();
         }
 
+        public bool TryDeletePokemon(string name)
+        {
+            try
+            {
+                return DeletePokemon(name) ? true : false;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        public bool DeletePokemon(string name)
+        {
+            var pokemon = GetByName(name);
+
+            if (pokemon == null)
+            {
+                return false;
+            }
+
+            _dbContext.Remove(pokemon);
+            _dbContext.SaveChanges();
+            return true;
+        }
+
         public Core.Entities.Pokemon GetByName(string name)
         {
             var pokemon = _dbContext.Pokemon.Include(x => x.Moves).Include(x => x.Evolutions).SingleOrDefault(x => x.Name == name.FirstLetterToUpper());
