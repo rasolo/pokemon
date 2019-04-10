@@ -42,31 +42,37 @@ namespace Pokemon.Api.Web.Controllers
         }
 
         [HttpGet("{name}", Name = "GetPokemon")]
-        public IActionResult GetPokemon(string name)
+        public GenericApiResponse<PokemonDto> GetPokemon(string name)
         {
             Core.Entities.Pokemon pokemon = _pokemonRepository.GetByName(name);
+            var pokemonDto = _mapper.Map(pokemon, new PokemonDto());
+            var genericApiResponse = new GenericApiResponse<PokemonDto> { Data = pokemonDto };
 
             if (pokemon == null)
             {
-                return NotFound();
+                genericApiResponse.Success = false;
+                genericApiResponse.ErrorMessage = "404 Not Found";
             }
 
-            var pokemonDto = _mapper.Map(pokemon, new PokemonDto());
 
-            return Ok(pokemonDto);
+            return genericApiResponse;
         }
 
         [HttpGet("list", Name = "GetPokemons")]
-        public IActionResult GetPokemons(PagingParams pagingParams)
+        public GenericApiResponse<ObjectDto> GetPokemons(PagingParams pagingParams)
         {
+            var genericApiResponse = new GenericApiResponse<ObjectDto>();
+
             if (pagingParams == null)
             {
-                return BadRequest();
+                genericApiResponse.Success = false;
+                genericApiResponse.ErrorMessage = "400 Bad Request";
+                return genericApiResponse;
             }
 
 
             var pokemonEntities = _pokemonRepository.GetPokemons(pagingParams);
-            IEnumerable<Pokemon.Api.Core.Entities.Pokemon> orderedPokemons = pokemonEntities.List.OrderBy(s => s.Name).ToList();
+            IEnumerable<Core.Entities.Pokemon> orderedPokemons = pokemonEntities.List.OrderBy(s => s.Name).ToList();
             Response?.Headers.Add("X-Pagination", pokemonEntities.GetHeader().ToJson());
             var outputModel = new ObjectDto
             {
@@ -85,10 +91,9 @@ namespace Pokemon.Api.Web.Controllers
                 outputModel.Pokemons = orderedPokemons.Select(x => PokemonDto.FromPokemon(x)).AsQueryable().OrderBy(x => x.name);
             }
 
+            genericApiResponse.Data = outputModel;
 
-            return Ok(outputModel);
+            return genericApiResponse;
         }
-
-    
     }
 }

@@ -6,6 +6,7 @@ using Pokemon.Api.Core.Paging;
 using Pokemon.Api.Core.Repositories;
 using Pokemon.Api.Core.Services;
 using Pokemon.Api.Web.Controllers;
+using Pokemon.Api.Web.Models;
 using System.Collections.Generic;
 using System.Linq;
 using Xunit;
@@ -141,13 +142,8 @@ namespace Pokemon.Api.Tests.Api
             _mockedPokemonService.Setup(x => x.GetFilteredSortQuery(It.IsAny<string>())).Returns($"{propertyToSortOn} {sortOrder}");
 
             //Act
-            IActionResult result = _pokemonsController.GetPokemons(pagingParams);
-            var dynamicResult = (dynamic)result;
-            dynamic dynamicPokemons = dynamicResult.Value.Pokemons;
-
-            EnumerableQuery enumerableQueryPokemons = dynamicPokemons as EnumerableQuery<PokemonDto>;
-            var pokemons = enumerableQueryPokemons as IQueryable<PokemonDto>;
-            PokemonDto firstPokemon = pokemons.First();
+            GenericApiResponse<ObjectDto> objDto = _pokemonsController.GetPokemons(pagingParams);
+            PokemonDto firstPokemon = objDto?.Data?.Pokemons?.First();
 
             //Assert
             switch (propertyToSortOn)
