@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Pokemon.Core.Entities
+namespace Pokemon.Api.Core.Entities
 {
     public class Evolution
     {

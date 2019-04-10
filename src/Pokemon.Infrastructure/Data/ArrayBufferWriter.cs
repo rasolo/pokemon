@@ -5,7 +5,7 @@ using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Pokemon.Infrastructure.Data
+namespace Pokemon.Api.Infrastructure.Data
 {
     //This class is from: https://gist.github.com/ahsonkhan/c76a1cc4dc7107537c3fdc0079a68b35#file-arraybufferwriter-arraypool-cs
     public class ArrayBufferWriter : IBufferWriter<byte>, IDisposable

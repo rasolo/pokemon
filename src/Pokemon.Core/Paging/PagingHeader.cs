@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace Pokemon.Core.Paging
+namespace Pokemon.Api.Core.Paging
 {
     public class PagingHeader
     {

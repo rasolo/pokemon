@@ -1,5 +1,5 @@
 ﻿
-namespace Pokemon.Core.Models
+namespace Pokemon.Api.Core.Models
 {
     public class EvolutionDto
     {

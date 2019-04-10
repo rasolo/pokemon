@@ -6,16 +6,15 @@ using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Pokemon.Api.Mapper;
-using Pokemon.Core.Repositories;
-using Pokemon.Core.Services;
-using Pokemon.Data.Infrastructure;
-using Pokemon.Infrastructure.Data;
-using Pokemon.Infrastructure.Repositories;
+using Pokemon.Api.Core.Repositories;
+using Pokemon.Api.Core.Services;
+using Pokemon.Api.Infrastructure.Data;
+using Pokemon.Api.Infrastructure.Repositories;
+using Pokemon.Api.Web.Mapper;
 using System.Buffers;
 using System.IO;
 
-namespace Pokemon.Api
+namespace Pokemon.Api.Web
 {
     public class Startup
     {

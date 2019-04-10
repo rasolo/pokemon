@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Text;
 
-namespace Pokemon.Core.Models
+namespace Pokemon.Api.Core.Models
 {
-   public class PokemonForCreationDto
+    public class PokemonForCreationDto
     {
         public int PokemonId { get; set; }
         public int Index { get; set; }

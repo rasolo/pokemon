@@ -1,9 +1,7 @@
 ﻿using AutoMapper;
-using Pokemon.Core.Models;
-using System;
-using System.Linq.Expressions;
+using Pokemon.Api.Core.Models;
 
-namespace Pokemon.Api.Mapper
+namespace Pokemon.Api.Web.Mapper
 {
     public class MappingProfile : Profile
     {

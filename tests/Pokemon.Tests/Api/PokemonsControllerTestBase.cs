@@ -1,16 +1,16 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
-using Pokemon.Api.Controllers;
-using Pokemon.Core.Models;
-using Pokemon.Core.Paging;
-using Pokemon.Core.Repositories;
-using Pokemon.Core.Services;
+using Pokemon.Api.Core.Models;
+using Pokemon.Api.Core.Paging;
+using Pokemon.Api.Core.Repositories;
+using Pokemon.Api.Core.Services;
+using Pokemon.Api.Web.Controllers;
 using System.Collections.Generic;
 using System.Linq;
 using Xunit;
 
-namespace Pokemon.Tests.Api
+namespace Pokemon.Api.Tests.Api
 {
     public abstract class PokemonsControllerTestBase
     {
@@ -129,7 +129,7 @@ namespace Pokemon.Tests.Api
             _mockedPokemonService = new Mock<IPokemonService>();
             _mockedMapper = new Mock<IMapper>();
             _pagedListPokemon = new PagedList<Core.Entities.Pokemon>(_mockedPokemons, 1, 5);
-            _pokemonsController = new PokemonsController(_mockedPokemonRepository.Object, _mockedMapper.Object, _mockedPokemonService.Object);
+            _pokemonsController = new Web.Controllers.PokemonsController(_mockedPokemonRepository.Object, _mockedMapper.Object, _mockedPokemonService.Object);
         }
 
         protected void ReturnProperty(string propertyToSortOn, string sortOrder, string propertyToOrderBy)

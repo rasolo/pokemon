@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace Pokemon.Api
+namespace Pokemon.Api.Web
 {
     public class Program
     {

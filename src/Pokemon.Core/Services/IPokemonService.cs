@@ -1,4 +1,4 @@
-﻿namespace Pokemon.Core.Services
+﻿namespace Pokemon.Api.Core.Services
 {
     public interface IPokemonService
     {

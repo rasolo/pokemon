@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Pokemon.Api.Validation
+namespace Pokemon.Api.Web.Validation
 {
     public class ValidationResultModel
     {

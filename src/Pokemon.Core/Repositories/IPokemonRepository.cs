@@ -1,7 +1,8 @@
-﻿using Pokemon.Core.Paging;
+﻿
 
+using Pokemon.Api.Core.Paging;
 
-namespace Pokemon.Core.Repositories
+namespace Pokemon.Api.Core.Repositories
 {
 
     public interface IPokemonRepository

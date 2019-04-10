@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.DependencyInjection;
-using Pokemon.Api.Validation;
-using Pokemon.Core.Models;
-using Pokemon.Core.Services;
+using Pokemon.Api.Core.Models;
+using Pokemon.Api.Core.Services;
+using Pokemon.Api.Web.Validation;
 using System.Linq;
 
-namespace Pokemon.Api.Filters
+namespace Pokemon.Api.Web.Filters
 {
     public class ValidatePokemonDtoModelAttribute : ActionFilterAttribute
     {

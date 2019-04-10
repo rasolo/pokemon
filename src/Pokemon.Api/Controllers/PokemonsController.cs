@@ -1,16 +1,16 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using AutoMapper;
-using Pokemon.Core.Paging;
-using System.Linq;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
+using Pokemon.Api.Core.Models;
+using Pokemon.Api.Core.Paging;
+using Pokemon.Api.Core.Repositories;
+using Pokemon.Api.Core.Services;
+using Pokemon.Api.Web.Filters;
+using Pokemon.Api.Web.Models;
 using System.Collections.Generic;
-using Pokemon.Api.Models;
-using Pokemon.Core.Services;
+using System.Linq;
 using System.Linq.Dynamic.Core;
-using Pokemon.Core.Models;
-using Pokemon.Core.Repositories;
-using Pokemon.Api.Filters;
 
-namespace Pokemon.Api.Controllers
+namespace Pokemon.Api.Web.Controllers
 {
     [ApiVersion(ApiVersion)]
     [Route(ControllerRoute)]
@@ -33,7 +33,7 @@ namespace Pokemon.Api.Controllers
         [ValidatePokemonDtoModel]
         public IActionResult AddPokemon([FromBody] PokemonForCreationDto pokemonForCreateDto)
         {
-            var pokemon = _mapper.Map<Pokemon.Core.Entities.Pokemon>(pokemonForCreateDto);
+            var pokemon = _mapper.Map<Core.Entities.Pokemon>(pokemonForCreateDto);
             _pokemonRepository.AddPokemon(pokemon);
 
             var pokemonDto = _mapper.Map<PokemonDto>(pokemon);
@@ -65,8 +65,8 @@ namespace Pokemon.Api.Controllers
             }
 
 
-            var pokemonEntities =  _pokemonRepository.GetPokemons(pagingParams);
-            IEnumerable<Pokemon.Core.Entities.Pokemon> orderedPokemons = pokemonEntities.List.OrderBy(s => s.Name).ToList();
+            var pokemonEntities = _pokemonRepository.GetPokemons(pagingParams);
+            IEnumerable<Pokemon.Api.Core.Entities.Pokemon> orderedPokemons = pokemonEntities.List.OrderBy(s => s.Name).ToList();
             Response?.Headers.Add("X-Pagination", pokemonEntities.GetHeader().ToJson());
             var outputModel = new ObjectDto
             {

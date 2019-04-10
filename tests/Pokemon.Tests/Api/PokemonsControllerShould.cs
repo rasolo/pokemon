@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace Pokemon.Tests.Api
+namespace Pokemon.Api.Tests.Api
 {
     public class PokemonsControllerShould : PokemonsControllerTestBase
     {

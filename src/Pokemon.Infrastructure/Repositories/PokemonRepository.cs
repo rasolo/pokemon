@@ -1,12 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Pokemon.Core.Entities;
+using Pokemon.Api.Core.Paging;
+using Pokemon.Api.Core.Repositories;
+using Pokemon.Api.Infrastructure.Data;
 using Pokemon.Core.Extensions;
-using Pokemon.Core.Paging;
-using Pokemon.Core.Repositories;
-using Pokemon.Data.Infrastructure;
 using System.Linq;
 
-namespace Pokemon.Infrastructure.Repositories
+namespace Pokemon.Api.Infrastructure.Repositories
 {
     public class PokemonRepository : IPokemonRepository
     {
@@ -29,7 +28,7 @@ namespace Pokemon.Infrastructure.Repositories
             return pokemon;
         }
 
-        public PagedList<Core.Entities.Pokemon> GetPokemons(PagingParams pagingParams)
+        public PagedList<Api.Core.Entities.Pokemon> GetPokemons(PagingParams pagingParams)
         {
             var query = _dbContext.Pokemon.AsQueryable().Include(x => x.Moves).Include(x => x.Evolutions);
             var pagedList = new PagedList<Core.Entities.Pokemon>(

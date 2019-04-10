@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
-namespace Pokemon.Api.Controllers
+namespace Pokemon.Api.Web.Controllers
 {
     [Route("api/[controller]")]
     public class ValuesController : Controller

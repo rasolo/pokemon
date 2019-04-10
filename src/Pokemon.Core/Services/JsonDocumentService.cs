@@ -1,9 +1,9 @@
-﻿using Pokemon.Core.Models;
+﻿using Pokemon.Api.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Text.Json;
 
-namespace Pokemon.Core.Services
+namespace Pokemon.Api.Core.Services
 {
     public static class JsonDocumentService
     {

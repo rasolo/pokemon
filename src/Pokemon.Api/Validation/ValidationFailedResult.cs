@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace Pokemon.Api.Validation
+namespace Pokemon.Api.Web.Validation
 {
     public class ValidationFailedResult : ObjectResult
     {

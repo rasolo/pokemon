@@ -1,8 +1,8 @@
-﻿using Pokemon.Core.Models;
-using Pokemon.Core.Paging;
+﻿using Pokemon.Api.Core.Models;
+using Pokemon.Api.Core.Paging;
 using System.Collections.Generic;
 
-namespace Pokemon.Api.Models
+namespace Pokemon.Api.Web.Models
 {
     public class ObjectDto
     {

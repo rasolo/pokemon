@@ -11,11 +11,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Pokemon.Core\Pokemon.Core.csproj" />
+    <Folder Include="Extensions\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Extensions\" />
+    <ProjectReference Include="..\Pokemon.Core\Pokemon.Api.Core.csproj" />
   </ItemGroup>
 
 </Project>

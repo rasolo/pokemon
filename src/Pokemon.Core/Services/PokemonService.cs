@@ -1,10 +1,9 @@
-﻿using Pokemon.Core.Extensions;
-using Pokemon.Core.Repositories;
-using System;
+﻿using Pokemon.Api.Core.Repositories;
+using Pokemon.Core.Extensions;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Pokemon.Core.Services
+namespace Pokemon.Api.Core.Services
 {
     public class PokemonService : IPokemonService
     {
@@ -31,7 +30,7 @@ namespace Pokemon.Core.Services
             }
 
             var validDirections = new[] { "asc", "ascending", "desc", "descending" }; //valid directions for dynamic linq
-            var pokemonPropertyNames = GetPokemonPropertyNames(new Pokemon.Core.Entities.Pokemon());
+            var pokemonPropertyNames = GetPokemonPropertyNames(new Pokemon.Api.Core.Entities.Pokemon());
             var splitSortQuery = sortQuery.Split(' ');
 
             var sortProperty = pokemonPropertyNames.SingleOrDefault(x => x.FirstLetterToLower().Equals(splitSortQuery[0]));

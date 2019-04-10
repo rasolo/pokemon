@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Pokemon.Core.Paging
+namespace Pokemon.Api.Core.Paging
 {
     public class PagedList<T>
     {

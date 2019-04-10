@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Pokemon.Core.Models
+namespace Pokemon.Api.Core.Models
 {
     public class PokemonDto
     {

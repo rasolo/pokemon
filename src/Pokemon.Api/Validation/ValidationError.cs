@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Pokemon.Api.Validation
+namespace Pokemon.Api.Web.Validation
 {
     public class ValidationError
     {
