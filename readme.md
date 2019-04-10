@@ -21,7 +21,7 @@ ___
 
 Retrieve a single pokemon.
 
-#### `GET` `/api/v1.0/pokemon/bulbasaur`
+#### `GET` `/api/v1.0/pokemon/{pokemonname}`
 
 | Parameter | Value    | Required | Example           |
 | --------- | -------- | -------- | ----------------- |
@@ -56,7 +56,19 @@ Add a single pokemon.
       "description": "The user slams a barrage of hard-shelled seeds down on the target from above."
     }
   ]
-  ```
+```
+
+___
+### Delete Pokemon
+
+Delete a single pokemon.
+
+#### `DELETE` `/api/v1.0/pokemon/{pokemonname}`
+
+| Parameter | Value    | Required | Example           |
+| --------- | -------- | -------- | ----------------- |
+| `Name`      | `{string}` | ✅        | Bulbasaur |
+___
 
 
 ## Requirements
