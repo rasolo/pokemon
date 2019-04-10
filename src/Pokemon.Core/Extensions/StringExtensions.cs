@@ -1,4 +1,4 @@
-﻿namespace Pokemon.Core.Extensions
+﻿namespace Pokemon.Api.Core.Extensions
 {
     public static class StringExtensions
     {

@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Pokemon.Api.Core.Extensions;
 using Pokemon.Api.Core.Paging;
 using Pokemon.Api.Core.Repositories;
 using Pokemon.Api.Infrastructure.Data;
-using Pokemon.Core.Extensions;
 using System.Linq;
 
 namespace Pokemon.Api.Infrastructure.Repositories
@@ -28,7 +28,7 @@ namespace Pokemon.Api.Infrastructure.Repositories
             return pokemon;
         }
 
-        public PagedList<Api.Core.Entities.Pokemon> GetPokemons(PagingParams pagingParams)
+        public PagedList<Core.Entities.Pokemon> GetPokemons(PagingParams pagingParams)
         {
             var query = _dbContext.Pokemon.AsQueryable().Include(x => x.Moves).Include(x => x.Evolutions);
             var pagedList = new PagedList<Core.Entities.Pokemon>(
