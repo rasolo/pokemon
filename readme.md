@@ -96,3 +96,6 @@ ___
 - [x] Delete Pokémon endpoint
 - [x] Logging
 - [x] Custom exception handling (return generic api response)
+- [ ] Add authorization/jwt tokens
+- [ ] Add caching
+- [ ] Validation failure should return generic api response
