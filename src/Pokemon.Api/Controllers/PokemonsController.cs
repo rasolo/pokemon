@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using Pokemon.Api.Core.Exceptions;
+using Pokemon.Api.Core.Extensions;
 using Pokemon.Api.Core.Models;
 using Pokemon.Api.Core.Paging;
 using Pokemon.Api.Core.Repositories;
@@ -51,7 +53,8 @@ namespace Pokemon.Api.Web.Controllers
             if (pokemon == null)
             {
                 genericApiResponse.Success = false;
-                genericApiResponse.ErrorMessage = "404 Not Found";
+                genericApiResponse.ErrorMessage = ApiErrors.NotFound.GetDescription();
+                throw new ApiException(ApiErrors.NotFound);
             }
 
 
@@ -61,15 +64,14 @@ namespace Pokemon.Api.Web.Controllers
         [HttpDelete("{name}", Name = "DeletePokemon")]
         public IActionResult DeletePokemon(string name)
         {
-            List<string> s = new List<string>();
             var genericApiResponse = new GenericApiResponse<string>();
             bool success = _pokemonRepository.TryDeletePokemon(name);
             genericApiResponse.Success = success;
 
             if (!success)
             {
-                genericApiResponse.ErrorMessage = $"Unable to delete {name}";
-                return StatusCode(500, genericApiResponse);
+                genericApiResponse.ErrorMessage = ApiErrors.DeletionFailure.GetDescription();
+                throw new ApiException(ApiErrors.DeletionFailure);
             }
 
             genericApiResponse.Data = $"{name} deleted.";
@@ -85,8 +87,8 @@ namespace Pokemon.Api.Web.Controllers
             if (pagingParams == null)
             {
                 genericApiResponse.Success = false;
-                genericApiResponse.ErrorMessage = "400 Bad Request";
-                return genericApiResponse;
+                genericApiResponse.ErrorMessage = ApiErrors.BadRequest.GetDescription();
+                throw new ApiException(ApiErrors.BadRequest);
             }
 
 

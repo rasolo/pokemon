@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using log4net;
+using log4net.Config;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -6,13 +8,16 @@ using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Pokemon.Api.Core.Logging;
 using Pokemon.Api.Core.Repositories;
 using Pokemon.Api.Core.Services;
 using Pokemon.Api.Infrastructure.Data;
 using Pokemon.Api.Infrastructure.Repositories;
+using Pokemon.Api.Infrastructure.Services;
 using Pokemon.Api.Web.Mapper;
 using System.Buffers;
 using System.IO;
+using System.Reflection;
 
 namespace Pokemon.Api.Web
 {
@@ -22,6 +27,8 @@ namespace Pokemon.Api.Web
         {
             Configuration = configuration;
             HostingEnvironment = env;
+            var logRepository = LogManager.GetRepository(Assembly.GetEntryAssembly());
+            XmlConfigurator.Configure(logRepository, new FileInfo("log4net.config"));
         }
 
         public IWebHostEnvironment HostingEnvironment { get;}
@@ -74,6 +81,7 @@ namespace Pokemon.Api.Web
         
             services.AddScoped<IPokemonRepository, PokemonRepository>();
             services.AddScoped<IPokemonService, PokemonService>();
+            services.AddSingleton<ILoggingService, Log4NetLoggingService>();
 
             services.AddApiVersioning(o =>
             {
@@ -93,6 +101,8 @@ namespace Pokemon.Api.Web
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseStatusCodePagesWithReExecute("/api/error");
+            app.UseExceptionHandler("/api/error");
             app.UseMvc();
         }
     }

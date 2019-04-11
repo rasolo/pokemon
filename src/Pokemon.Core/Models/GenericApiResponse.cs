@@ -2,14 +2,16 @@
 {
     public class GenericApiResponse<T>
     {
-        public GenericApiResponse(T data = default(T), string errorMessage = null)
+        public GenericApiResponse(T data = default(T), string errorMessage = null, int errorNumber = 0)
         {
             Data = data;
             ErrorMessage = errorMessage;
+            ErrorNumber = errorNumber;
             Success = errorMessage == null;
         }
         public bool Success { get; set; }
         public string ErrorMessage { get; set; }
+        public int ErrorNumber { get; set; }
         public T Data { get; set; }
     }
 }
