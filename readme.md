@@ -43,10 +43,17 @@ Parameters are sent as JSON from body.
 | `index`      | `{string}` |         | 719 |
 | `name`      | `{string}` | ✅        | Bulbasaur |
 | `imageUrl`      | `{string}` | ✅        | http://serebii.net/xy/pokemon/001.png|
-| `types`      | `{array}` |         | grass,poison |
-| `evolutions`      | `{array}`of`{object`} |         | pokemon:2, event: level-16|
+| `types`      | `{array}` |         | "types": ["grass","poison"] |
+| `evolutions`      | `{array}`of`{object`} |         | ▼ |
 | `moves`      | `{array}`of`{object`} |         | ▼ |
   ```javascript
+"evolutions": [
+      {
+          "pokemon":2,
+          "event":"level-16"
+      }
+  ],
+  
 "moves": [
     {
       "level": "37",
