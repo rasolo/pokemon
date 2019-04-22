@@ -10,5 +10,7 @@ namespace Pokemon.Api.Core.Exceptions
         NotFound = 1,
         [Description("Bad request")]
         BadRequest = 2,
+        [Description("Unknown Error")]
+        UnknownError = 3,
     }
 }

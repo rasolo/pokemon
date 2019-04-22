@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Pokemon.Api.Core.Exceptions;
+using Pokemon.Api.Core.Extensions;
 using Pokemon.Api.Core.Logging;
 using Pokemon.Api.Core.Models;
 
@@ -20,8 +21,13 @@ namespace Pokemon.Api.Web.Controllers
         {
             var exception = HttpContext.Features.Get<IExceptionHandlerFeature>()?.Error;
 
+            if(exception == null)
+            {
+                return new GenericApiResponse<string>(null, ApiErrors.UnknownError.GetDescription(), null);
+            }
+
             var apiException = exception as ApiException;
-            int errorNumber = apiException?.ErrorNumber ?? -1;
+            int? errorNumber = apiException?.ErrorNumber ?? null;
             _loggingService.Error($"Request failed: {exception.HResult} {exception.Message} | Error Number: {errorNumber} |");
 
             return new GenericApiResponse<string>(null, exception.Message, errorNumber);
