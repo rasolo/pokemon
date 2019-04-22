@@ -100,4 +100,4 @@ ___
 - [ ] Add authorization/jwt tokens
 - [ ] Add caching
 - [x] Validation failure should return generic api response
-- [ ] Adding a Pokemon should return generic api response
+- [x] Adding a Pokemon should return generic api response
