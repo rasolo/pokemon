@@ -90,6 +90,7 @@ ___
 ### TODO:
 
 - [x] Update to Core 3.
+- [ ] Use nullable reference types.
 - [x] Correctly load the collections of Pokemon with Entity Framework (Evolutions and Moves).
 - [ ] Refractor.
 - [x] Add Pokémon endpoint
@@ -98,4 +99,5 @@ ___
 - [x] Custom exception handling (return generic api response)
 - [ ] Add authorization/jwt tokens
 - [ ] Add caching
-- [ ] Validation failure should return generic api response
+- [x] Validation failure should return generic api response
+- [ ] Adding a Pokemon should return generic api response

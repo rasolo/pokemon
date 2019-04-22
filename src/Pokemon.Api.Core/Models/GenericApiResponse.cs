@@ -1,6 +1,8 @@
-﻿namespace Pokemon.Api.Core.Models
+﻿using Pokemon.Api.Core.Contracts;
+
+namespace Pokemon.Api.Core.Models
 {
-    public class GenericApiResponse<T>
+    public class GenericApiResponse<T> : IGenericApiResponse<T>
     {
         public GenericApiResponse(T data = default(T), string errorMessage = null, int? errorNumber = null)
         {

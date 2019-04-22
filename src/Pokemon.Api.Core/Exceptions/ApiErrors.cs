@@ -12,5 +12,7 @@ namespace Pokemon.Api.Core.Exceptions
         BadRequest = 2,
         [Description("Unknown Error")]
         UnknownError = 3,
+        [Description("Validation Failed")]
+        ValidationFailed = 4,
     }
 }
