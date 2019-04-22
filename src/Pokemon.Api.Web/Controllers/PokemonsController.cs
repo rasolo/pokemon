@@ -39,8 +39,9 @@ namespace Pokemon.Api.Web.Controllers
             _pokemonRepository.AddPokemon(pokemon);
 
             var pokemonDto = _mapper.Map<PokemonDto>(pokemon);
+            var genericApiResponse = new GenericApiResponse<Core.Entities.Pokemon> { Data = pokemon };
 
-            return CreatedAtAction(nameof(GetPokemon), new { name = pokemon.Name }, pokemon);
+            return Created($"{ControllerRoute}/{nameof(GetPokemon)}", genericApiResponse);
         }
 
         [HttpGet("{name}", Name = "GetPokemon")]
