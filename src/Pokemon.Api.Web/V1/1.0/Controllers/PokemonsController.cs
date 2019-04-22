@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Pokemon.Api.Core.Exceptions;
 using Pokemon.Api.Core.Extensions;
-using Pokemon.Api.Core.Models;
 using Pokemon.Api.Core.Paging;
 using Pokemon.Api.Core.Repositories;
 using Pokemon.Api.Core.Services;

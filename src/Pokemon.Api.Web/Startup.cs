@@ -15,6 +15,7 @@ using Pokemon.Api.Infrastructure.Data;
 using Pokemon.Api.Infrastructure.Repositories;
 using Pokemon.Api.Infrastructure.Services;
 using Pokemon.Api.Web.Mapper;
+using Pokemon.Api.Web.Services;
 using System.Buffers;
 using System.IO;
 using System.Reflection;

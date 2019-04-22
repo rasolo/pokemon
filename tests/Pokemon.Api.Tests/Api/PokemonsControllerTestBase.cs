@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using Moq;
-using Pokemon.Api.Core.Models;
 using Pokemon.Api.Core.Paging;
 using Pokemon.Api.Core.Repositories;
 using Pokemon.Api.Core.Services;

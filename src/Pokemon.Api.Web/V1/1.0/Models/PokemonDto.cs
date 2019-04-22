@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using Pokemon.Api.Core.Entities;
+using System.Collections.Generic;
 
-namespace Pokemon.Api.Core.Models
+namespace Pokemon.Api.Web.V1.Models
 {
     public class PokemonDto
     {
@@ -11,7 +12,7 @@ namespace Pokemon.Api.Core.Models
         public List<EvolutionDto> evolutions { get; set; }
         public List<MoveDto> moves { get; set; }
 
-        public static PokemonDto FromPokemon(Entities.Pokemon pokemon)
+        public static PokemonDto FromPokemon(Core.Entities.Pokemon pokemon)
         {
             var pokemonDto =
             new PokemonDto()
@@ -57,23 +58,23 @@ namespace Pokemon.Api.Core.Models
 
             return pokemonDto;
         }
-        public static Entities.Pokemon ToPokemon(PokemonDto pokemonDto)
+        public static Core.Entities.Pokemon ToPokemon(PokemonDto pokemonDto)
         {
-            var pokemon = new Entities.Pokemon
+            var pokemon = new Core.Entities.Pokemon
             {
                 Name = pokemonDto.name,
                 Index = pokemonDto.index,
                 ImageUrl = pokemonDto.image_url,
                 Types = pokemonDto.types,
-                Evolutions = new List<Entities.Evolution>(),
-                Moves = new List<Entities.Move>()
+                Evolutions = new List<Evolution>(),
+                Moves = new List<Move>()
             };
 
             pokemonDto.evolutions.ForEach(x =>
             {
                 pokemon.Evolutions.Add
                 (
-                     new Entities.Evolution()
+                     new Evolution()
                      {
                          Event = x.Event,
                          Pokemon = x.Pokemon
@@ -86,7 +87,7 @@ namespace Pokemon.Api.Core.Models
             {
                 pokemon.Moves.Add
                 (
-                    new Entities.Move()
+                    new Move()
                     {
                         Accuracy = x.accuracy,
                         Attack = x.attack,

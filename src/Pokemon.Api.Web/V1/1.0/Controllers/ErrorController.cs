@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Pokemon.Api.Core.Exceptions;
 using Pokemon.Api.Core.Extensions;
 using Pokemon.Api.Core.Logging;
-using Pokemon.Api.Core.Models;
+using Pokemon.Api.Web.V1.Models;
 
 namespace Pokemon.Api.Web.V1.Controllers
 {

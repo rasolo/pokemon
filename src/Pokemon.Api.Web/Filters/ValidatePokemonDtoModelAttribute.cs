@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.DependencyInjection;
-using Pokemon.Api.Core.Models;
 using Pokemon.Api.Core.Services;
+using Pokemon.Api.Web.V1.Models;
 using Pokemon.Api.Web.Validation;
 using System.Linq;
 
