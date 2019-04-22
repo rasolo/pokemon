@@ -7,12 +7,12 @@ using Pokemon.Api.Core.Paging;
 using Pokemon.Api.Core.Repositories;
 using Pokemon.Api.Core.Services;
 using Pokemon.Api.Web.Filters;
-using Pokemon.Api.Web.Models;
+using Pokemon.Api.Web.V1.Models;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Dynamic.Core;
 
-namespace Pokemon.Api.Web.Controllers
+namespace Pokemon.Api.Web.V1.Controllers
 {
     [ApiVersion(ApiVersion)]
     [Route(ControllerRoute)]

@@ -5,7 +5,7 @@ using Pokemon.Api.Core.Extensions;
 using Pokemon.Api.Core.Logging;
 using Pokemon.Api.Core.Models;
 
-namespace Pokemon.Api.Web.Controllers
+namespace Pokemon.Api.Web.V1.Controllers
 {
     [Route("api/[controller]")]
     public class ErrorController : Controller
