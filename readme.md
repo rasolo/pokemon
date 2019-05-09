@@ -85,8 +85,8 @@ ___
 ## Requirements
 Dotnet core 3 SDK and the runtime: https://dotnet.microsoft.com/download/dotnet-core/3.0
 Visual Studio 2019: https://visualstudio.microsoft.com/downloads/
-Use previews of the .NET Core SDK
-In Visual Studio 2019
+
+Use previews of the .NET Core SDK In Visual Studio 2019
 1. Tools
 2. Projects and Solutions
 3. .NET Core
