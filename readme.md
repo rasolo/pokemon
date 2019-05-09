@@ -1,7 +1,9 @@
 # Pokemon API #
 
 ## About ##
-An Api made in .NET core 3 related to Pokemon.
+An Api made in .NET core 3 related to Pokemon. Get, add delete Pokémon.
+
+A folder at root level containing a certain amount of JSON files where each file represents a Pokémon. Each file is loaded into an SQL-Lite In-memory database at startup, to which the requests are made.
 ___
 
 ### List Pokemon
