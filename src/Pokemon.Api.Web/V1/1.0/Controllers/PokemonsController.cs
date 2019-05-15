@@ -13,7 +13,7 @@ using System.Linq.Dynamic.Core;
 
 namespace Pokemon.Api.Web.V1.Controllers
 {
-    [ApiVersion(ApiVersion)]
+    //[ApiVersion(ApiVersion)]
     [Route(ControllerRoute)]
     public class PokemonsController : Controller
     {

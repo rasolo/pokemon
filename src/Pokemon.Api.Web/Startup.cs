@@ -84,13 +84,13 @@ namespace Pokemon.Api.Web
             services.AddScoped<IPokemonService, PokemonService>();
             services.AddSingleton<ILoggingService, Log4NetLoggingService>();
 
-            services.AddApiVersioning(o =>
-            {
-                o.AssumeDefaultVersionWhenUnspecified = true;
-                o.DefaultApiVersion = new ApiVersion(1, 0);
-            });
+            //services.AddApiVersioning(o =>
+            //{
+            //    o.AssumeDefaultVersionWhenUnspecified = true;
+            //    o.DefaultApiVersion = new ApiVersion(1, 0);
+            //});
 
-            services.AddMvc()
+            services.AddMvc(options => options.EnableEndpointRouting = false)
                 .AddNewtonsoftJson();
         }
 
