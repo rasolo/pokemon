@@ -90,9 +90,10 @@ Visual Studio 2019: https://visualstudio.microsoft.com/downloads/
 
 Use previews of the .NET Core SDK In Visual Studio 2019
 1. Tools
-2. Projects and Solutions
-3. .NET Core
-4. Check "Use previews of the .NET Core SDK"
+2. Options
+3. Projects and Solutions
+4. .NET Core
+5. Check "Use previews of the .NET Core SDK"
 
 ___
 
