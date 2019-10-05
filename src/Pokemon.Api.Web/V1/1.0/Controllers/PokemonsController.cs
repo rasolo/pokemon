@@ -47,7 +47,8 @@ namespace Pokemon.Api.Web.V1.Controllers
         public GenericApiResponse<PokemonDto> GetPokemon(string name)
         {
             Core.Entities.Pokemon pokemon = _pokemonRepository.GetByName(name);
-            var pokemonDto = PokemonDto.FromPokemon(pokemon);
+            var pokemonDto = new PokemonDto();
+            this._mapper.Map(pokemon, pokemonDto);
             var genericApiResponse = new GenericApiResponse<PokemonDto> { Data = pokemonDto };
 
             if (pokemon == null)
