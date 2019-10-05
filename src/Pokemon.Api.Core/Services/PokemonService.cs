@@ -7,11 +7,11 @@ namespace Pokemon.Api.Core.Services
 {
     public class PokemonService : IPokemonService
     {
-        public IPokemonRepository _pokemonRepository { get; }
+        public IPokemonRepository PokemonRepository { get; }
 
         public PokemonService(IPokemonRepository pokemonRepository)
         {
-            _pokemonRepository = pokemonRepository;
+            PokemonRepository = pokemonRepository;
         }
 
         public IEnumerable<string> GetPokemonPropertyNames(object pokemon)
@@ -55,7 +55,7 @@ namespace Pokemon.Api.Core.Services
 
         public bool NameIsUnique(string name)
         {
-            return _pokemonRepository.GetByName(name)?.Name != name;
+            return PokemonRepository.GetByName(name)?.Name != name;
         }
     }
 }

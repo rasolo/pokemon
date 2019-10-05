@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Pokemon.Api.Web.V1.Models;
+using Pokemon.Api.Web.V1._1._0.Models;
 
 namespace Pokemon.Api.Web.Mapper
 {

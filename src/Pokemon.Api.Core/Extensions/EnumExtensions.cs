@@ -9,7 +9,7 @@ namespace Pokemon.Api.Core.Extensions
     {
         public static string GetDescription(this Enum value)
         {
-            return value 
+            return value
                     .GetType()
                     ?.GetMember(value.ToString())
                     .FirstOrDefault()

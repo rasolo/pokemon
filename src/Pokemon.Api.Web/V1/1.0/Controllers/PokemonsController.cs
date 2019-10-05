@@ -1,4 +1,7 @@
-﻿using AutoMapper;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Dynamic.Core;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Pokemon.Api.Core.Exceptions;
 using Pokemon.Api.Core.Extensions;
@@ -6,12 +9,9 @@ using Pokemon.Api.Core.Paging;
 using Pokemon.Api.Core.Repositories;
 using Pokemon.Api.Core.Services;
 using Pokemon.Api.Web.Filters;
-using Pokemon.Api.Web.V1.Models;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Dynamic.Core;
+using Pokemon.Api.Web.V1._1._0.Models;
 
-namespace Pokemon.Api.Web.V1.Controllers
+namespace Pokemon.Api.Web.V1._1._0.Controllers
 {
     //[ApiVersion(ApiVersion)]
     [Route(ControllerRoute)]
@@ -103,14 +103,13 @@ namespace Pokemon.Api.Web.V1.Controllers
 
             var query = _pokemonService.GetFilteredSortQuery(pagingParams.Sort);
 
-
             if (query != null)
             {
-                outputModel.Pokemons = orderedPokemons.Select(x => PokemonDto.FromPokemon(x)).AsQueryable().OrderBy(query);
+                outputModel.Pokemons = orderedPokemons.Select(x => this._mapper.Map(x, new PokemonDto())).AsQueryable().OrderBy(query);
             }
             else
             {
-                outputModel.Pokemons = orderedPokemons.Select(x => PokemonDto.FromPokemon(x)).AsQueryable().OrderBy(x => x.name);
+                outputModel.Pokemons = orderedPokemons.Select(x => this._mapper.Map(x, new PokemonDto())).AsQueryable().OrderBy(x => x.name);
             }
 
             genericApiResponse.Data = outputModel;

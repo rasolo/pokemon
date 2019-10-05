@@ -25,7 +25,7 @@ namespace Pokemon.Api.Infrastructure.Repositories
         {
             try
             {
-                return DeletePokemon(name) ? true : false;
+                return DeletePokemon(name);
             }
             catch
             {

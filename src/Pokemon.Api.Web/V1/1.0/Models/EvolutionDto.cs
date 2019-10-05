@@ -1,5 +1,5 @@
 ﻿
-namespace Pokemon.Api.Web.V1.Models
+namespace Pokemon.Api.Web.V1._1._0.Models
 {
     public class EvolutionDto
     {

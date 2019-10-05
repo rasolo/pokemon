@@ -3,7 +3,6 @@ using log4net;
 using log4net.Config;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -32,9 +31,9 @@ namespace Pokemon.Api.Web
             XmlConfigurator.Configure(logRepository, new FileInfo("log4net.config"));
         }
 
-        public IWebHostEnvironment HostingEnvironment { get;}
+        public IWebHostEnvironment HostingEnvironment { get; }
         public IConfiguration Configuration { get; }
-        private SqliteConnection inMemorySqlite;
+        private SqliteConnection _inMemorySqlite;
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -49,14 +48,15 @@ namespace Pokemon.Api.Web
             services.AddSingleton(mapper);
 
             //Sql lite in-memory DB
-            inMemorySqlite = new SqliteConnection("Data Source=:memory:");
-            inMemorySqlite.Open();
-            services.AddDbContext<PokemonContext>(options => {
-                options.UseSqlite(inMemorySqlite);
+            _inMemorySqlite = new SqliteConnection("Data Source=:memory:");
+            _inMemorySqlite.Open();
+            services.AddDbContext<PokemonContext>(options =>
+            {
+                options.UseSqlite(_inMemorySqlite);
             });
 
             DbContextOptions<PokemonContext> opts = new DbContextOptionsBuilder<PokemonContext>()
-                    .UseSqlite(inMemorySqlite)
+                    .UseSqlite(_inMemorySqlite)
                     .Options;
 
             services.AddScoped<IBufferWriter<byte>, ArrayBufferWriter>();
@@ -79,7 +79,7 @@ namespace Pokemon.Api.Web
 
             }
 
-        
+
             services.AddScoped<IPokemonRepository, PokemonRepository>();
             services.AddScoped<IPokemonService, PokemonService>();
             services.AddSingleton<ILoggingService, Log4NetLoggingService>();

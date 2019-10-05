@@ -7,9 +7,9 @@ namespace Pokemon.Api.Infrastructure.Data
 {
     public class PokemonContext : DbContext
     {
-        public  DbSet<Core.Entities.Pokemon> Pokemon { get; set; }
-        public  DbSet<Evolution> Evolution { get; set; }
-        public  DbSet<Move> Move { get; set; }
+        public DbSet<Core.Entities.Pokemon> Pokemon { get; set; }
+        public DbSet<Evolution> Evolution { get; set; }
+        public DbSet<Move> Move { get; set; }
 
 
         public PokemonContext(DbContextOptions<PokemonContext> options) : base(options)

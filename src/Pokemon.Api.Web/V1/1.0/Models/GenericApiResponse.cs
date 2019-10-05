@@ -1,10 +1,10 @@
 ﻿using Pokemon.Api.Core.Contracts;
 
-namespace Pokemon.Api.Web.V1.Models
+namespace Pokemon.Api.Web.V1._1._0.Models
 {
     public class GenericApiResponse<T> : IGenericApiResponse<T>
     {
-        public GenericApiResponse(T data = default(T), string errorMessage = null, int? errorNumber = null)
+        public GenericApiResponse(T data = default, string errorMessage = null, int? errorNumber = null)
         {
             Data = data;
             ErrorMessage = errorMessage;

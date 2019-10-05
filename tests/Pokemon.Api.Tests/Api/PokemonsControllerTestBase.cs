@@ -3,27 +3,27 @@ using Moq;
 using Pokemon.Api.Core.Paging;
 using Pokemon.Api.Core.Repositories;
 using Pokemon.Api.Core.Services;
-using Pokemon.Api.Web.V1.Controllers;
-using Pokemon.Api.Web.V1.Models;
 using System.Collections.Generic;
 using System.Linq;
+using Pokemon.Api.Web.V1._1._0.Controllers;
+using Pokemon.Api.Web.V1._1._0.Models;
 using Xunit;
 
 namespace Pokemon.Api.Tests.Api
 {
     public abstract class PokemonsControllerTestBase
     {
-        protected readonly IQueryable<Core.Entities.Pokemon> _mockedPokemons;
-        protected readonly Mock<IPokemonRepository> _mockedPokemonRepository;
-        protected readonly Mock<IPokemonService> _mockedPokemonService;
-        protected readonly Mock<IMapper> _mockedMapper;
-        protected readonly PagedList<Core.Entities.Pokemon> _pagedListPokemon;
-        protected readonly PokemonsController _pokemonsController;
+        protected readonly IQueryable<Core.Entities.Pokemon> MockedPokemons;
+        protected readonly Mock<IPokemonRepository> MockedPokemonRepository;
+        protected readonly Mock<IPokemonService> MockedPokemonService;
+        protected readonly Mock<IMapper> MockedMapper;
+        protected readonly PagedList<Core.Entities.Pokemon> PagedListPokemon;
+        protected readonly PokemonsController PokemonsController;
 
-        public PokemonsControllerTestBase()
+        protected PokemonsControllerTestBase()
         {
             #region Mocked Pokemon
-            _mockedPokemons =
+            MockedPokemons =
                 new List<Core.Entities.Pokemon>
                 {
                     new Core.Entities.Pokemon
@@ -124,11 +124,11 @@ namespace Pokemon.Api.Tests.Api
                 }.AsQueryable();
             #endregion
 
-            _mockedPokemonRepository = new Mock<IPokemonRepository>();
-            _mockedPokemonService = new Mock<IPokemonService>();
-            _mockedMapper = new Mock<IMapper>();
-            _pagedListPokemon = new PagedList<Core.Entities.Pokemon>(_mockedPokemons, 1, 5);
-            _pokemonsController = new PokemonsController(_mockedPokemonRepository.Object, _mockedMapper.Object, _mockedPokemonService.Object);
+            MockedPokemonRepository = new Mock<IPokemonRepository>();
+            MockedPokemonService = new Mock<IPokemonService>();
+            MockedMapper = new Mock<IMapper>();
+            PagedListPokemon = new PagedList<Core.Entities.Pokemon>(MockedPokemons, 1, 5);
+            PokemonsController = new PokemonsController(MockedPokemonRepository.Object, MockedMapper.Object, MockedPokemonService.Object);
         }
 
         protected void ReturnProperty(string propertyToSortOn, string sortOrder, string propertyToOrderBy)
@@ -136,11 +136,11 @@ namespace Pokemon.Api.Tests.Api
             //Arrange
             var pagingParams = new PagingParams() { Sort = sortOrder };
 
-            _mockedPokemonRepository.Setup(x => x.GetPokemons(pagingParams)).Returns(_pagedListPokemon);
-            _mockedPokemonService.Setup(x => x.GetFilteredSortQuery(It.IsAny<string>())).Returns($"{propertyToSortOn} {sortOrder}");
+            MockedPokemonRepository.Setup(x => x.GetPokemons(pagingParams)).Returns(PagedListPokemon);
+            MockedPokemonService.Setup(x => x.GetFilteredSortQuery(It.IsAny<string>())).Returns($"{propertyToSortOn} {sortOrder}");
 
             //Act
-            GenericApiResponse<ObjectDto> objDto = _pokemonsController.GetPokemons(pagingParams);
+            GenericApiResponse<ObjectDto> objDto = PokemonsController.GetPokemons(pagingParams);
             PokemonDto firstPokemon = objDto?.Data?.Pokemons?.First();
 
             //Assert

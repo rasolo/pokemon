@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 using Pokemon.Api.Core.Exceptions;
 using Pokemon.Api.Core.Extensions;
 using Pokemon.Api.Core.Logging;
-using Pokemon.Api.Web.V1.Models;
+using Pokemon.Api.Web.V1._1._0.Models;
 
-namespace Pokemon.Api.Web.V1.Controllers
+namespace Pokemon.Api.Web.V1._1._0.Controllers
 {
     [Route("api/[controller]")]
     public class ErrorController : Controller
@@ -21,7 +21,7 @@ namespace Pokemon.Api.Web.V1.Controllers
         {
             var exception = HttpContext.Features.Get<IExceptionHandlerFeature>()?.Error;
 
-            if(exception == null)
+            if (exception == null)
             {
                 return new GenericApiResponse<string>(null, ApiErrors.UnknownError.GetDescription(), null);
             }

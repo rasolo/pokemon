@@ -1,6 +1,4 @@
-﻿
-
-using Pokemon.Api.Core.Paging;
+﻿using Pokemon.Api.Core.Paging;
 
 namespace Pokemon.Api.Core.Repositories
 {
