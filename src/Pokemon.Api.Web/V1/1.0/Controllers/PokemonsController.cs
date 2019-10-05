@@ -30,7 +30,7 @@ namespace Pokemon.Api.Web.V1._1._0.Controllers
             _pokemonService = pokemonService;
         }
 
-        [HttpPost("{add}", Name = "AddPokemon")]
+        [HttpPost("{add}", Name = nameof(AddPokemon))]
         [ValidatePokemonDtoModel]
         public IActionResult AddPokemon([FromBody] PokemonForCreationDto pokemonForCreateDto)
         {
@@ -43,7 +43,7 @@ namespace Pokemon.Api.Web.V1._1._0.Controllers
             return Created($"{ControllerRoute}/{nameof(GetPokemon)}", genericApiResponse);
         }
 
-        [HttpGet("{name}", Name = "GetPokemon")]
+        [HttpGet("{name}", Name = nameof(GetPokemon))]
         public GenericApiResponse<PokemonDto> GetPokemon(string name)
         {
             Core.Entities.Pokemon pokemon = _pokemonRepository.GetByName(name);
@@ -62,7 +62,7 @@ namespace Pokemon.Api.Web.V1._1._0.Controllers
             return genericApiResponse;
         }
 
-        [HttpDelete("{name}", Name = "DeletePokemon")]
+        [HttpDelete("{name}", Name = nameof(DeletePokemon))]
         public IActionResult DeletePokemon(string name)
         {
             var genericApiResponse = new GenericApiResponse<string>();
@@ -80,7 +80,7 @@ namespace Pokemon.Api.Web.V1._1._0.Controllers
             return Ok(genericApiResponse);
         }
 
-        [HttpGet("list", Name = "GetPokemons")]
+        [HttpGet("list", Name = nameof(GetPokemons))]
         public GenericApiResponse<ObjectDto> GetPokemons(PagingParams pagingParams)
         {
             var genericApiResponse = new GenericApiResponse<ObjectDto>();
