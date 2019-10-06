@@ -10,24 +10,9 @@ ___
 How to setup project on your own machine.
 ### Prerequisites
 ```
-Dotnet core 3 preview 5 SDK and the runtime: https://dotnet.microsoft.com/download/dotnet-core/3.0
-Visual Studio 2019: https://visualstudio.microsoft.com/downloads/ OR
-Visual Studio 2019 Preview: https://visualstudio.microsoft.com/vs/preview/
+Dotnet core 3 https://dotnet.microsoft.com/download/dotnet-core/3.0
+Visual Studio 2019: https://visualstudio.microsoft.com/downloads/ or other IDE/editor of choice.
 ```
-**Microsoft recommends using Visual Studio 2019 Preview instead of the original**
-
-If you use original Visual Studio 2019:
-Use previews of the .NET Core SDK In Visual Studio 2019
-
-1. Tools
-2. Projects and Solutions
-3. .NET Core
-4. Check "Use previews of the .NET Core SDK"
-
-### Installing
-* Set Pokemon.Api.Web as the startup project.
-* Unload Pokemon.Api.Tests (temporary because of nuget mismatch)
-* Run project
 ___
 
 ### List Pokemon
