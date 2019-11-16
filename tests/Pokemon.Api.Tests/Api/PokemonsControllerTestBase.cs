@@ -16,7 +16,7 @@ namespace Pokemon.Api.Tests.Api
         protected readonly IQueryable<Core.Entities.Pokemon> MockedPokemons;
         protected readonly Mock<IPokemonRepository> MockedPokemonRepository;
         protected readonly Mock<IPokemonService> MockedPokemonService;
-        protected readonly Mock<IMapper> MockedMapper;
+        protected readonly IMapper AutoMapper;
         protected readonly PagedList<Core.Entities.Pokemon> PagedListPokemon;
         protected readonly PokemonsController PokemonsController;
 
@@ -126,9 +126,23 @@ namespace Pokemon.Api.Tests.Api
 
             MockedPokemonRepository = new Mock<IPokemonRepository>();
             MockedPokemonService = new Mock<IPokemonService>();
-            MockedMapper = new Mock<IMapper>();
+            var config = new MapperConfiguration(opts =>
+            {
+                
+                opts.CreateMap<MoveDto, Core.Entities.Move>()
+                    .ForMember(dest => dest.EffectPercent, opt => opt.MapFrom(src => src.effect_percent)).ReverseMap();
+                opts.CreateMap<EvolutionDto, Core.Entities.Evolution>().ReverseMap();
+                opts.CreateMap<EvolutionForCreationDto, Core.Entities.Evolution>();
+                opts.CreateMap<PokemonForCreationDto, Core.Entities.Pokemon>().ReverseMap();
+                opts.CreateMap<PokemonDto, Core.Entities.Pokemon>()
+                    .ForMember(dest => dest.Moves, opt => opt.MapFrom(src => src.moves))
+                    .ForMember(dest => dest.ImageUrl, opt => opt.MapFrom(src => src.image_url))
+                    .ForMember(dest => dest.Evolutions, opt => opt.MapFrom(src => src.evolutions)).ReverseMap();
+            });
+
+            AutoMapper = config.CreateMapper();
             PagedListPokemon = new PagedList<Core.Entities.Pokemon>(MockedPokemons, 1, 5);
-            PokemonsController = new PokemonsController(MockedPokemonRepository.Object, MockedMapper.Object, MockedPokemonService.Object);
+            PokemonsController = new PokemonsController(MockedPokemonRepository.Object, AutoMapper, MockedPokemonService.Object);
         }
 
         protected void ReturnProperty(string propertyToSortOn, string sortOrder, string propertyToOrderBy)
