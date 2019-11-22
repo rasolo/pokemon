@@ -18,7 +18,6 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\Pokemon.Api.Web\Pokemon.Api.Web.csproj" />
     <ProjectReference Include="..\..\src\Pokemon.Api.Core\Pokemon.Api.Core.csproj" />
-    <ProjectReference Include="..\..\src\Pokemon.Api.Infrastructure\Pokemon.Api.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
