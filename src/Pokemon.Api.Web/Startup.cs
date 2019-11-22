@@ -14,10 +14,11 @@ using Pokemon.Api.Infrastructure.Data;
 using Pokemon.Api.Infrastructure.Repositories;
 using Pokemon.Api.Infrastructure.Services;
 using Pokemon.Api.Web.Mapper;
-using Pokemon.Api.Web.Services;
 using System.Buffers;
 using System.IO;
 using System.Reflection;
+using Newtonsoft.Json;
+using Pokemon.Api.Web.V1._1._0.Models;
 
 namespace Pokemon.Api.Web
 {
@@ -71,7 +72,7 @@ namespace Pokemon.Api.Web
                 foreach (var file in files)
                 {
                     var jsonString = File.ReadAllText(file);
-                    var pokemonDto = JsonDocumentService.ConvertToPokemonDto(jsonString);
+                    var pokemonDto = JsonConvert.DeserializeObject<PokemonDto>(jsonString);
                     var pokemon = mapper.Map(pokemonDto, new Core.Entities.Pokemon());
                     context.Pokemon.Add(mapper.Map(pokemonDto, pokemon));
                 }
