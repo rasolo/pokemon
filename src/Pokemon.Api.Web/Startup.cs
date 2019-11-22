@@ -17,6 +17,7 @@ using Pokemon.Api.Web.Mapper;
 using System.Buffers;
 using System.IO;
 using System.Reflection;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Pokemon.Api.Web.V1._1._0.Models;
 
@@ -85,11 +86,11 @@ namespace Pokemon.Api.Web
             services.AddScoped<IPokemonService, PokemonService>();
             services.AddSingleton<ILoggingService, Log4NetLoggingService>();
 
-            //services.AddApiVersioning(o =>
-            //{
-            //    o.AssumeDefaultVersionWhenUnspecified = true;
-            //    o.DefaultApiVersion = new ApiVersion(1, 0);
-            //});
+            services.AddApiVersioning(o =>
+            {
+                o.AssumeDefaultVersionWhenUnspecified = true;
+                o.DefaultApiVersion = new ApiVersion(1, 0);
+            });
 
             services.AddMvc(options => options.EnableEndpointRouting = false)
                 .AddNewtonsoftJson();
