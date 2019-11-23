@@ -7,6 +7,4 @@
         public string Direction { get; set; }
         public string Sort { get; set; }
     }
-
-
 }

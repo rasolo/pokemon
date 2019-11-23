@@ -19,12 +19,14 @@ namespace Pokemon.Api.Core.Paging
         public int PageSize { get; }
         public int TotalPages { get; }
 
-        public string ToJson() => JsonConvert.SerializeObject(this,
-            new JsonSerializerSettings
-            {
-                ContractResolver = new
-                    CamelCasePropertyNamesContractResolver()
-            });
-
+        public string ToJson()
+        {
+            return JsonConvert.SerializeObject(this,
+                new JsonSerializerSettings
+                {
+                    ContractResolver = new
+                        CamelCasePropertyNamesContractResolver()
+                });
+        }
     }
 }

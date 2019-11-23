@@ -10,11 +10,11 @@ namespace Pokemon.Api.Core.Extensions
         public static string GetDescription(this Enum value)
         {
             return value
-                    .GetType()
-                    ?.GetMember(value.ToString())
-                    .FirstOrDefault()
-                    ?.GetCustomAttribute<DescriptionAttribute>()
-                    ?.Description;
+                .GetType()
+                ?.GetMember(value.ToString())
+                .FirstOrDefault()
+                ?.GetCustomAttribute<DescriptionAttribute>()
+                ?.Description;
         }
     }
 }

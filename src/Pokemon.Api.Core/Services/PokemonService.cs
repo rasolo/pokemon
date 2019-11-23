@@ -1,26 +1,18 @@
-﻿using Pokemon.Api.Core.Extensions;
-using Pokemon.Api.Core.Repositories;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
+using Pokemon.Api.Core.Extensions;
+using Pokemon.Api.Core.Repositories;
 
 namespace Pokemon.Api.Core.Services
 {
     public class PokemonService : IPokemonService
     {
-        public IPokemonRepository PokemonRepository { get; }
-
         public PokemonService(IPokemonRepository pokemonRepository)
         {
             PokemonRepository = pokemonRepository;
         }
 
-        public IEnumerable<string> GetPokemonPropertyNames(object pokemon)
-        {
-            foreach (var prop in pokemon.GetType().GetProperties())
-            {
-                yield return prop.Name;
-            }
-        }
+        public IPokemonRepository PokemonRepository { get; }
 
         public string GetFilteredSortQuery(string sortQuery)
         {
@@ -29,11 +21,12 @@ namespace Pokemon.Api.Core.Services
                 return null;
             }
 
-            var validDirections = new[] { "asc", "ascending", "desc", "descending" }; //valid directions for dynamic linq
+            var validDirections = new[] {"asc", "ascending", "desc", "descending"};
             var pokemonPropertyNames = GetPokemonPropertyNames(new Entities.Pokemon());
             var splitSortQuery = sortQuery.Split(' ');
 
-            var sortProperty = pokemonPropertyNames.SingleOrDefault(x => x.FirstLetterToLower().Equals(splitSortQuery[0]));
+            var sortProperty =
+                pokemonPropertyNames.SingleOrDefault(x => x.FirstLetterToLower().Equals(splitSortQuery[0]));
 
             if (sortProperty == null)
             {
@@ -56,6 +49,11 @@ namespace Pokemon.Api.Core.Services
         public bool NameIsUnique(string name)
         {
             return PokemonRepository.GetByName(name)?.Name != name;
+        }
+
+        public IEnumerable<string> GetPokemonPropertyNames(object pokemon)
+        {
+            foreach (var prop in pokemon.GetType().GetProperties()) yield return prop.Name;
         }
     }
 }
