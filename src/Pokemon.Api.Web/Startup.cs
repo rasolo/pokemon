@@ -61,8 +61,6 @@ namespace Pokemon.Api.Web
                     .UseSqlite(_inMemorySqlite)
                     .Options;
 
-            services.AddScoped<IBufferWriter<byte>, ArrayBufferWriter>();
-
             //TODO: Move to service class. Error handling, logging.
             var path = Path.GetFullPath(Path.Combine(HostingEnvironment.ContentRootPath, @"..\..\")) + "\\appdata\\json\\pokemon";
             var files = Directory.GetFiles(path);
