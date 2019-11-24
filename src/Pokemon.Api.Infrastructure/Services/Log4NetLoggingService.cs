@@ -1,6 +1,6 @@
-﻿using log4net;
+﻿using System;
+using log4net;
 using Pokemon.Api.Core.Logging;
-using System;
 
 namespace Pokemon.Api.Infrastructure.Services
 {

@@ -1,15 +1,16 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Linq;
+using Microsoft.EntityFrameworkCore;
 using Pokemon.Api.Core.Extensions;
 using Pokemon.Api.Core.Paging;
 using Pokemon.Api.Core.Repositories;
 using Pokemon.Api.Infrastructure.Data;
-using System.Linq;
 
 namespace Pokemon.Api.Infrastructure.Repositories
 {
     public class PokemonRepository : IPokemonRepository
     {
         private readonly PokemonContext _dbContext;
+
         public PokemonRepository(PokemonContext dbContext)
         {
             _dbContext = dbContext;
@@ -49,7 +50,8 @@ namespace Pokemon.Api.Infrastructure.Repositories
 
         public Core.Entities.Pokemon GetByName(string name)
         {
-            var pokemon = _dbContext.Pokemon.Include(x => x.Moves).Include(x => x.Evolutions).SingleOrDefault(x => x.Name == name.FirstLetterToUpper());
+            var pokemon = _dbContext.Pokemon.Include(x => x.Moves).Include(x => x.Evolutions)
+                .SingleOrDefault(x => x.Name == name.FirstLetterToUpper());
 
             return pokemon;
         }
