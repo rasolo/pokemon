@@ -11,6 +11,7 @@ namespace Pokemon.Api.Web.V1._1._0.Models
             ErrorNumber = errorNumber;
             Success = errorMessage == null;
         }
+
         public bool Success { get; set; }
         public string ErrorMessage { get; set; }
         public int? ErrorNumber { get; set; }

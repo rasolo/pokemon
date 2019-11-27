@@ -19,8 +19,8 @@ namespace Pokemon.Api.Web.V1._1._0.Controllers
     {
         private const string ApiVersion = "1.0";
         private const string ControllerRoute = "api/v" + ApiVersion + "/pokemon"; //api/v1.0/pokemon
-        private readonly IPokemonRepository _pokemonRepository;
         private readonly IMapper _mapper;
+        private readonly IPokemonRepository _pokemonRepository;
         private readonly IPokemonService _pokemonService;
 
         public PokemonsController(IPokemonRepository pokemonRepository, IMapper mapper, IPokemonService pokemonService)
@@ -38,7 +38,7 @@ namespace Pokemon.Api.Web.V1._1._0.Controllers
             _pokemonRepository.AddPokemon(pokemon);
 
             var pokemonDto = _mapper.Map<PokemonDto>(pokemon);
-            var genericApiResponse = new GenericApiResponse<Core.Entities.Pokemon> { Data = pokemon };
+            var genericApiResponse = new GenericApiResponse<Core.Entities.Pokemon> {Data = pokemon};
 
             return Created($"{ControllerRoute}/{nameof(GetPokemon)}", genericApiResponse);
         }
@@ -46,27 +46,28 @@ namespace Pokemon.Api.Web.V1._1._0.Controllers
         [HttpGet("{name}", Name = nameof(GetPokemon))]
         public GenericApiResponse<PokemonDto> GetPokemon(string name)
         {
-            Core.Entities.Pokemon pokemon = _pokemonRepository.GetByName(name);
+            var pokemon = _pokemonRepository.GetByName(name);
             var pokemonDto = new PokemonDto();
-            this._mapper.Map(pokemon, pokemonDto);
-            var genericApiResponse = new GenericApiResponse<PokemonDto> { Data = pokemonDto };
+            _mapper.Map(pokemon, pokemonDto);
+            var genericApiResponse = new GenericApiResponse<PokemonDto> {Data = pokemonDto};
 
-            if (pokemon == null)
+            if (pokemon != null)
             {
-                genericApiResponse.Success = false;
-                genericApiResponse.ErrorMessage = ApiErrors.NotFound.GetDescription();
-                throw new ApiException(ApiErrors.NotFound);
+                return genericApiResponse;
             }
 
+            genericApiResponse.Success = false;
+            genericApiResponse.ErrorMessage = ApiErrors.NotFound.GetDescription();
+            throw new ApiException(ApiErrors.NotFound);
 
-            return genericApiResponse;
+
         }
 
         [HttpDelete("{name}", Name = nameof(DeletePokemon))]
         public IActionResult DeletePokemon(string name)
         {
             var genericApiResponse = new GenericApiResponse<string>();
-            bool success = _pokemonRepository.TryDeletePokemon(name);
+            var success = _pokemonRepository.TryDeletePokemon(name);
             genericApiResponse.Success = success;
 
             if (!success)
@@ -98,18 +99,20 @@ namespace Pokemon.Api.Web.V1._1._0.Controllers
             Response?.Headers.Add("X-Pagination", pokemonEntities.GetHeader().ToJson());
             var outputModel = new ObjectDto
             {
-                Paging = pokemonEntities.GetHeader(),
+                Paging = pokemonEntities.GetHeader()
             };
 
             var query = _pokemonService.GetFilteredSortQuery(pagingParams.Sort);
 
             if (query != null)
             {
-                outputModel.Pokemons = orderedPokemons.Select(x => this._mapper.Map(x, new PokemonDto())).AsQueryable().OrderBy(query);
+                outputModel.Pokemons = orderedPokemons.Select(x => _mapper.Map(x, new PokemonDto())).AsQueryable()
+                    .OrderBy(query);
             }
             else
             {
-                outputModel.Pokemons = orderedPokemons.Select(x => this._mapper.Map(x, new PokemonDto())).AsQueryable().OrderBy(x => x.name);
+                outputModel.Pokemons = orderedPokemons.Select(x => _mapper.Map(x, new PokemonDto())).AsQueryable()
+                    .OrderBy(x => x.name);
             }
 
             genericApiResponse.Data = outputModel;

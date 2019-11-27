@@ -1,12 +1,16 @@
-﻿using AutoMapper;
+﻿using System.IO;
+using System.Reflection;
+using AutoMapper;
 using log4net;
 using log4net.Config;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Newtonsoft.Json;
 using Pokemon.Api.Core.Logging;
 using Pokemon.Api.Core.Repositories;
 using Pokemon.Api.Core.Services;
@@ -14,17 +18,14 @@ using Pokemon.Api.Infrastructure.Data;
 using Pokemon.Api.Infrastructure.Repositories;
 using Pokemon.Api.Infrastructure.Services;
 using Pokemon.Api.Web.Mapper;
-using System.Buffers;
-using System.IO;
-using System.Reflection;
-using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
 using Pokemon.Api.Web.V1._1._0.Models;
 
 namespace Pokemon.Api.Web
 {
     public class Startup
     {
+        private SqliteConnection _inMemorySqlite;
+
         public Startup(IConfiguration configuration, IWebHostEnvironment env)
         {
             Configuration = configuration;
@@ -35,7 +36,6 @@ namespace Pokemon.Api.Web
 
         public IWebHostEnvironment HostingEnvironment { get; }
         public IConfiguration Configuration { get; }
-        private SqliteConnection _inMemorySqlite;
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -46,7 +46,7 @@ namespace Pokemon.Api.Web
                 mc.AddProfile(new MappingProfile());
             });
 
-            IMapper mapper = mappingConfig.CreateMapper();
+            var mapper = mappingConfig.CreateMapper();
             services.AddSingleton(mapper);
 
             //Sql lite in-memory DB
@@ -57,12 +57,13 @@ namespace Pokemon.Api.Web
                 options.UseSqlite(_inMemorySqlite);
             });
 
-            DbContextOptions<PokemonContext> opts = new DbContextOptionsBuilder<PokemonContext>()
-                    .UseSqlite(_inMemorySqlite)
-                    .Options;
+            var opts = new DbContextOptionsBuilder<PokemonContext>()
+                .UseSqlite(_inMemorySqlite)
+                .Options;
 
             //TODO: Move to service class. Error handling, logging.
-            var path = Path.GetFullPath(Path.Combine(HostingEnvironment.ContentRootPath, @"..\..\")) + "\\appdata\\json\\pokemon";
+            var path = Path.GetFullPath(Path.Combine(HostingEnvironment.ContentRootPath, @"..\..\")) +
+                       "\\appdata\\json\\pokemon";
             var files = Directory.GetFiles(path);
             using (var context = new PokemonContext(opts))
             {
@@ -75,8 +76,8 @@ namespace Pokemon.Api.Web
                     var pokemon = mapper.Map(pokemonDto, new Core.Entities.Pokemon());
                     context.Pokemon.Add(mapper.Map(pokemonDto, pokemon));
                 }
-                context.SaveChanges();
 
+                context.SaveChanges();
             }
 
 

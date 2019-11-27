@@ -23,12 +23,13 @@ namespace Pokemon.Api.Web.V1._1._0.Controllers
 
             if (exception == null)
             {
-                return new GenericApiResponse<string>(null, ApiErrors.UnknownError.GetDescription(), null);
+                return new GenericApiResponse<string>(null, ApiErrors.UnknownError.GetDescription());
             }
 
             var apiException = exception as ApiException;
-            int? errorNumber = apiException?.ErrorNumber ?? null;
-            _loggingService.Error($"Request failed: {exception.HResult} {exception.Message} | Error Number: {errorNumber} |");
+            var errorNumber = apiException?.ErrorNumber ?? null;
+            _loggingService.Error(
+                $"Request failed: {exception.HResult} {exception.Message} | Error Number: {errorNumber} |");
 
             return new GenericApiResponse<string>(null, exception.Message, errorNumber);
         }
