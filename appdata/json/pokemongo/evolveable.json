@@ -1,0 +1,3790 @@
+[
+    {
+        "Name": "Ivysaur",
+        "Index": 2,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 100
+                        },
+                        {
+                            "Name": "Purified",
+                            "Required": 90
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Charmeleon",
+        "Index": 5,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 100
+                        },
+                        {
+                            "Name": "Purified",
+                            "Required": 90
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Wartortle",
+        "Index": 8,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 100
+                        },
+                        {
+                            "Name": "Purified",
+                            "Required": 90
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Nidorina",
+        "Index": 30,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Nidorino",
+        "Index": 33,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Golbat",
+        "Index": 42,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 100
+                        },
+                        {
+                            "Name": "Purified",
+                            "Required": 90
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Kadabra",
+        "Index": 64,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 100
+                        },
+                        {
+                            "Name": "Purified",
+                            "Required": 90
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Machoke",
+        "Index": 67,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Weepinbell",
+        "Index": 70,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Graveler",
+        "Index": 75,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Alola",
+                            "Required": 100
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Magneton",
+        "Index": 82,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Haunter",
+        "Index": 93,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Lickitung",
+        "Index": 108,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Rhydon",
+        "Index": 112,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Tangela",
+        "Index": 114,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Seadra",
+        "Index": 117,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Electabuzz",
+        "Index": 125,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Magmar",
+        "Index": 126,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Dragonair",
+        "Index": 148,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 100
+                        },
+                        {
+                            "Name": "Purified",
+                            "Required": 90
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Bayleef",
+        "Index": 153,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Quilava",
+        "Index": 156,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Croconaw",
+        "Index": 159,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Togetic",
+        "Index": 176,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Flaaffy",
+        "Index": 180,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Skiploom",
+        "Index": 188,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Aipom",
+        "Index": 190,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Yanma",
+        "Index": 193,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Murkrow",
+        "Index": 198,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Misdreavus",
+        "Index": 200,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Gligar",
+        "Index": 207,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Sneasel",
+        "Index": 215,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Piloswine",
+        "Index": 221,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Porygon2",
+        "Index": 233,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Pupitar",
+        "Index": 247,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 100
+                        },
+                        {
+                            "Name": "Purified",
+                            "Required": 90
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Grovyle",
+        "Index": 253,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Combusken",
+        "Index": 256,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Marshtomp",
+        "Index": 259,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 100
+                        },
+                        {
+                            "Name": "Purified",
+                            "Required": 90
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Lombre",
+        "Index": 271,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Nuzleaf",
+        "Index": 274,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Vigoroth",
+        "Index": 288,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Lairon",
+        "Index": 305,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Roselia",
+        "Index": 315,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Vibrava",
+        "Index": 329,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Feebas",
+        "Index": 349,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Dusclops",
+        "Index": 356,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Sealeo",
+        "Index": 364,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Shelgon",
+        "Index": 372,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Metang",
+        "Index": 375,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Grotle",
+        "Index": 388,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        },
+                        {
+                            "Name": "Purified",
+                            "Required": 100
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Monferno",
+        "Index": 391,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Prinplup",
+        "Index": 394,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Staravia",
+        "Index": 397,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Luxio",
+        "Index": 404,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Gabite",
+        "Index": 444,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Caterpie",
+        "Index": 10,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 12
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Weedle",
+        "Index": 13,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 12
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Pidgey",
+        "Index": 16,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 12
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Whismur",
+        "Index": 293,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 12
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Bulbasaur",
+        "Index": 1,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Purified",
+                            "Required": 22
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Charmander",
+        "Index": 4,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Purified",
+                            "Required": 22
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Squirtle",
+        "Index": 7,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Purified",
+                            "Required": 22
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Rattata",
+        "Index": 19,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Purified",
+                            "Required": 22
+                        },
+                        {
+                            "Name": "Alola",
+                            "Required": 25
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Zubat",
+        "Index": 41,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Purified",
+                            "Required": 22
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Oddish",
+        "Index": 43,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Purified",
+                            "Required": 22
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Poliwag",
+        "Index": 60,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Purified",
+                            "Required": 22
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Abra",
+        "Index": 63,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Purified",
+                            "Required": 22
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Dratini",
+        "Index": 147,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Purified",
+                            "Required": 22
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Larvitar",
+        "Index": 246,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Purified",
+                            "Required": 22
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Mudkip",
+        "Index": 258,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Purified",
+                            "Required": 22
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Ralts",
+        "Index": 280,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Purified",
+                            "Required": 22
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Nidoran♀",
+        "Index": 29,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Nidoran♂",
+        "Index": 32,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Machop",
+        "Index": 66,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Bellsprout",
+        "Index": 69,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Geodude",
+        "Index": 74,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Alola",
+                            "Required": 25
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Magnemite",
+        "Index": 81,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Gastly",
+        "Index": 92,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Rhyhorn",
+        "Index": 111,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Horsea",
+        "Index": 116,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Porygon",
+        "Index": 137,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Chikorita",
+        "Index": 152,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cyndaquil",
+        "Index": 155,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Totodile",
+        "Index": 158,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Sentret",
+        "Index": 161,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Ledyba",
+        "Index": 165,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Pichu",
+        "Index": 172,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cleffa",
+        "Index": 173,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Igglybuff",
+        "Index": 174,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Togepi",
+        "Index": 175,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Mareep",
+        "Index": 179,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Marill",
+        "Index": 183,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Hoppip",
+        "Index": 187,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Swinub",
+        "Index": 220,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Smoochum",
+        "Index": 238,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Elekid",
+        "Index": 239,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Magby",
+        "Index": 240,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Treecko",
+        "Index": 252,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Torchic",
+        "Index": 255,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Lotad",
+        "Index": 270,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Seedot",
+        "Index": 273,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Slakoth",
+        "Index": 287,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Azurill",
+        "Index": 298,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Aron",
+        "Index": 304,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Trapinch",
+        "Index": 328,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Duskull",
+        "Index": 355,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Wynaut",
+        "Index": 360,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Spheal",
+        "Index": 363,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Bagon",
+        "Index": 371,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Beldum",
+        "Index": 374,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Turtwig",
+        "Index": 387,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        },
+                        {
+                            "Name": "Purified",
+                            "Required": 25
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Chimchar",
+        "Index": 390,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Piplup",
+        "Index": 393,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Starly",
+        "Index": 396,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Shinx",
+        "Index": 403,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Budew",
+        "Index": 406,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Happiny",
+        "Index": 440,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Gible",
+        "Index": 443,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Magikarp",
+        "Index": 129,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Purified",
+                            "Required": 360
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 400
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 400
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Wailmer",
+        "Index": 320,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 400
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Swablu",
+        "Index": 333,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 400
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Meltan",
+        "Index": 808,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 400
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Venonat",
+        "Index": 48,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Purified",
+                            "Required": 45
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Psyduck",
+        "Index": 54,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Purified",
+                            "Required": 45
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Growlithe",
+        "Index": 58,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Purified",
+                            "Required": 45
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Grimer",
+        "Index": 88,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Purified",
+                            "Required": 45
+                        },
+                        {
+                            "Name": "Alola",
+                            "Required": 50
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Drowzee",
+        "Index": 96,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Purified",
+                            "Required": 45
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cubone",
+        "Index": 104,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Purified",
+                            "Required": 45
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Scyther",
+        "Index": 123,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Purified",
+                            "Required": 45
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Houndour",
+        "Index": 228,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Purified",
+                            "Required": 45
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        },
+                        {
+                            "Name": "Shadow",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Metapod",
+        "Index": 11,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Kakuna",
+        "Index": 14,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Pidgeotto",
+        "Index": 17,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Spearow",
+        "Index": 21,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Ekans",
+        "Index": 23,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Pikachu",
+        "Index": 25,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Sandshrew",
+        "Index": 27,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Alola",
+                            "Required": 50
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Clefairy",
+        "Index": 35,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Vulpix",
+        "Index": 37,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Alola",
+                            "Required": 50
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Jigglypuff",
+        "Index": 39,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Paras",
+        "Index": 46,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Diglett",
+        "Index": 50,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Alola",
+                            "Required": 50
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Meowth",
+        "Index": 52,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Alola",
+                            "Required": 50
+                        },
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Mankey",
+        "Index": 56,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Tentacool",
+        "Index": 72,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Ponyta",
+        "Index": 77,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Doduo",
+        "Index": 84,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Seel",
+        "Index": 86,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Shellder",
+        "Index": 90,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Onix",
+        "Index": 95,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Krabby",
+        "Index": 98,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Voltorb",
+        "Index": 100,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Exeggcute",
+        "Index": 102,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Koffing",
+        "Index": 109,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Chansey",
+        "Index": 113,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Goldeen",
+        "Index": 118,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Staryu",
+        "Index": 120,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Omanyte",
+        "Index": 138,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Kabuto",
+        "Index": 140,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Hoothoot",
+        "Index": 163,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Spinarak",
+        "Index": 167,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Chinchou",
+        "Index": 170,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Natu",
+        "Index": 177,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Sunkern",
+        "Index": 191,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Wooper",
+        "Index": 194,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Pineco",
+        "Index": 204,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Snubbull",
+        "Index": 209,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Teddiursa",
+        "Index": 216,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Slugma",
+        "Index": 218,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Remoraid",
+        "Index": 223,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Phanpy",
+        "Index": 231,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Poochyena",
+        "Index": 261,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Zigzagoon",
+        "Index": 263,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Silcoon",
+        "Index": 266,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cascoon",
+        "Index": 268,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Taillow",
+        "Index": 276,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Wingull",
+        "Index": 278,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Surskit",
+        "Index": 283,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Shroomish",
+        "Index": 285,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Nincada",
+        "Index": 290,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Loudred",
+        "Index": 294,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Makuhita",
+        "Index": 296,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Nosepass",
+        "Index": 299,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Skitty",
+        "Index": 300,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Meditite",
+        "Index": 307,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Electrike",
+        "Index": 309,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Gulpin",
+        "Index": 316,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Carvanha",
+        "Index": 318,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Numel",
+        "Index": 322,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Spoink",
+        "Index": 325,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cacnea",
+        "Index": 331,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Barboach",
+        "Index": 339,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Corphish",
+        "Index": 341,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Baltoy",
+        "Index": 343,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Lileep",
+        "Index": 345,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Anorith",
+        "Index": 347,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Shuppet",
+        "Index": 353,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Bidoof",
+        "Index": 399,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Kricketot",
+        "Index": 401,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Cranidos",
+        "Index": 408,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Shieldon",
+        "Index": 410,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Combee",
+        "Index": 415,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Buizel",
+        "Index": 418,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Shellos",
+        "Index": 422,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "East_sea",
+                            "Required": 50
+                        },
+                        {
+                            "Name": "West_sea",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Drifloon",
+        "Index": 425,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Buneary",
+        "Index": 427,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Glameow",
+        "Index": 431,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Chingling",
+        "Index": 433,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Stunky",
+        "Index": 434,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Bronzor",
+        "Index": 436,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Bonsly",
+        "Index": 438,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Mime Jr.",
+        "Index": 439,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Munchlax",
+        "Index": 446,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Riolu",
+        "Index": 447,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Hippopotas",
+        "Index": 449,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Skorupi",
+        "Index": 451,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Croagunk",
+        "Index": 453,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Finneon",
+        "Index": 456,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Mantyke",
+        "Index": 458,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Snover",
+        "Index": 459,
+        "Candy": [
+            {
+                "Evolve": {
+                    "Forms": [
+                        {
+                            "Name": "Normal",
+                            "Required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+]
