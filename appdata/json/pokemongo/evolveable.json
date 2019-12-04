@@ -1,22 +1,22 @@
 [
     {
-        "Name": "Ivysaur",
-        "Index": 2,
-        "Candy": [
+        "name": "Ivysaur",
+        "index": 2,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 100
+                            "name": "Shadow",
+                            "required": 100
                         },
                         {
-                            "Name": "Purified",
-                            "Required": 90
+                            "name": "Purified",
+                            "required": 90
                         }
                     ]
                 }
@@ -24,23 +24,23 @@
         ]
     },
     {
-        "Name": "Charmeleon",
-        "Index": 5,
-        "Candy": [
+        "name": "Charmeleon",
+        "index": 5,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 100
+                            "name": "Shadow",
+                            "required": 100
                         },
                         {
-                            "Name": "Purified",
-                            "Required": 90
+                            "name": "Purified",
+                            "required": 90
                         }
                     ]
                 }
@@ -48,23 +48,23 @@
         ]
     },
     {
-        "Name": "Wartortle",
-        "Index": 8,
-        "Candy": [
+        "name": "Wartortle",
+        "index": 8,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 100
+                            "name": "Shadow",
+                            "required": 100
                         },
                         {
-                            "Name": "Purified",
-                            "Required": 90
+                            "name": "Purified",
+                            "required": 90
                         }
                     ]
                 }
@@ -72,15 +72,15 @@
         ]
     },
     {
-        "Name": "Nidorina",
-        "Index": 30,
-        "Candy": [
+        "name": "Nidorina",
+        "index": 30,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -88,15 +88,15 @@
         ]
     },
     {
-        "Name": "Nidorino",
-        "Index": 33,
-        "Candy": [
+        "name": "Nidorino",
+        "index": 33,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -104,23 +104,23 @@
         ]
     },
     {
-        "Name": "Golbat",
-        "Index": 42,
-        "Candy": [
+        "name": "Golbat",
+        "index": 42,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 100
+                            "name": "Shadow",
+                            "required": 100
                         },
                         {
-                            "Name": "Purified",
-                            "Required": 90
+                            "name": "Purified",
+                            "required": 90
                         }
                     ]
                 }
@@ -128,23 +128,23 @@
         ]
     },
     {
-        "Name": "Kadabra",
-        "Index": 64,
-        "Candy": [
+        "name": "Kadabra",
+        "index": 64,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 100
+                            "name": "Shadow",
+                            "required": 100
                         },
                         {
-                            "Name": "Purified",
-                            "Required": 90
+                            "name": "Purified",
+                            "required": 90
                         }
                     ]
                 }
@@ -152,15 +152,15 @@
         ]
     },
     {
-        "Name": "Machoke",
-        "Index": 67,
-        "Candy": [
+        "name": "Machoke",
+        "index": 67,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -168,15 +168,15 @@
         ]
     },
     {
-        "Name": "Weepinbell",
-        "Index": 70,
-        "Candy": [
+        "name": "Weepinbell",
+        "index": 70,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -184,19 +184,19 @@
         ]
     },
     {
-        "Name": "Graveler",
-        "Index": 75,
-        "Candy": [
+        "name": "Graveler",
+        "index": 75,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Alola",
-                            "Required": 100
+                            "name": "Alola",
+                            "required": 100
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -204,15 +204,15 @@
         ]
     },
     {
-        "Name": "Magneton",
-        "Index": 82,
-        "Candy": [
+        "name": "Magneton",
+        "index": 82,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -220,15 +220,15 @@
         ]
     },
     {
-        "Name": "Haunter",
-        "Index": 93,
-        "Candy": [
+        "name": "Haunter",
+        "index": 93,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -236,15 +236,15 @@
         ]
     },
     {
-        "Name": "Lickitung",
-        "Index": 108,
-        "Candy": [
+        "name": "Lickitung",
+        "index": 108,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -252,15 +252,15 @@
         ]
     },
     {
-        "Name": "Rhydon",
-        "Index": 112,
-        "Candy": [
+        "name": "Rhydon",
+        "index": 112,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -268,15 +268,15 @@
         ]
     },
     {
-        "Name": "Tangela",
-        "Index": 114,
-        "Candy": [
+        "name": "Tangela",
+        "index": 114,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -284,15 +284,15 @@
         ]
     },
     {
-        "Name": "Seadra",
-        "Index": 117,
-        "Candy": [
+        "name": "Seadra",
+        "index": 117,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -300,15 +300,15 @@
         ]
     },
     {
-        "Name": "Electabuzz",
-        "Index": 125,
-        "Candy": [
+        "name": "Electabuzz",
+        "index": 125,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -316,15 +316,15 @@
         ]
     },
     {
-        "Name": "Magmar",
-        "Index": 126,
-        "Candy": [
+        "name": "Magmar",
+        "index": 126,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -332,23 +332,23 @@
         ]
     },
     {
-        "Name": "Dragonair",
-        "Index": 148,
-        "Candy": [
+        "name": "Dragonair",
+        "index": 148,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 100
+                            "name": "Shadow",
+                            "required": 100
                         },
                         {
-                            "Name": "Purified",
-                            "Required": 90
+                            "name": "Purified",
+                            "required": 90
                         }
                     ]
                 }
@@ -356,15 +356,15 @@
         ]
     },
     {
-        "Name": "Bayleef",
-        "Index": 153,
-        "Candy": [
+        "name": "Bayleef",
+        "index": 153,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -372,15 +372,15 @@
         ]
     },
     {
-        "Name": "Quilava",
-        "Index": 156,
-        "Candy": [
+        "name": "Quilava",
+        "index": 156,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -388,15 +388,15 @@
         ]
     },
     {
-        "Name": "Croconaw",
-        "Index": 159,
-        "Candy": [
+        "name": "Croconaw",
+        "index": 159,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -404,15 +404,15 @@
         ]
     },
     {
-        "Name": "Togetic",
-        "Index": 176,
-        "Candy": [
+        "name": "Togetic",
+        "index": 176,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -420,15 +420,15 @@
         ]
     },
     {
-        "Name": "Flaaffy",
-        "Index": 180,
-        "Candy": [
+        "name": "Flaaffy",
+        "index": 180,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -436,15 +436,15 @@
         ]
     },
     {
-        "Name": "Skiploom",
-        "Index": 188,
-        "Candy": [
+        "name": "Skiploom",
+        "index": 188,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -452,15 +452,15 @@
         ]
     },
     {
-        "Name": "Aipom",
-        "Index": 190,
-        "Candy": [
+        "name": "Aipom",
+        "index": 190,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -468,15 +468,15 @@
         ]
     },
     {
-        "Name": "Yanma",
-        "Index": 193,
-        "Candy": [
+        "name": "Yanma",
+        "index": 193,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -484,15 +484,15 @@
         ]
     },
     {
-        "Name": "Murkrow",
-        "Index": 198,
-        "Candy": [
+        "name": "Murkrow",
+        "index": 198,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -500,15 +500,15 @@
         ]
     },
     {
-        "Name": "Misdreavus",
-        "Index": 200,
-        "Candy": [
+        "name": "Misdreavus",
+        "index": 200,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -516,15 +516,15 @@
         ]
     },
     {
-        "Name": "Gligar",
-        "Index": 207,
-        "Candy": [
+        "name": "Gligar",
+        "index": 207,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -532,15 +532,15 @@
         ]
     },
     {
-        "Name": "Sneasel",
-        "Index": 215,
-        "Candy": [
+        "name": "Sneasel",
+        "index": 215,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -548,15 +548,15 @@
         ]
     },
     {
-        "Name": "Piloswine",
-        "Index": 221,
-        "Candy": [
+        "name": "Piloswine",
+        "index": 221,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -564,15 +564,15 @@
         ]
     },
     {
-        "Name": "Porygon2",
-        "Index": 233,
-        "Candy": [
+        "name": "Porygon2",
+        "index": 233,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -580,23 +580,23 @@
         ]
     },
     {
-        "Name": "Pupitar",
-        "Index": 247,
-        "Candy": [
+        "name": "Pupitar",
+        "index": 247,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 100
+                            "name": "Shadow",
+                            "required": 100
                         },
                         {
-                            "Name": "Purified",
-                            "Required": 90
+                            "name": "Purified",
+                            "required": 90
                         }
                     ]
                 }
@@ -604,15 +604,15 @@
         ]
     },
     {
-        "Name": "Grovyle",
-        "Index": 253,
-        "Candy": [
+        "name": "Grovyle",
+        "index": 253,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -620,15 +620,15 @@
         ]
     },
     {
-        "Name": "Combusken",
-        "Index": 256,
-        "Candy": [
+        "name": "Combusken",
+        "index": 256,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -636,23 +636,23 @@
         ]
     },
     {
-        "Name": "Marshtomp",
-        "Index": 259,
-        "Candy": [
+        "name": "Marshtomp",
+        "index": 259,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 100
+                            "name": "Shadow",
+                            "required": 100
                         },
                         {
-                            "Name": "Purified",
-                            "Required": 90
+                            "name": "Purified",
+                            "required": 90
                         }
                     ]
                 }
@@ -660,15 +660,15 @@
         ]
     },
     {
-        "Name": "Lombre",
-        "Index": 271,
-        "Candy": [
+        "name": "Lombre",
+        "index": 271,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -676,15 +676,15 @@
         ]
     },
     {
-        "Name": "Nuzleaf",
-        "Index": 274,
-        "Candy": [
+        "name": "Nuzleaf",
+        "index": 274,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -692,15 +692,15 @@
         ]
     },
     {
-        "Name": "Vigoroth",
-        "Index": 288,
-        "Candy": [
+        "name": "Vigoroth",
+        "index": 288,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -708,15 +708,15 @@
         ]
     },
     {
-        "Name": "Lairon",
-        "Index": 305,
-        "Candy": [
+        "name": "Lairon",
+        "index": 305,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -724,15 +724,15 @@
         ]
     },
     {
-        "Name": "Roselia",
-        "Index": 315,
-        "Candy": [
+        "name": "Roselia",
+        "index": 315,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -740,15 +740,15 @@
         ]
     },
     {
-        "Name": "Vibrava",
-        "Index": 329,
-        "Candy": [
+        "name": "Vibrava",
+        "index": 329,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -756,15 +756,15 @@
         ]
     },
     {
-        "Name": "Feebas",
-        "Index": 349,
-        "Candy": [
+        "name": "Feebas",
+        "index": 349,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -772,15 +772,15 @@
         ]
     },
     {
-        "Name": "Dusclops",
-        "Index": 356,
-        "Candy": [
+        "name": "Dusclops",
+        "index": 356,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -788,15 +788,15 @@
         ]
     },
     {
-        "Name": "Sealeo",
-        "Index": 364,
-        "Candy": [
+        "name": "Sealeo",
+        "index": 364,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -804,15 +804,15 @@
         ]
     },
     {
-        "Name": "Shelgon",
-        "Index": 372,
-        "Candy": [
+        "name": "Shelgon",
+        "index": 372,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -820,15 +820,15 @@
         ]
     },
     {
-        "Name": "Metang",
-        "Index": 375,
-        "Candy": [
+        "name": "Metang",
+        "index": 375,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -836,23 +836,23 @@
         ]
     },
     {
-        "Name": "Grotle",
-        "Index": 388,
-        "Candy": [
+        "name": "Grotle",
+        "index": 388,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         },
                         {
-                            "Name": "Purified",
-                            "Required": 100
+                            "name": "Purified",
+                            "required": 100
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 100
+                            "name": "Shadow",
+                            "required": 100
                         }
                     ]
                 }
@@ -860,15 +860,15 @@
         ]
     },
     {
-        "Name": "Monferno",
-        "Index": 391,
-        "Candy": [
+        "name": "Monferno",
+        "index": 391,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -876,15 +876,15 @@
         ]
     },
     {
-        "Name": "Prinplup",
-        "Index": 394,
-        "Candy": [
+        "name": "Prinplup",
+        "index": 394,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -892,15 +892,15 @@
         ]
     },
     {
-        "Name": "Staravia",
-        "Index": 397,
-        "Candy": [
+        "name": "Staravia",
+        "index": 397,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -908,15 +908,15 @@
         ]
     },
     {
-        "Name": "Luxio",
-        "Index": 404,
-        "Candy": [
+        "name": "Luxio",
+        "index": 404,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -924,15 +924,15 @@
         ]
     },
     {
-        "Name": "Gabite",
-        "Index": 444,
-        "Candy": [
+        "name": "Gabite",
+        "index": 444,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 100
+                            "name": "Normal",
+                            "required": 100
                         }
                     ]
                 }
@@ -940,15 +940,15 @@
         ]
     },
     {
-        "Name": "Caterpie",
-        "Index": 10,
-        "Candy": [
+        "name": "Caterpie",
+        "index": 10,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 12
+                            "name": "Normal",
+                            "required": 12
                         }
                     ]
                 }
@@ -956,15 +956,15 @@
         ]
     },
     {
-        "Name": "Weedle",
-        "Index": 13,
-        "Candy": [
+        "name": "Weedle",
+        "index": 13,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 12
+                            "name": "Normal",
+                            "required": 12
                         }
                     ]
                 }
@@ -972,15 +972,15 @@
         ]
     },
     {
-        "Name": "Pidgey",
-        "Index": 16,
-        "Candy": [
+        "name": "Pidgey",
+        "index": 16,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 12
+                            "name": "Normal",
+                            "required": 12
                         }
                     ]
                 }
@@ -988,15 +988,15 @@
         ]
     },
     {
-        "Name": "Whismur",
-        "Index": 293,
-        "Candy": [
+        "name": "Whismur",
+        "index": 293,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 12
+                            "name": "Normal",
+                            "required": 12
                         }
                     ]
                 }
@@ -1004,23 +1004,23 @@
         ]
     },
     {
-        "Name": "Bulbasaur",
-        "Index": 1,
-        "Candy": [
+        "name": "Bulbasaur",
+        "index": 1,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Purified",
-                            "Required": 22
+                            "name": "Purified",
+                            "required": 22
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 25
+                            "name": "Shadow",
+                            "required": 25
                         }
                     ]
                 }
@@ -1028,23 +1028,23 @@
         ]
     },
     {
-        "Name": "Charmander",
-        "Index": 4,
-        "Candy": [
+        "name": "Charmander",
+        "index": 4,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Purified",
-                            "Required": 22
+                            "name": "Purified",
+                            "required": 22
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 25
+                            "name": "Shadow",
+                            "required": 25
                         }
                     ]
                 }
@@ -1052,23 +1052,23 @@
         ]
     },
     {
-        "Name": "Squirtle",
-        "Index": 7,
-        "Candy": [
+        "name": "Squirtle",
+        "index": 7,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Purified",
-                            "Required": 22
+                            "name": "Purified",
+                            "required": 22
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 25
+                            "name": "Shadow",
+                            "required": 25
                         }
                     ]
                 }
@@ -1076,27 +1076,27 @@
         ]
     },
     {
-        "Name": "Rattata",
-        "Index": 19,
-        "Candy": [
+        "name": "Rattata",
+        "index": 19,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Purified",
-                            "Required": 22
+                            "name": "Purified",
+                            "required": 22
                         },
                         {
-                            "Name": "Alola",
-                            "Required": 25
+                            "name": "Alola",
+                            "required": 25
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 25
+                            "name": "Shadow",
+                            "required": 25
                         }
                     ]
                 }
@@ -1104,23 +1104,23 @@
         ]
     },
     {
-        "Name": "Zubat",
-        "Index": 41,
-        "Candy": [
+        "name": "Zubat",
+        "index": 41,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Purified",
-                            "Required": 22
+                            "name": "Purified",
+                            "required": 22
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 25
+                            "name": "Shadow",
+                            "required": 25
                         }
                     ]
                 }
@@ -1128,23 +1128,23 @@
         ]
     },
     {
-        "Name": "Oddish",
-        "Index": 43,
-        "Candy": [
+        "name": "Oddish",
+        "index": 43,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Purified",
-                            "Required": 22
+                            "name": "Purified",
+                            "required": 22
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 25
+                            "name": "Shadow",
+                            "required": 25
                         }
                     ]
                 }
@@ -1152,23 +1152,23 @@
         ]
     },
     {
-        "Name": "Poliwag",
-        "Index": 60,
-        "Candy": [
+        "name": "Poliwag",
+        "index": 60,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Purified",
-                            "Required": 22
+                            "name": "Purified",
+                            "required": 22
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 25
+                            "name": "Shadow",
+                            "required": 25
                         }
                     ]
                 }
@@ -1176,23 +1176,23 @@
         ]
     },
     {
-        "Name": "Abra",
-        "Index": 63,
-        "Candy": [
+        "name": "Abra",
+        "index": 63,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Purified",
-                            "Required": 22
+                            "name": "Purified",
+                            "required": 22
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 25
+                            "name": "Shadow",
+                            "required": 25
                         }
                     ]
                 }
@@ -1200,23 +1200,23 @@
         ]
     },
     {
-        "Name": "Dratini",
-        "Index": 147,
-        "Candy": [
+        "name": "Dratini",
+        "index": 147,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Purified",
-                            "Required": 22
+                            "name": "Purified",
+                            "required": 22
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 25
+                            "name": "Shadow",
+                            "required": 25
                         }
                     ]
                 }
@@ -1224,23 +1224,23 @@
         ]
     },
     {
-        "Name": "Larvitar",
-        "Index": 246,
-        "Candy": [
+        "name": "Larvitar",
+        "index": 246,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Purified",
-                            "Required": 22
+                            "name": "Purified",
+                            "required": 22
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 25
+                            "name": "Shadow",
+                            "required": 25
                         }
                     ]
                 }
@@ -1248,23 +1248,23 @@
         ]
     },
     {
-        "Name": "Mudkip",
-        "Index": 258,
-        "Candy": [
+        "name": "Mudkip",
+        "index": 258,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Purified",
-                            "Required": 22
+                            "name": "Purified",
+                            "required": 22
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 25
+                            "name": "Shadow",
+                            "required": 25
                         }
                     ]
                 }
@@ -1272,23 +1272,23 @@
         ]
     },
     {
-        "Name": "Ralts",
-        "Index": 280,
-        "Candy": [
+        "name": "Ralts",
+        "index": 280,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Purified",
-                            "Required": 22
+                            "name": "Purified",
+                            "required": 22
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 25
+                            "name": "Shadow",
+                            "required": 25
                         }
                     ]
                 }
@@ -1296,15 +1296,15 @@
         ]
     },
     {
-        "Name": "Nidoran♀",
-        "Index": 29,
-        "Candy": [
+        "name": "Nidoran\u2640",
+        "index": 29,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1312,15 +1312,15 @@
         ]
     },
     {
-        "Name": "Nidoran♂",
-        "Index": 32,
-        "Candy": [
+        "name": "Nidoran\u2642",
+        "index": 32,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1328,15 +1328,15 @@
         ]
     },
     {
-        "Name": "Machop",
-        "Index": 66,
-        "Candy": [
+        "name": "Machop",
+        "index": 66,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1344,15 +1344,15 @@
         ]
     },
     {
-        "Name": "Bellsprout",
-        "Index": 69,
-        "Candy": [
+        "name": "Bellsprout",
+        "index": 69,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1360,19 +1360,19 @@
         ]
     },
     {
-        "Name": "Geodude",
-        "Index": 74,
-        "Candy": [
+        "name": "Geodude",
+        "index": 74,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Alola",
-                            "Required": 25
+                            "name": "Alola",
+                            "required": 25
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1380,15 +1380,15 @@
         ]
     },
     {
-        "Name": "Magnemite",
-        "Index": 81,
-        "Candy": [
+        "name": "Magnemite",
+        "index": 81,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1396,15 +1396,15 @@
         ]
     },
     {
-        "Name": "Gastly",
-        "Index": 92,
-        "Candy": [
+        "name": "Gastly",
+        "index": 92,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1412,15 +1412,15 @@
         ]
     },
     {
-        "Name": "Rhyhorn",
-        "Index": 111,
-        "Candy": [
+        "name": "Rhyhorn",
+        "index": 111,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1428,15 +1428,15 @@
         ]
     },
     {
-        "Name": "Horsea",
-        "Index": 116,
-        "Candy": [
+        "name": "Horsea",
+        "index": 116,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1444,15 +1444,15 @@
         ]
     },
     {
-        "Name": "Porygon",
-        "Index": 137,
-        "Candy": [
+        "name": "Porygon",
+        "index": 137,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1460,15 +1460,15 @@
         ]
     },
     {
-        "Name": "Chikorita",
-        "Index": 152,
-        "Candy": [
+        "name": "Chikorita",
+        "index": 152,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1476,15 +1476,15 @@
         ]
     },
     {
-        "Name": "Cyndaquil",
-        "Index": 155,
-        "Candy": [
+        "name": "Cyndaquil",
+        "index": 155,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1492,15 +1492,15 @@
         ]
     },
     {
-        "Name": "Totodile",
-        "Index": 158,
-        "Candy": [
+        "name": "Totodile",
+        "index": 158,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1508,15 +1508,15 @@
         ]
     },
     {
-        "Name": "Sentret",
-        "Index": 161,
-        "Candy": [
+        "name": "Sentret",
+        "index": 161,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1524,15 +1524,15 @@
         ]
     },
     {
-        "Name": "Ledyba",
-        "Index": 165,
-        "Candy": [
+        "name": "Ledyba",
+        "index": 165,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1540,15 +1540,15 @@
         ]
     },
     {
-        "Name": "Pichu",
-        "Index": 172,
-        "Candy": [
+        "name": "Pichu",
+        "index": 172,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1556,15 +1556,15 @@
         ]
     },
     {
-        "Name": "Cleffa",
-        "Index": 173,
-        "Candy": [
+        "name": "Cleffa",
+        "index": 173,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1572,15 +1572,15 @@
         ]
     },
     {
-        "Name": "Igglybuff",
-        "Index": 174,
-        "Candy": [
+        "name": "Igglybuff",
+        "index": 174,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1588,15 +1588,15 @@
         ]
     },
     {
-        "Name": "Togepi",
-        "Index": 175,
-        "Candy": [
+        "name": "Togepi",
+        "index": 175,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1604,15 +1604,15 @@
         ]
     },
     {
-        "Name": "Mareep",
-        "Index": 179,
-        "Candy": [
+        "name": "Mareep",
+        "index": 179,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1620,15 +1620,15 @@
         ]
     },
     {
-        "Name": "Marill",
-        "Index": 183,
-        "Candy": [
+        "name": "Marill",
+        "index": 183,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1636,15 +1636,15 @@
         ]
     },
     {
-        "Name": "Hoppip",
-        "Index": 187,
-        "Candy": [
+        "name": "Hoppip",
+        "index": 187,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1652,15 +1652,15 @@
         ]
     },
     {
-        "Name": "Swinub",
-        "Index": 220,
-        "Candy": [
+        "name": "Swinub",
+        "index": 220,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1668,15 +1668,15 @@
         ]
     },
     {
-        "Name": "Smoochum",
-        "Index": 238,
-        "Candy": [
+        "name": "Smoochum",
+        "index": 238,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1684,15 +1684,15 @@
         ]
     },
     {
-        "Name": "Elekid",
-        "Index": 239,
-        "Candy": [
+        "name": "Elekid",
+        "index": 239,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1700,15 +1700,15 @@
         ]
     },
     {
-        "Name": "Magby",
-        "Index": 240,
-        "Candy": [
+        "name": "Magby",
+        "index": 240,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1716,15 +1716,15 @@
         ]
     },
     {
-        "Name": "Treecko",
-        "Index": 252,
-        "Candy": [
+        "name": "Treecko",
+        "index": 252,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1732,15 +1732,15 @@
         ]
     },
     {
-        "Name": "Torchic",
-        "Index": 255,
-        "Candy": [
+        "name": "Torchic",
+        "index": 255,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1748,15 +1748,15 @@
         ]
     },
     {
-        "Name": "Lotad",
-        "Index": 270,
-        "Candy": [
+        "name": "Lotad",
+        "index": 270,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1764,15 +1764,15 @@
         ]
     },
     {
-        "Name": "Seedot",
-        "Index": 273,
-        "Candy": [
+        "name": "Seedot",
+        "index": 273,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1780,15 +1780,15 @@
         ]
     },
     {
-        "Name": "Slakoth",
-        "Index": 287,
-        "Candy": [
+        "name": "Slakoth",
+        "index": 287,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1796,15 +1796,15 @@
         ]
     },
     {
-        "Name": "Azurill",
-        "Index": 298,
-        "Candy": [
+        "name": "Azurill",
+        "index": 298,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1812,15 +1812,15 @@
         ]
     },
     {
-        "Name": "Aron",
-        "Index": 304,
-        "Candy": [
+        "name": "Aron",
+        "index": 304,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1828,15 +1828,15 @@
         ]
     },
     {
-        "Name": "Trapinch",
-        "Index": 328,
-        "Candy": [
+        "name": "Trapinch",
+        "index": 328,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1844,15 +1844,15 @@
         ]
     },
     {
-        "Name": "Duskull",
-        "Index": 355,
-        "Candy": [
+        "name": "Duskull",
+        "index": 355,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1860,15 +1860,15 @@
         ]
     },
     {
-        "Name": "Wynaut",
-        "Index": 360,
-        "Candy": [
+        "name": "Wynaut",
+        "index": 360,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1876,15 +1876,15 @@
         ]
     },
     {
-        "Name": "Spheal",
-        "Index": 363,
-        "Candy": [
+        "name": "Spheal",
+        "index": 363,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1892,15 +1892,15 @@
         ]
     },
     {
-        "Name": "Bagon",
-        "Index": 371,
-        "Candy": [
+        "name": "Bagon",
+        "index": 371,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1908,15 +1908,15 @@
         ]
     },
     {
-        "Name": "Beldum",
-        "Index": 374,
-        "Candy": [
+        "name": "Beldum",
+        "index": 374,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1924,23 +1924,23 @@
         ]
     },
     {
-        "Name": "Turtwig",
-        "Index": 387,
-        "Candy": [
+        "name": "Turtwig",
+        "index": 387,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         },
                         {
-                            "Name": "Purified",
-                            "Required": 25
+                            "name": "Purified",
+                            "required": 25
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 25
+                            "name": "Shadow",
+                            "required": 25
                         }
                     ]
                 }
@@ -1948,15 +1948,15 @@
         ]
     },
     {
-        "Name": "Chimchar",
-        "Index": 390,
-        "Candy": [
+        "name": "Chimchar",
+        "index": 390,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1964,15 +1964,15 @@
         ]
     },
     {
-        "Name": "Piplup",
-        "Index": 393,
-        "Candy": [
+        "name": "Piplup",
+        "index": 393,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1980,15 +1980,15 @@
         ]
     },
     {
-        "Name": "Starly",
-        "Index": 396,
-        "Candy": [
+        "name": "Starly",
+        "index": 396,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -1996,15 +1996,15 @@
         ]
     },
     {
-        "Name": "Shinx",
-        "Index": 403,
-        "Candy": [
+        "name": "Shinx",
+        "index": 403,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -2012,15 +2012,15 @@
         ]
     },
     {
-        "Name": "Budew",
-        "Index": 406,
-        "Candy": [
+        "name": "Budew",
+        "index": 406,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -2028,15 +2028,15 @@
         ]
     },
     {
-        "Name": "Happiny",
-        "Index": 440,
-        "Candy": [
+        "name": "Happiny",
+        "index": 440,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -2044,15 +2044,15 @@
         ]
     },
     {
-        "Name": "Gible",
-        "Index": 443,
-        "Candy": [
+        "name": "Gible",
+        "index": 443,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 25
+                            "name": "Normal",
+                            "required": 25
                         }
                     ]
                 }
@@ -2060,23 +2060,23 @@
         ]
     },
     {
-        "Name": "Magikarp",
-        "Index": 129,
-        "Candy": [
+        "name": "Magikarp",
+        "index": 129,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Purified",
-                            "Required": 360
+                            "name": "Purified",
+                            "required": 360
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 400
+                            "name": "Normal",
+                            "required": 400
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 400
+                            "name": "Shadow",
+                            "required": 400
                         }
                     ]
                 }
@@ -2084,15 +2084,15 @@
         ]
     },
     {
-        "Name": "Wailmer",
-        "Index": 320,
-        "Candy": [
+        "name": "Wailmer",
+        "index": 320,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 400
+                            "name": "Normal",
+                            "required": 400
                         }
                     ]
                 }
@@ -2100,15 +2100,15 @@
         ]
     },
     {
-        "Name": "Swablu",
-        "Index": 333,
-        "Candy": [
+        "name": "Swablu",
+        "index": 333,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 400
+                            "name": "Normal",
+                            "required": 400
                         }
                     ]
                 }
@@ -2116,15 +2116,15 @@
         ]
     },
     {
-        "Name": "Meltan",
-        "Index": 808,
-        "Candy": [
+        "name": "Meltan",
+        "index": 808,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 400
+                            "name": "Normal",
+                            "required": 400
                         }
                     ]
                 }
@@ -2132,23 +2132,23 @@
         ]
     },
     {
-        "Name": "Venonat",
-        "Index": 48,
-        "Candy": [
+        "name": "Venonat",
+        "index": 48,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Purified",
-                            "Required": 45
+                            "name": "Purified",
+                            "required": 45
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 50
+                            "name": "Shadow",
+                            "required": 50
                         }
                     ]
                 }
@@ -2156,23 +2156,23 @@
         ]
     },
     {
-        "Name": "Psyduck",
-        "Index": 54,
-        "Candy": [
+        "name": "Psyduck",
+        "index": 54,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Purified",
-                            "Required": 45
+                            "name": "Purified",
+                            "required": 45
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 50
+                            "name": "Shadow",
+                            "required": 50
                         }
                     ]
                 }
@@ -2180,23 +2180,23 @@
         ]
     },
     {
-        "Name": "Growlithe",
-        "Index": 58,
-        "Candy": [
+        "name": "Growlithe",
+        "index": 58,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Purified",
-                            "Required": 45
+                            "name": "Purified",
+                            "required": 45
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 50
+                            "name": "Shadow",
+                            "required": 50
                         }
                     ]
                 }
@@ -2204,27 +2204,27 @@
         ]
     },
     {
-        "Name": "Grimer",
-        "Index": 88,
-        "Candy": [
+        "name": "Grimer",
+        "index": 88,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Purified",
-                            "Required": 45
+                            "name": "Purified",
+                            "required": 45
                         },
                         {
-                            "Name": "Alola",
-                            "Required": 50
+                            "name": "Alola",
+                            "required": 50
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 50
+                            "name": "Shadow",
+                            "required": 50
                         }
                     ]
                 }
@@ -2232,23 +2232,23 @@
         ]
     },
     {
-        "Name": "Drowzee",
-        "Index": 96,
-        "Candy": [
+        "name": "Drowzee",
+        "index": 96,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Purified",
-                            "Required": 45
+                            "name": "Purified",
+                            "required": 45
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 50
+                            "name": "Shadow",
+                            "required": 50
                         }
                     ]
                 }
@@ -2256,23 +2256,23 @@
         ]
     },
     {
-        "Name": "Cubone",
-        "Index": 104,
-        "Candy": [
+        "name": "Cubone",
+        "index": 104,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Purified",
-                            "Required": 45
+                            "name": "Purified",
+                            "required": 45
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 50
+                            "name": "Shadow",
+                            "required": 50
                         }
                     ]
                 }
@@ -2280,23 +2280,23 @@
         ]
     },
     {
-        "Name": "Scyther",
-        "Index": 123,
-        "Candy": [
+        "name": "Scyther",
+        "index": 123,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Purified",
-                            "Required": 45
+                            "name": "Purified",
+                            "required": 45
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 50
+                            "name": "Shadow",
+                            "required": 50
                         }
                     ]
                 }
@@ -2304,23 +2304,23 @@
         ]
     },
     {
-        "Name": "Houndour",
-        "Index": 228,
-        "Candy": [
+        "name": "Houndour",
+        "index": 228,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Purified",
-                            "Required": 45
+                            "name": "Purified",
+                            "required": 45
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         },
                         {
-                            "Name": "Shadow",
-                            "Required": 50
+                            "name": "Shadow",
+                            "required": 50
                         }
                     ]
                 }
@@ -2328,15 +2328,15 @@
         ]
     },
     {
-        "Name": "Metapod",
-        "Index": 11,
-        "Candy": [
+        "name": "Metapod",
+        "index": 11,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2344,15 +2344,15 @@
         ]
     },
     {
-        "Name": "Kakuna",
-        "Index": 14,
-        "Candy": [
+        "name": "Kakuna",
+        "index": 14,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2360,15 +2360,15 @@
         ]
     },
     {
-        "Name": "Pidgeotto",
-        "Index": 17,
-        "Candy": [
+        "name": "Pidgeotto",
+        "index": 17,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2376,15 +2376,15 @@
         ]
     },
     {
-        "Name": "Spearow",
-        "Index": 21,
-        "Candy": [
+        "name": "Spearow",
+        "index": 21,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2392,15 +2392,15 @@
         ]
     },
     {
-        "Name": "Ekans",
-        "Index": 23,
-        "Candy": [
+        "name": "Ekans",
+        "index": 23,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2408,15 +2408,15 @@
         ]
     },
     {
-        "Name": "Pikachu",
-        "Index": 25,
-        "Candy": [
+        "name": "Pikachu",
+        "index": 25,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2424,19 +2424,19 @@
         ]
     },
     {
-        "Name": "Sandshrew",
-        "Index": 27,
-        "Candy": [
+        "name": "Sandshrew",
+        "index": 27,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Alola",
-                            "Required": 50
+                            "name": "Alola",
+                            "required": 50
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2444,15 +2444,15 @@
         ]
     },
     {
-        "Name": "Clefairy",
-        "Index": 35,
-        "Candy": [
+        "name": "Clefairy",
+        "index": 35,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2460,19 +2460,19 @@
         ]
     },
     {
-        "Name": "Vulpix",
-        "Index": 37,
-        "Candy": [
+        "name": "Vulpix",
+        "index": 37,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Alola",
-                            "Required": 50
+                            "name": "Alola",
+                            "required": 50
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2480,15 +2480,15 @@
         ]
     },
     {
-        "Name": "Jigglypuff",
-        "Index": 39,
-        "Candy": [
+        "name": "Jigglypuff",
+        "index": 39,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2496,15 +2496,15 @@
         ]
     },
     {
-        "Name": "Paras",
-        "Index": 46,
-        "Candy": [
+        "name": "Paras",
+        "index": 46,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2512,19 +2512,19 @@
         ]
     },
     {
-        "Name": "Diglett",
-        "Index": 50,
-        "Candy": [
+        "name": "Diglett",
+        "index": 50,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Alola",
-                            "Required": 50
+                            "name": "Alola",
+                            "required": 50
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2532,19 +2532,19 @@
         ]
     },
     {
-        "Name": "Meowth",
-        "Index": 52,
-        "Candy": [
+        "name": "Meowth",
+        "index": 52,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Alola",
-                            "Required": 50
+                            "name": "Alola",
+                            "required": 50
                         },
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2552,15 +2552,15 @@
         ]
     },
     {
-        "Name": "Mankey",
-        "Index": 56,
-        "Candy": [
+        "name": "Mankey",
+        "index": 56,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2568,15 +2568,15 @@
         ]
     },
     {
-        "Name": "Tentacool",
-        "Index": 72,
-        "Candy": [
+        "name": "Tentacool",
+        "index": 72,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2584,15 +2584,15 @@
         ]
     },
     {
-        "Name": "Ponyta",
-        "Index": 77,
-        "Candy": [
+        "name": "Ponyta",
+        "index": 77,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2600,15 +2600,15 @@
         ]
     },
     {
-        "Name": "Doduo",
-        "Index": 84,
-        "Candy": [
+        "name": "Doduo",
+        "index": 84,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2616,15 +2616,15 @@
         ]
     },
     {
-        "Name": "Seel",
-        "Index": 86,
-        "Candy": [
+        "name": "Seel",
+        "index": 86,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2632,15 +2632,15 @@
         ]
     },
     {
-        "Name": "Shellder",
-        "Index": 90,
-        "Candy": [
+        "name": "Shellder",
+        "index": 90,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2648,15 +2648,15 @@
         ]
     },
     {
-        "Name": "Onix",
-        "Index": 95,
-        "Candy": [
+        "name": "Onix",
+        "index": 95,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2664,15 +2664,15 @@
         ]
     },
     {
-        "Name": "Krabby",
-        "Index": 98,
-        "Candy": [
+        "name": "Krabby",
+        "index": 98,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2680,15 +2680,15 @@
         ]
     },
     {
-        "Name": "Voltorb",
-        "Index": 100,
-        "Candy": [
+        "name": "Voltorb",
+        "index": 100,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2696,15 +2696,15 @@
         ]
     },
     {
-        "Name": "Exeggcute",
-        "Index": 102,
-        "Candy": [
+        "name": "Exeggcute",
+        "index": 102,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2712,15 +2712,15 @@
         ]
     },
     {
-        "Name": "Koffing",
-        "Index": 109,
-        "Candy": [
+        "name": "Koffing",
+        "index": 109,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2728,15 +2728,15 @@
         ]
     },
     {
-        "Name": "Chansey",
-        "Index": 113,
-        "Candy": [
+        "name": "Chansey",
+        "index": 113,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2744,15 +2744,15 @@
         ]
     },
     {
-        "Name": "Goldeen",
-        "Index": 118,
-        "Candy": [
+        "name": "Goldeen",
+        "index": 118,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2760,15 +2760,15 @@
         ]
     },
     {
-        "Name": "Staryu",
-        "Index": 120,
-        "Candy": [
+        "name": "Staryu",
+        "index": 120,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2776,15 +2776,15 @@
         ]
     },
     {
-        "Name": "Omanyte",
-        "Index": 138,
-        "Candy": [
+        "name": "Omanyte",
+        "index": 138,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2792,15 +2792,15 @@
         ]
     },
     {
-        "Name": "Kabuto",
-        "Index": 140,
-        "Candy": [
+        "name": "Kabuto",
+        "index": 140,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2808,15 +2808,15 @@
         ]
     },
     {
-        "Name": "Hoothoot",
-        "Index": 163,
-        "Candy": [
+        "name": "Hoothoot",
+        "index": 163,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2824,15 +2824,15 @@
         ]
     },
     {
-        "Name": "Spinarak",
-        "Index": 167,
-        "Candy": [
+        "name": "Spinarak",
+        "index": 167,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2840,15 +2840,15 @@
         ]
     },
     {
-        "Name": "Chinchou",
-        "Index": 170,
-        "Candy": [
+        "name": "Chinchou",
+        "index": 170,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2856,15 +2856,15 @@
         ]
     },
     {
-        "Name": "Natu",
-        "Index": 177,
-        "Candy": [
+        "name": "Natu",
+        "index": 177,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2872,15 +2872,15 @@
         ]
     },
     {
-        "Name": "Sunkern",
-        "Index": 191,
-        "Candy": [
+        "name": "Sunkern",
+        "index": 191,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2888,15 +2888,15 @@
         ]
     },
     {
-        "Name": "Wooper",
-        "Index": 194,
-        "Candy": [
+        "name": "Wooper",
+        "index": 194,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2904,15 +2904,15 @@
         ]
     },
     {
-        "Name": "Pineco",
-        "Index": 204,
-        "Candy": [
+        "name": "Pineco",
+        "index": 204,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2920,15 +2920,15 @@
         ]
     },
     {
-        "Name": "Snubbull",
-        "Index": 209,
-        "Candy": [
+        "name": "Snubbull",
+        "index": 209,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2936,15 +2936,15 @@
         ]
     },
     {
-        "Name": "Teddiursa",
-        "Index": 216,
-        "Candy": [
+        "name": "Teddiursa",
+        "index": 216,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2952,15 +2952,15 @@
         ]
     },
     {
-        "Name": "Slugma",
-        "Index": 218,
-        "Candy": [
+        "name": "Slugma",
+        "index": 218,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2968,15 +2968,15 @@
         ]
     },
     {
-        "Name": "Remoraid",
-        "Index": 223,
-        "Candy": [
+        "name": "Remoraid",
+        "index": 223,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -2984,15 +2984,15 @@
         ]
     },
     {
-        "Name": "Phanpy",
-        "Index": 231,
-        "Candy": [
+        "name": "Phanpy",
+        "index": 231,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3000,15 +3000,15 @@
         ]
     },
     {
-        "Name": "Poochyena",
-        "Index": 261,
-        "Candy": [
+        "name": "Poochyena",
+        "index": 261,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3016,15 +3016,15 @@
         ]
     },
     {
-        "Name": "Zigzagoon",
-        "Index": 263,
-        "Candy": [
+        "name": "Zigzagoon",
+        "index": 263,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3032,15 +3032,15 @@
         ]
     },
     {
-        "Name": "Silcoon",
-        "Index": 266,
-        "Candy": [
+        "name": "Silcoon",
+        "index": 266,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3048,15 +3048,15 @@
         ]
     },
     {
-        "Name": "Cascoon",
-        "Index": 268,
-        "Candy": [
+        "name": "Cascoon",
+        "index": 268,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3064,15 +3064,15 @@
         ]
     },
     {
-        "Name": "Taillow",
-        "Index": 276,
-        "Candy": [
+        "name": "Taillow",
+        "index": 276,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3080,15 +3080,15 @@
         ]
     },
     {
-        "Name": "Wingull",
-        "Index": 278,
-        "Candy": [
+        "name": "Wingull",
+        "index": 278,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3096,15 +3096,15 @@
         ]
     },
     {
-        "Name": "Surskit",
-        "Index": 283,
-        "Candy": [
+        "name": "Surskit",
+        "index": 283,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3112,15 +3112,15 @@
         ]
     },
     {
-        "Name": "Shroomish",
-        "Index": 285,
-        "Candy": [
+        "name": "Shroomish",
+        "index": 285,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3128,15 +3128,15 @@
         ]
     },
     {
-        "Name": "Nincada",
-        "Index": 290,
-        "Candy": [
+        "name": "Nincada",
+        "index": 290,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3144,15 +3144,15 @@
         ]
     },
     {
-        "Name": "Loudred",
-        "Index": 294,
-        "Candy": [
+        "name": "Loudred",
+        "index": 294,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3160,15 +3160,15 @@
         ]
     },
     {
-        "Name": "Makuhita",
-        "Index": 296,
-        "Candy": [
+        "name": "Makuhita",
+        "index": 296,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3176,15 +3176,15 @@
         ]
     },
     {
-        "Name": "Nosepass",
-        "Index": 299,
-        "Candy": [
+        "name": "Nosepass",
+        "index": 299,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3192,15 +3192,15 @@
         ]
     },
     {
-        "Name": "Skitty",
-        "Index": 300,
-        "Candy": [
+        "name": "Skitty",
+        "index": 300,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3208,15 +3208,15 @@
         ]
     },
     {
-        "Name": "Meditite",
-        "Index": 307,
-        "Candy": [
+        "name": "Meditite",
+        "index": 307,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3224,15 +3224,15 @@
         ]
     },
     {
-        "Name": "Electrike",
-        "Index": 309,
-        "Candy": [
+        "name": "Electrike",
+        "index": 309,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3240,15 +3240,15 @@
         ]
     },
     {
-        "Name": "Gulpin",
-        "Index": 316,
-        "Candy": [
+        "name": "Gulpin",
+        "index": 316,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3256,15 +3256,15 @@
         ]
     },
     {
-        "Name": "Carvanha",
-        "Index": 318,
-        "Candy": [
+        "name": "Carvanha",
+        "index": 318,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3272,15 +3272,15 @@
         ]
     },
     {
-        "Name": "Numel",
-        "Index": 322,
-        "Candy": [
+        "name": "Numel",
+        "index": 322,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3288,15 +3288,15 @@
         ]
     },
     {
-        "Name": "Spoink",
-        "Index": 325,
-        "Candy": [
+        "name": "Spoink",
+        "index": 325,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3304,15 +3304,15 @@
         ]
     },
     {
-        "Name": "Cacnea",
-        "Index": 331,
-        "Candy": [
+        "name": "Cacnea",
+        "index": 331,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3320,15 +3320,15 @@
         ]
     },
     {
-        "Name": "Barboach",
-        "Index": 339,
-        "Candy": [
+        "name": "Barboach",
+        "index": 339,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3336,15 +3336,15 @@
         ]
     },
     {
-        "Name": "Corphish",
-        "Index": 341,
-        "Candy": [
+        "name": "Corphish",
+        "index": 341,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3352,15 +3352,15 @@
         ]
     },
     {
-        "Name": "Baltoy",
-        "Index": 343,
-        "Candy": [
+        "name": "Baltoy",
+        "index": 343,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3368,15 +3368,15 @@
         ]
     },
     {
-        "Name": "Lileep",
-        "Index": 345,
-        "Candy": [
+        "name": "Lileep",
+        "index": 345,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3384,15 +3384,15 @@
         ]
     },
     {
-        "Name": "Anorith",
-        "Index": 347,
-        "Candy": [
+        "name": "Anorith",
+        "index": 347,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3400,15 +3400,15 @@
         ]
     },
     {
-        "Name": "Shuppet",
-        "Index": 353,
-        "Candy": [
+        "name": "Shuppet",
+        "index": 353,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3416,15 +3416,15 @@
         ]
     },
     {
-        "Name": "Bidoof",
-        "Index": 399,
-        "Candy": [
+        "name": "Bidoof",
+        "index": 399,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3432,15 +3432,15 @@
         ]
     },
     {
-        "Name": "Kricketot",
-        "Index": 401,
-        "Candy": [
+        "name": "Kricketot",
+        "index": 401,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3448,15 +3448,15 @@
         ]
     },
     {
-        "Name": "Cranidos",
-        "Index": 408,
-        "Candy": [
+        "name": "Cranidos",
+        "index": 408,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3464,15 +3464,15 @@
         ]
     },
     {
-        "Name": "Shieldon",
-        "Index": 410,
-        "Candy": [
+        "name": "Shieldon",
+        "index": 410,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3480,15 +3480,15 @@
         ]
     },
     {
-        "Name": "Combee",
-        "Index": 415,
-        "Candy": [
+        "name": "Combee",
+        "index": 415,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3496,15 +3496,15 @@
         ]
     },
     {
-        "Name": "Buizel",
-        "Index": 418,
-        "Candy": [
+        "name": "Buizel",
+        "index": 418,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3512,19 +3512,19 @@
         ]
     },
     {
-        "Name": "Shellos",
-        "Index": 422,
-        "Candy": [
+        "name": "Shellos",
+        "index": 422,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "East_sea",
-                            "Required": 50
+                            "name": "East_sea",
+                            "required": 50
                         },
                         {
-                            "Name": "West_sea",
-                            "Required": 50
+                            "name": "West_sea",
+                            "required": 50
                         }
                     ]
                 }
@@ -3532,15 +3532,15 @@
         ]
     },
     {
-        "Name": "Drifloon",
-        "Index": 425,
-        "Candy": [
+        "name": "Drifloon",
+        "index": 425,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3548,15 +3548,15 @@
         ]
     },
     {
-        "Name": "Buneary",
-        "Index": 427,
-        "Candy": [
+        "name": "Buneary",
+        "index": 427,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3564,15 +3564,15 @@
         ]
     },
     {
-        "Name": "Glameow",
-        "Index": 431,
-        "Candy": [
+        "name": "Glameow",
+        "index": 431,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3580,15 +3580,15 @@
         ]
     },
     {
-        "Name": "Chingling",
-        "Index": 433,
-        "Candy": [
+        "name": "Chingling",
+        "index": 433,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3596,15 +3596,15 @@
         ]
     },
     {
-        "Name": "Stunky",
-        "Index": 434,
-        "Candy": [
+        "name": "Stunky",
+        "index": 434,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3612,15 +3612,15 @@
         ]
     },
     {
-        "Name": "Bronzor",
-        "Index": 436,
-        "Candy": [
+        "name": "Bronzor",
+        "index": 436,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3628,15 +3628,15 @@
         ]
     },
     {
-        "Name": "Bonsly",
-        "Index": 438,
-        "Candy": [
+        "name": "Bonsly",
+        "index": 438,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3644,15 +3644,15 @@
         ]
     },
     {
-        "Name": "Mime Jr.",
-        "Index": 439,
-        "Candy": [
+        "name": "Mime Jr.",
+        "index": 439,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3660,15 +3660,15 @@
         ]
     },
     {
-        "Name": "Munchlax",
-        "Index": 446,
-        "Candy": [
+        "name": "Munchlax",
+        "index": 446,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3676,15 +3676,15 @@
         ]
     },
     {
-        "Name": "Riolu",
-        "Index": 447,
-        "Candy": [
+        "name": "Riolu",
+        "index": 447,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3692,15 +3692,15 @@
         ]
     },
     {
-        "Name": "Hippopotas",
-        "Index": 449,
-        "Candy": [
+        "name": "Hippopotas",
+        "index": 449,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3708,15 +3708,15 @@
         ]
     },
     {
-        "Name": "Skorupi",
-        "Index": 451,
-        "Candy": [
+        "name": "Skorupi",
+        "index": 451,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3724,15 +3724,15 @@
         ]
     },
     {
-        "Name": "Croagunk",
-        "Index": 453,
-        "Candy": [
+        "name": "Croagunk",
+        "index": 453,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3740,15 +3740,15 @@
         ]
     },
     {
-        "Name": "Finneon",
-        "Index": 456,
-        "Candy": [
+        "name": "Finneon",
+        "index": 456,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3756,15 +3756,15 @@
         ]
     },
     {
-        "Name": "Mantyke",
-        "Index": 458,
-        "Candy": [
+        "name": "Mantyke",
+        "index": 458,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
@@ -3772,15 +3772,15 @@
         ]
     },
     {
-        "Name": "Snover",
-        "Index": 459,
-        "Candy": [
+        "name": "Snover",
+        "index": 459,
+        "candy": [
             {
-                "Evolve": {
-                    "Forms": [
+                "evolve": {
+                    "forms": [
                         {
-                            "Name": "Normal",
-                            "Required": 50
+                            "name": "Normal",
+                            "required": 50
                         }
                     ]
                 }
