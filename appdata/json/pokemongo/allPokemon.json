@@ -1,0 +1,5385 @@
+[
+    {
+        "name": "Ivysaur",
+        "id": 2,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 100
+                        },
+                        {
+                            "name": "Purified",
+                            "required": 90
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Charmeleon",
+        "id": 5,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 100
+                        },
+                        {
+                            "name": "Purified",
+                            "required": 90
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Wartortle",
+        "id": 8,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 100
+                        },
+                        {
+                            "name": "Purified",
+                            "required": 90
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Nidorina",
+        "id": 30,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Nidorino",
+        "id": 33,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Golbat",
+        "id": 42,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 100
+                        },
+                        {
+                            "name": "Purified",
+                            "required": 90
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Kadabra",
+        "id": 64,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 100
+                        },
+                        {
+                            "name": "Purified",
+                            "required": 90
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Machoke",
+        "id": 67,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Weepinbell",
+        "id": 70,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Graveler",
+        "id": 75,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Alola",
+                            "required": 100
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Magneton",
+        "id": 82,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Haunter",
+        "id": 93,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Lickitung",
+        "id": 108,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Rhydon",
+        "id": 112,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Tangela",
+        "id": 114,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Seadra",
+        "id": 117,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Electabuzz",
+        "id": 125,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Magmar",
+        "id": 126,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Dragonair",
+        "id": 148,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 100
+                        },
+                        {
+                            "name": "Purified",
+                            "required": 90
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Bayleef",
+        "id": 153,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Quilava",
+        "id": 156,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Croconaw",
+        "id": 159,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Togetic",
+        "id": 176,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Flaaffy",
+        "id": 180,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Skiploom",
+        "id": 188,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Aipom",
+        "id": 190,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Yanma",
+        "id": 193,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Murkrow",
+        "id": 198,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Misdreavus",
+        "id": 200,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Gligar",
+        "id": 207,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Sneasel",
+        "id": 215,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Piloswine",
+        "id": 221,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Porygon2",
+        "id": 233,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Pupitar",
+        "id": 247,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 100
+                        },
+                        {
+                            "name": "Purified",
+                            "required": 90
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Grovyle",
+        "id": 253,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Combusken",
+        "id": 256,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Marshtomp",
+        "id": 259,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 100
+                        },
+                        {
+                            "name": "Purified",
+                            "required": 90
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Lombre",
+        "id": 271,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Nuzleaf",
+        "id": 274,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Vigoroth",
+        "id": 288,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Lairon",
+        "id": 305,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Roselia",
+        "id": 315,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Vibrava",
+        "id": 329,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Feebas",
+        "id": 349,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Dusclops",
+        "id": 356,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Sealeo",
+        "id": 364,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Shelgon",
+        "id": 372,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Metang",
+        "id": 375,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Grotle",
+        "id": 388,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        },
+                        {
+                            "name": "Purified",
+                            "required": 100
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Monferno",
+        "id": 391,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Prinplup",
+        "id": 394,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Staravia",
+        "id": 397,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Luxio",
+        "id": 404,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Gabite",
+        "id": 444,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 100
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Caterpie",
+        "id": 10,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 12
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Weedle",
+        "id": 13,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 12
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Pidgey",
+        "id": 16,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 12
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Whismur",
+        "id": 293,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 12
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Bulbasaur",
+        "id": 1,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Purified",
+                            "required": 22
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Charmander",
+        "id": 4,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Purified",
+                            "required": 22
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Squirtle",
+        "id": 7,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Purified",
+                            "required": 22
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Rattata",
+        "id": 19,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Purified",
+                            "required": 22
+                        },
+                        {
+                            "name": "Alola",
+                            "required": 25
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Zubat",
+        "id": 41,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Purified",
+                            "required": 22
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Oddish",
+        "id": 43,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Purified",
+                            "required": 22
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Poliwag",
+        "id": 60,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Purified",
+                            "required": 22
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Abra",
+        "id": 63,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Purified",
+                            "required": 22
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Dratini",
+        "id": 147,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Purified",
+                            "required": 22
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Larvitar",
+        "id": 246,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Purified",
+                            "required": 22
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Mudkip",
+        "id": 258,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Purified",
+                            "required": 22
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Ralts",
+        "id": 280,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Purified",
+                            "required": 22
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Nidoran♀",
+        "id": 29,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Nidoran♂",
+        "id": 32,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Machop",
+        "id": 66,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Bellsprout",
+        "id": 69,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Geodude",
+        "id": 74,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Alola",
+                            "required": 25
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Magnemite",
+        "id": 81,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Gastly",
+        "id": 92,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Rhyhorn",
+        "id": 111,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Horsea",
+        "id": 116,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Porygon",
+        "id": 137,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Chikorita",
+        "id": 152,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Cyndaquil",
+        "id": 155,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Totodile",
+        "id": 158,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Sentret",
+        "id": 161,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Ledyba",
+        "id": 165,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Pichu",
+        "id": 172,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Cleffa",
+        "id": 173,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Igglybuff",
+        "id": 174,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Togepi",
+        "id": 175,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Mareep",
+        "id": 179,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Marill",
+        "id": 183,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Hoppip",
+        "id": 187,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Swinub",
+        "id": 220,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Smoochum",
+        "id": 238,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Elekid",
+        "id": 239,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Magby",
+        "id": 240,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Treecko",
+        "id": 252,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Torchic",
+        "id": 255,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Lotad",
+        "id": 270,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Seedot",
+        "id": 273,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Slakoth",
+        "id": 287,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Azurill",
+        "id": 298,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Aron",
+        "id": 304,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Trapinch",
+        "id": 328,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Duskull",
+        "id": 355,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Wynaut",
+        "id": 360,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Spheal",
+        "id": 363,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Bagon",
+        "id": 371,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Beldum",
+        "id": 374,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Turtwig",
+        "id": 387,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        },
+                        {
+                            "name": "Purified",
+                            "required": 25
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Chimchar",
+        "id": 390,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Piplup",
+        "id": 393,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Starly",
+        "id": 396,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Shinx",
+        "id": 403,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Budew",
+        "id": 406,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Happiny",
+        "id": 440,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Gible",
+        "id": 443,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Magikarp",
+        "id": 129,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Purified",
+                            "required": 360
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 400
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 400
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Wailmer",
+        "id": 320,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 400
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Swablu",
+        "id": 333,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 400
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Meltan",
+        "id": 808,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 400
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Venonat",
+        "id": 48,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Purified",
+                            "required": 45
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Psyduck",
+        "id": 54,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Purified",
+                            "required": 45
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Growlithe",
+        "id": 58,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Purified",
+                            "required": 45
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Grimer",
+        "id": 88,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Purified",
+                            "required": 45
+                        },
+                        {
+                            "name": "Alola",
+                            "required": 50
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Drowzee",
+        "id": 96,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Purified",
+                            "required": 45
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Cubone",
+        "id": 104,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Purified",
+                            "required": 45
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Scyther",
+        "id": 123,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Purified",
+                            "required": 45
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Houndour",
+        "id": 228,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Purified",
+                            "required": 45
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        },
+                        {
+                            "name": "Shadow",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Metapod",
+        "id": 11,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Kakuna",
+        "id": 14,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Pidgeotto",
+        "id": 17,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Spearow",
+        "id": 21,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Ekans",
+        "id": 23,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Pikachu",
+        "id": 25,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Sandshrew",
+        "id": 27,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Alola",
+                            "required": 50
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Clefairy",
+        "id": 35,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Vulpix",
+        "id": 37,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Alola",
+                            "required": 50
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Jigglypuff",
+        "id": 39,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Paras",
+        "id": 46,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Diglett",
+        "id": 50,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Alola",
+                            "required": 50
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Meowth",
+        "id": 52,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Alola",
+                            "required": 50
+                        },
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Mankey",
+        "id": 56,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Tentacool",
+        "id": 72,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Ponyta",
+        "id": 77,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Doduo",
+        "id": 84,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Seel",
+        "id": 86,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Shellder",
+        "id": 90,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Onix",
+        "id": 95,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Krabby",
+        "id": 98,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Voltorb",
+        "id": 100,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Exeggcute",
+        "id": 102,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Koffing",
+        "id": 109,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Chansey",
+        "id": 113,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Goldeen",
+        "id": 118,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Staryu",
+        "id": 120,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Omanyte",
+        "id": 138,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Kabuto",
+        "id": 140,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Hoothoot",
+        "id": 163,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Spinarak",
+        "id": 167,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Chinchou",
+        "id": 170,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Natu",
+        "id": 177,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Sunkern",
+        "id": 191,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Wooper",
+        "id": 194,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Pineco",
+        "id": 204,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Snubbull",
+        "id": 209,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Teddiursa",
+        "id": 216,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Slugma",
+        "id": 218,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Remoraid",
+        "id": 223,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Phanpy",
+        "id": 231,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Poochyena",
+        "id": 261,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Zigzagoon",
+        "id": 263,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Silcoon",
+        "id": 266,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Cascoon",
+        "id": 268,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Taillow",
+        "id": 276,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Wingull",
+        "id": 278,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Surskit",
+        "id": 283,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Shroomish",
+        "id": 285,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Nincada",
+        "id": 290,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Loudred",
+        "id": 294,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Makuhita",
+        "id": 296,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Nosepass",
+        "id": 299,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Skitty",
+        "id": 300,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Meditite",
+        "id": 307,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Electrike",
+        "id": 309,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Gulpin",
+        "id": 316,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Carvanha",
+        "id": 318,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Numel",
+        "id": 322,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Spoink",
+        "id": 325,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Cacnea",
+        "id": 331,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Barboach",
+        "id": 339,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Corphish",
+        "id": 341,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Baltoy",
+        "id": 343,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Lileep",
+        "id": 345,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Anorith",
+        "id": 347,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Shuppet",
+        "id": 353,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Bidoof",
+        "id": 399,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Kricketot",
+        "id": 401,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Cranidos",
+        "id": 408,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Shieldon",
+        "id": 410,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Combee",
+        "id": 415,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Buizel",
+        "id": 418,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Shellos",
+        "id": 422,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "East_sea",
+                            "required": 50
+                        },
+                        {
+                            "name": "West_sea",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Drifloon",
+        "id": 425,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Buneary",
+        "id": 427,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Glameow",
+        "id": 431,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Chingling",
+        "id": 433,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Stunky",
+        "id": 434,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Bronzor",
+        "id": 436,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Bonsly",
+        "id": 438,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Mime Jr.",
+        "id": 439,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Munchlax",
+        "id": 446,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Riolu",
+        "id": 447,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Hippopotas",
+        "id": 449,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Skorupi",
+        "id": 451,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Croagunk",
+        "id": 453,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Finneon",
+        "id": 456,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Mantyke",
+        "id": 458,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Snover",
+        "id": 459,
+        "candy": [
+            {
+                "evolve": {
+                    "forms": [
+                        {
+                            "name": "Normal",
+                            "required": 50
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "name": "Electrode",
+        "id": 101,
+        "candy": null
+    },
+    {
+        "name": "Exeggutor",
+        "id": 103,
+        "candy": null
+    },
+    {
+        "name": "Marowak",
+        "id": 105,
+        "candy": null
+    },
+    {
+        "name": "Hitmonlee",
+        "id": 106,
+        "candy": null
+    },
+    {
+        "name": "Hitmonchan",
+        "id": 107,
+        "candy": null
+    },
+    {
+        "name": "Weezing",
+        "id": 110,
+        "candy": null
+    },
+    {
+        "name": "Kangaskhan",
+        "id": 115,
+        "candy": null
+    },
+    {
+        "name": "Seaking",
+        "id": 119,
+        "candy": null
+    },
+    {
+        "name": "Butterfree",
+        "id": 12,
+        "candy": null
+    },
+    {
+        "name": "Starmie",
+        "id": 121,
+        "candy": null
+    },
+    {
+        "name": "Mr. Mime",
+        "id": 122,
+        "candy": null
+    },
+    {
+        "name": "Jynx",
+        "id": 124,
+        "candy": null
+    },
+    {
+        "name": "Pinsir",
+        "id": 127,
+        "candy": null
+    },
+    {
+        "name": "Tauros",
+        "id": 128,
+        "candy": null
+    },
+    {
+        "name": "Gyarados",
+        "id": 130,
+        "candy": null
+    },
+    {
+        "name": "Lapras",
+        "id": 131,
+        "candy": null
+    },
+    {
+        "name": "Ditto",
+        "id": 132,
+        "candy": null
+    },
+    {
+        "name": "Eevee",
+        "id": 133,
+        "candy": null
+    },
+    {
+        "name": "Vaporeon",
+        "id": 134,
+        "candy": null
+    },
+    {
+        "name": "Jolteon",
+        "id": 135,
+        "candy": null
+    },
+    {
+        "name": "Flareon",
+        "id": 136,
+        "candy": null
+    },
+    {
+        "name": "Omastar",
+        "id": 139,
+        "candy": null
+    },
+    {
+        "name": "Kabutops",
+        "id": 141,
+        "candy": null
+    },
+    {
+        "name": "Aerodactyl",
+        "id": 142,
+        "candy": null
+    },
+    {
+        "name": "Snorlax",
+        "id": 143,
+        "candy": null
+    },
+    {
+        "name": "Articuno",
+        "id": 144,
+        "candy": null
+    },
+    {
+        "name": "Zapdos",
+        "id": 145,
+        "candy": null
+    },
+    {
+        "name": "Moltres",
+        "id": 146,
+        "candy": null
+    },
+    {
+        "name": "Dragonite",
+        "id": 149,
+        "candy": null
+    },
+    {
+        "name": "Beedrill",
+        "id": 15,
+        "candy": null
+    },
+    {
+        "name": "Mewtwo",
+        "id": 150,
+        "candy": null
+    },
+    {
+        "name": "Mew",
+        "id": 151,
+        "candy": null
+    },
+    {
+        "name": "Meganium",
+        "id": 154,
+        "candy": null
+    },
+    {
+        "name": "Typhlosion",
+        "id": 157,
+        "candy": null
+    },
+    {
+        "name": "Feraligatr",
+        "id": 160,
+        "candy": null
+    },
+    {
+        "name": "Furret",
+        "id": 162,
+        "candy": null
+    },
+    {
+        "name": "Noctowl",
+        "id": 164,
+        "candy": null
+    },
+    {
+        "name": "Ledian",
+        "id": 166,
+        "candy": null
+    },
+    {
+        "name": "Ariados",
+        "id": 168,
+        "candy": null
+    },
+    {
+        "name": "Crobat",
+        "id": 169,
+        "candy": null
+    },
+    {
+        "name": "Lanturn",
+        "id": 171,
+        "candy": null
+    },
+    {
+        "name": "Xatu",
+        "id": 178,
+        "candy": null
+    },
+    {
+        "name": "Pidgeot",
+        "id": 18,
+        "candy": null
+    },
+    {
+        "name": "Ampharos",
+        "id": 181,
+        "candy": null
+    },
+    {
+        "name": "Bellossom",
+        "id": 182,
+        "candy": null
+    },
+    {
+        "name": "Azumarill",
+        "id": 184,
+        "candy": null
+    },
+    {
+        "name": "Sudowoodo",
+        "id": 185,
+        "candy": null
+    },
+    {
+        "name": "Politoed",
+        "id": 186,
+        "candy": null
+    },
+    {
+        "name": "Jumpluff",
+        "id": 189,
+        "candy": null
+    },
+    {
+        "name": "Sunflora",
+        "id": 192,
+        "candy": null
+    },
+    {
+        "name": "Quagsire",
+        "id": 195,
+        "candy": null
+    },
+    {
+        "name": "Espeon",
+        "id": 196,
+        "candy": null
+    },
+    {
+        "name": "Umbreon",
+        "id": 197,
+        "candy": null
+    },
+    {
+        "name": "Slowking",
+        "id": 199,
+        "candy": null
+    },
+    {
+        "name": "Raticate",
+        "id": 20,
+        "candy": null
+    },
+    {
+        "name": "Unown",
+        "id": 201,
+        "candy": null
+    },
+    {
+        "name": "Wobbuffet",
+        "id": 202,
+        "candy": null
+    },
+    {
+        "name": "Girafarig",
+        "id": 203,
+        "candy": null
+    },
+    {
+        "name": "Forretress",
+        "id": 205,
+        "candy": null
+    },
+    {
+        "name": "Dunsparce",
+        "id": 206,
+        "candy": null
+    },
+    {
+        "name": "Steelix",
+        "id": 208,
+        "candy": null
+    },
+    {
+        "name": "Granbull",
+        "id": 210,
+        "candy": null
+    },
+    {
+        "name": "Qwilfish",
+        "id": 211,
+        "candy": null
+    },
+    {
+        "name": "Scizor",
+        "id": 212,
+        "candy": null
+    },
+    {
+        "name": "Shuckle",
+        "id": 213,
+        "candy": null
+    },
+    {
+        "name": "Heracross",
+        "id": 214,
+        "candy": null
+    },
+    {
+        "name": "Ursaring",
+        "id": 217,
+        "candy": null
+    },
+    {
+        "name": "Magcargo",
+        "id": 219,
+        "candy": null
+    },
+    {
+        "name": "Fearow",
+        "id": 22,
+        "candy": null
+    },
+    {
+        "name": "Corsola",
+        "id": 222,
+        "candy": null
+    },
+    {
+        "name": "Octillery",
+        "id": 224,
+        "candy": null
+    },
+    {
+        "name": "Delibird",
+        "id": 225,
+        "candy": null
+    },
+    {
+        "name": "Mantine",
+        "id": 226,
+        "candy": null
+    },
+    {
+        "name": "Skarmory",
+        "id": 227,
+        "candy": null
+    },
+    {
+        "name": "Houndoom",
+        "id": 229,
+        "candy": null
+    },
+    {
+        "name": "Kingdra",
+        "id": 230,
+        "candy": null
+    },
+    {
+        "name": "Donphan",
+        "id": 232,
+        "candy": null
+    },
+    {
+        "name": "Stantler",
+        "id": 234,
+        "candy": null
+    },
+    {
+        "name": "Smeargle",
+        "id": 235,
+        "candy": null
+    },
+    {
+        "name": "Tyrogue",
+        "id": 236,
+        "candy": null
+    },
+    {
+        "name": "Hitmontop",
+        "id": 237,
+        "candy": null
+    },
+    {
+        "name": "Arbok",
+        "id": 24,
+        "candy": null
+    },
+    {
+        "name": "Miltank",
+        "id": 241,
+        "candy": null
+    },
+    {
+        "name": "Blissey",
+        "id": 242,
+        "candy": null
+    },
+    {
+        "name": "Raikou",
+        "id": 243,
+        "candy": null
+    },
+    {
+        "name": "Entei",
+        "id": 244,
+        "candy": null
+    },
+    {
+        "name": "Suicune",
+        "id": 245,
+        "candy": null
+    },
+    {
+        "name": "Tyranitar",
+        "id": 248,
+        "candy": null
+    },
+    {
+        "name": "Lugia",
+        "id": 249,
+        "candy": null
+    },
+    {
+        "name": "Ho-Oh",
+        "id": 250,
+        "candy": null
+    },
+    {
+        "name": "Celebi",
+        "id": 251,
+        "candy": null
+    },
+    {
+        "name": "Sceptile",
+        "id": 254,
+        "candy": null
+    },
+    {
+        "name": "Blaziken",
+        "id": 257,
+        "candy": null
+    },
+    {
+        "name": "Raichu",
+        "id": 26,
+        "candy": null
+    },
+    {
+        "name": "Swampert",
+        "id": 260,
+        "candy": null
+    },
+    {
+        "name": "Mightyena",
+        "id": 262,
+        "candy": null
+    },
+    {
+        "name": "Linoone",
+        "id": 264,
+        "candy": null
+    },
+    {
+        "name": "Wurmple",
+        "id": 265,
+        "candy": null
+    },
+    {
+        "name": "Beautifly",
+        "id": 267,
+        "candy": null
+    },
+    {
+        "name": "Dustox",
+        "id": 269,
+        "candy": null
+    },
+    {
+        "name": "Ludicolo",
+        "id": 272,
+        "candy": null
+    },
+    {
+        "name": "Shiftry",
+        "id": 275,
+        "candy": null
+    },
+    {
+        "name": "Swellow",
+        "id": 277,
+        "candy": null
+    },
+    {
+        "name": "Pelipper",
+        "id": 279,
+        "candy": null
+    },
+    {
+        "name": "Sandslash",
+        "id": 28,
+        "candy": null
+    },
+    {
+        "name": "Kirlia",
+        "id": 281,
+        "candy": null
+    },
+    {
+        "name": "Gardevoir",
+        "id": 282,
+        "candy": null
+    },
+    {
+        "name": "Masquerain",
+        "id": 284,
+        "candy": null
+    },
+    {
+        "name": "Breloom",
+        "id": 286,
+        "candy": null
+    },
+    {
+        "name": "Slaking",
+        "id": 289,
+        "candy": null
+    },
+    {
+        "name": "Ninjask",
+        "id": 291,
+        "candy": null
+    },
+    {
+        "name": "Shedinja",
+        "id": 292,
+        "candy": null
+    },
+    {
+        "name": "Exploud",
+        "id": 295,
+        "candy": null
+    },
+    {
+        "name": "Hariyama",
+        "id": 297,
+        "candy": null
+    },
+    {
+        "name": "Venusaur",
+        "id": 3,
+        "candy": null
+    },
+    {
+        "name": "Delcatty",
+        "id": 301,
+        "candy": null
+    },
+    {
+        "name": "Sableye",
+        "id": 302,
+        "candy": null
+    },
+    {
+        "name": "Mawile",
+        "id": 303,
+        "candy": null
+    },
+    {
+        "name": "Aggron",
+        "id": 306,
+        "candy": null
+    },
+    {
+        "name": "Medicham",
+        "id": 308,
+        "candy": null
+    },
+    {
+        "name": "Nidoqueen",
+        "id": 31,
+        "candy": null
+    },
+    {
+        "name": "Manectric",
+        "id": 310,
+        "candy": null
+    },
+    {
+        "name": "Plusle",
+        "id": 311,
+        "candy": null
+    },
+    {
+        "name": "Minun",
+        "id": 312,
+        "candy": null
+    },
+    {
+        "name": "Volbeat",
+        "id": 313,
+        "candy": null
+    },
+    {
+        "name": "Illumise",
+        "id": 314,
+        "candy": null
+    },
+    {
+        "name": "Swalot",
+        "id": 317,
+        "candy": null
+    },
+    {
+        "name": "Sharpedo",
+        "id": 319,
+        "candy": null
+    },
+    {
+        "name": "Wailord",
+        "id": 321,
+        "candy": null
+    },
+    {
+        "name": "Camerupt",
+        "id": 323,
+        "candy": null
+    },
+    {
+        "name": "Torkoal",
+        "id": 324,
+        "candy": null
+    },
+    {
+        "name": "Grumpig",
+        "id": 326,
+        "candy": null
+    },
+    {
+        "name": "Spinda",
+        "id": 327,
+        "candy": null
+    },
+    {
+        "name": "Flygon",
+        "id": 330,
+        "candy": null
+    },
+    {
+        "name": "Cacturne",
+        "id": 332,
+        "candy": null
+    },
+    {
+        "name": "Altaria",
+        "id": 334,
+        "candy": null
+    },
+    {
+        "name": "Zangoose",
+        "id": 335,
+        "candy": null
+    },
+    {
+        "name": "Seviper",
+        "id": 336,
+        "candy": null
+    },
+    {
+        "name": "Lunatone",
+        "id": 337,
+        "candy": null
+    },
+    {
+        "name": "Solrock",
+        "id": 338,
+        "candy": null
+    },
+    {
+        "name": "Nidoking",
+        "id": 34,
+        "candy": null
+    },
+    {
+        "name": "Whiscash",
+        "id": 340,
+        "candy": null
+    },
+    {
+        "name": "Crawdaunt",
+        "id": 342,
+        "candy": null
+    },
+    {
+        "name": "Claydol",
+        "id": 344,
+        "candy": null
+    },
+    {
+        "name": "Cradily",
+        "id": 346,
+        "candy": null
+    },
+    {
+        "name": "Armaldo",
+        "id": 348,
+        "candy": null
+    },
+    {
+        "name": "Milotic",
+        "id": 350,
+        "candy": null
+    },
+    {
+        "name": "Castform",
+        "id": 351,
+        "candy": null
+    },
+    {
+        "name": "Banette",
+        "id": 354,
+        "candy": null
+    },
+    {
+        "name": "Tropius",
+        "id": 357,
+        "candy": null
+    },
+    {
+        "name": "Chimecho",
+        "id": 358,
+        "candy": null
+    },
+    {
+        "name": "Absol",
+        "id": 359,
+        "candy": null
+    },
+    {
+        "name": "Clefable",
+        "id": 36,
+        "candy": null
+    },
+    {
+        "name": "Snorunt",
+        "id": 361,
+        "candy": null
+    },
+    {
+        "name": "Glalie",
+        "id": 362,
+        "candy": null
+    },
+    {
+        "name": "Walrein",
+        "id": 365,
+        "candy": null
+    },
+    {
+        "name": "Clamperl",
+        "id": 366,
+        "candy": null
+    },
+    {
+        "name": "Huntail",
+        "id": 367,
+        "candy": null
+    },
+    {
+        "name": "Gorebyss",
+        "id": 368,
+        "candy": null
+    },
+    {
+        "name": "Relicanth",
+        "id": 369,
+        "candy": null
+    },
+    {
+        "name": "Luvdisc",
+        "id": 370,
+        "candy": null
+    },
+    {
+        "name": "Salamence",
+        "id": 373,
+        "candy": null
+    },
+    {
+        "name": "Metagross",
+        "id": 376,
+        "candy": null
+    },
+    {
+        "name": "Regirock",
+        "id": 377,
+        "candy": null
+    },
+    {
+        "name": "Regice",
+        "id": 378,
+        "candy": null
+    },
+    {
+        "name": "Registeel",
+        "id": 379,
+        "candy": null
+    },
+    {
+        "name": "Ninetales",
+        "id": 38,
+        "candy": null
+    },
+    {
+        "name": "Latias",
+        "id": 380,
+        "candy": null
+    },
+    {
+        "name": "Latios",
+        "id": 381,
+        "candy": null
+    },
+    {
+        "name": "Kyogre",
+        "id": 382,
+        "candy": null
+    },
+    {
+        "name": "Groudon",
+        "id": 383,
+        "candy": null
+    },
+    {
+        "name": "Rayquaza",
+        "id": 384,
+        "candy": null
+    },
+    {
+        "name": "Jirachi",
+        "id": 385,
+        "candy": null
+    },
+    {
+        "name": "Deoxys",
+        "id": 386,
+        "candy": null
+    },
+    {
+        "name": "Torterra",
+        "id": 389,
+        "candy": null
+    },
+    {
+        "name": "Infernape",
+        "id": 392,
+        "candy": null
+    },
+    {
+        "name": "Empoleon",
+        "id": 395,
+        "candy": null
+    },
+    {
+        "name": "Staraptor",
+        "id": 398,
+        "candy": null
+    },
+    {
+        "name": "Wigglytuff",
+        "id": 40,
+        "candy": null
+    },
+    {
+        "name": "Bibarel",
+        "id": 400,
+        "candy": null
+    },
+    {
+        "name": "Kricketune",
+        "id": 402,
+        "candy": null
+    },
+    {
+        "name": "Luxray",
+        "id": 405,
+        "candy": null
+    },
+    {
+        "name": "Roserade",
+        "id": 407,
+        "candy": null
+    },
+    {
+        "name": "Rampardos",
+        "id": 409,
+        "candy": null
+    },
+    {
+        "name": "Bastiodon",
+        "id": 411,
+        "candy": null
+    },
+    {
+        "name": "Burmy",
+        "id": 412,
+        "candy": null
+    },
+    {
+        "name": "Wormadam",
+        "id": 413,
+        "candy": null
+    },
+    {
+        "name": "Mothim",
+        "id": 414,
+        "candy": null
+    },
+    {
+        "name": "Vespiquen",
+        "id": 416,
+        "candy": null
+    },
+    {
+        "name": "Pachirisu",
+        "id": 417,
+        "candy": null
+    },
+    {
+        "name": "Floatzel",
+        "id": 419,
+        "candy": null
+    },
+    {
+        "name": "Cherubi",
+        "id": 420,
+        "candy": null
+    },
+    {
+        "name": "Cherrim",
+        "id": 421,
+        "candy": null
+    },
+    {
+        "name": "Gastrodon",
+        "id": 423,
+        "candy": null
+    },
+    {
+        "name": "Ambipom",
+        "id": 424,
+        "candy": null
+    },
+    {
+        "name": "Drifblim",
+        "id": 426,
+        "candy": null
+    },
+    {
+        "name": "Lopunny",
+        "id": 428,
+        "candy": null
+    },
+    {
+        "name": "Mismagius",
+        "id": 429,
+        "candy": null
+    },
+    {
+        "name": "Honchkrow",
+        "id": 430,
+        "candy": null
+    },
+    {
+        "name": "Purugly",
+        "id": 432,
+        "candy": null
+    },
+    {
+        "name": "Skuntank",
+        "id": 435,
+        "candy": null
+    },
+    {
+        "name": "Bronzong",
+        "id": 437,
+        "candy": null
+    },
+    {
+        "name": "Gloom",
+        "id": 44,
+        "candy": null
+    },
+    {
+        "name": "Chatot",
+        "id": 441,
+        "candy": null
+    },
+    {
+        "name": "Spiritomb",
+        "id": 442,
+        "candy": null
+    },
+    {
+        "name": "Garchomp",
+        "id": 445,
+        "candy": null
+    },
+    {
+        "name": "Lucario",
+        "id": 448,
+        "candy": null
+    },
+    {
+        "name": "Vileplume",
+        "id": 45,
+        "candy": null
+    },
+    {
+        "name": "Hippowdon",
+        "id": 450,
+        "candy": null
+    },
+    {
+        "name": "Drapion",
+        "id": 452,
+        "candy": null
+    },
+    {
+        "name": "Toxicroak",
+        "id": 454,
+        "candy": null
+    },
+    {
+        "name": "Carnivine",
+        "id": 455,
+        "candy": null
+    },
+    {
+        "name": "Lumineon",
+        "id": 457,
+        "candy": null
+    },
+    {
+        "name": "Abomasnow",
+        "id": 460,
+        "candy": null
+    },
+    {
+        "name": "Weavile",
+        "id": 461,
+        "candy": null
+    },
+    {
+        "name": "Magnezone",
+        "id": 462,
+        "candy": null
+    },
+    {
+        "name": "Lickilicky",
+        "id": 463,
+        "candy": null
+    },
+    {
+        "name": "Rhyperior",
+        "id": 464,
+        "candy": null
+    },
+    {
+        "name": "Tangrowth",
+        "id": 465,
+        "candy": null
+    },
+    {
+        "name": "Electivire",
+        "id": 466,
+        "candy": null
+    },
+    {
+        "name": "Magmortar",
+        "id": 467,
+        "candy": null
+    },
+    {
+        "name": "Togekiss",
+        "id": 468,
+        "candy": null
+    },
+    {
+        "name": "Yanmega",
+        "id": 469,
+        "candy": null
+    },
+    {
+        "name": "Parasect",
+        "id": 47,
+        "candy": null
+    },
+    {
+        "name": "Leafeon",
+        "id": 470,
+        "candy": null
+    },
+    {
+        "name": "Glaceon",
+        "id": 471,
+        "candy": null
+    },
+    {
+        "name": "Gliscor",
+        "id": 472,
+        "candy": null
+    },
+    {
+        "name": "Mamoswine",
+        "id": 473,
+        "candy": null
+    },
+    {
+        "name": "Porygon-Z",
+        "id": 474,
+        "candy": null
+    },
+    {
+        "name": "Gallade",
+        "id": 475,
+        "candy": null
+    },
+    {
+        "name": "Probopass",
+        "id": 476,
+        "candy": null
+    },
+    {
+        "name": "Dusknoir",
+        "id": 477,
+        "candy": null
+    },
+    {
+        "name": "Froslass",
+        "id": 478,
+        "candy": null
+    },
+    {
+        "name": "Uxie",
+        "id": 480,
+        "candy": null
+    },
+    {
+        "name": "Mesprit",
+        "id": 481,
+        "candy": null
+    },
+    {
+        "name": "Azelf",
+        "id": 482,
+        "candy": null
+    },
+    {
+        "name": "Dialga",
+        "id": 483,
+        "candy": null
+    },
+    {
+        "name": "Palkia",
+        "id": 484,
+        "candy": null
+    },
+    {
+        "name": "Heatran",
+        "id": 485,
+        "candy": null
+    },
+    {
+        "name": "Regigigas",
+        "id": 486,
+        "candy": null
+    },
+    {
+        "name": "Giratina",
+        "id": 487,
+        "candy": null
+    },
+    {
+        "name": "Cresselia",
+        "id": 488,
+        "candy": null
+    },
+    {
+        "name": "Venomoth",
+        "id": 49,
+        "candy": null
+    },
+    {
+        "name": "Darkrai",
+        "id": 491,
+        "candy": null
+    },
+    {
+        "name": "Snivy",
+        "id": 495,
+        "candy": null
+    },
+    {
+        "name": "Servine",
+        "id": 496,
+        "candy": null
+    },
+    {
+        "name": "Serperior",
+        "id": 497,
+        "candy": null
+    },
+    {
+        "name": "Tepig",
+        "id": 498,
+        "candy": null
+    },
+    {
+        "name": "Pignite",
+        "id": 499,
+        "candy": null
+    },
+    {
+        "name": "Emboar",
+        "id": 500,
+        "candy": null
+    },
+    {
+        "name": "Oshawott",
+        "id": 501,
+        "candy": null
+    },
+    {
+        "name": "Dewott",
+        "id": 502,
+        "candy": null
+    },
+    {
+        "name": "Samurott",
+        "id": 503,
+        "candy": null
+    },
+    {
+        "name": "Patrat",
+        "id": 504,
+        "candy": null
+    },
+    {
+        "name": "Watchog",
+        "id": 505,
+        "candy": null
+    },
+    {
+        "name": "Lillipup",
+        "id": 506,
+        "candy": null
+    },
+    {
+        "name": "Herdier",
+        "id": 507,
+        "candy": null
+    },
+    {
+        "name": "Stoutland",
+        "id": 508,
+        "candy": null
+    },
+    {
+        "name": "Purrloin",
+        "id": 509,
+        "candy": null
+    },
+    {
+        "name": "Dugtrio",
+        "id": 51,
+        "candy": null
+    },
+    {
+        "name": "Liepard",
+        "id": 510,
+        "candy": null
+    },
+    {
+        "name": "Pansage",
+        "id": 511,
+        "candy": null
+    },
+    {
+        "name": "Simisage",
+        "id": 512,
+        "candy": null
+    },
+    {
+        "name": "Pansear",
+        "id": 513,
+        "candy": null
+    },
+    {
+        "name": "Simisear",
+        "id": 514,
+        "candy": null
+    },
+    {
+        "name": "Panpour",
+        "id": 515,
+        "candy": null
+    },
+    {
+        "name": "Simipour",
+        "id": 516,
+        "candy": null
+    },
+    {
+        "name": "Pidove",
+        "id": 519,
+        "candy": null
+    },
+    {
+        "name": "Tranquill",
+        "id": 520,
+        "candy": null
+    },
+    {
+        "name": "Unfezant",
+        "id": 521,
+        "candy": null
+    },
+    {
+        "name": "Blitzle",
+        "id": 522,
+        "candy": null
+    },
+    {
+        "name": "Zebstrika",
+        "id": 523,
+        "candy": null
+    },
+    {
+        "name": "Drilbur",
+        "id": 529,
+        "candy": null
+    },
+    {
+        "name": "Persian",
+        "id": 53,
+        "candy": null
+    },
+    {
+        "name": "Excadrill",
+        "id": 530,
+        "candy": null
+    },
+    {
+        "name": "Golduck",
+        "id": 55,
+        "candy": null
+    },
+    {
+        "name": "Yamask",
+        "id": 562,
+        "candy": null
+    },
+    {
+        "name": "Cofagrigus",
+        "id": 563,
+        "candy": null
+    },
+    {
+        "name": "Primeape",
+        "id": 57,
+        "candy": null
+    },
+    {
+        "name": "Arcanine",
+        "id": 59,
+        "candy": null
+    },
+    {
+        "name": "Foongus",
+        "id": 590,
+        "candy": null
+    },
+    {
+        "name": "Amoonguss",
+        "id": 591,
+        "candy": null
+    },
+    {
+        "name": "Ferroseed",
+        "id": 597,
+        "candy": null
+    },
+    {
+        "name": "Ferrothorn",
+        "id": 598,
+        "candy": null
+    },
+    {
+        "name": "Klink",
+        "id": 599,
+        "candy": null
+    },
+    {
+        "name": "Charizard",
+        "id": 6,
+        "candy": null
+    },
+    {
+        "name": "Klang",
+        "id": 600,
+        "candy": null
+    },
+    {
+        "name": "Klinklang",
+        "id": 601,
+        "candy": null
+    },
+    {
+        "name": "Litwick",
+        "id": 607,
+        "candy": null
+    },
+    {
+        "name": "Lampent",
+        "id": 608,
+        "candy": null
+    },
+    {
+        "name": "Chandelure",
+        "id": 609,
+        "candy": null
+    },
+    {
+        "name": "Poliwhirl",
+        "id": 61,
+        "candy": null
+    },
+    {
+        "name": "Poliwrath",
+        "id": 62,
+        "candy": null
+    },
+    {
+        "name": "Golett",
+        "id": 622,
+        "candy": null
+    },
+    {
+        "name": "Golurk",
+        "id": 623,
+        "candy": null
+    },
+    {
+        "name": "Heatmor",
+        "id": 631,
+        "candy": null
+    },
+    {
+        "name": "Durant",
+        "id": 632,
+        "candy": null
+    },
+    {
+        "name": "Deino",
+        "id": 633,
+        "candy": null
+    },
+    {
+        "name": "Zweilous",
+        "id": 634,
+        "candy": null
+    },
+    {
+        "name": "Cobalion",
+        "id": 638,
+        "candy": null
+    },
+    {
+        "name": "Terrakion",
+        "id": 639,
+        "candy": null
+    },
+    {
+        "name": "Alakazam",
+        "id": 65,
+        "candy": null
+    },
+    {
+        "name": "Machamp",
+        "id": 68,
+        "candy": null
+    },
+    {
+        "name": "Victreebel",
+        "id": 71,
+        "candy": null
+    },
+    {
+        "name": "Tentacruel",
+        "id": 73,
+        "candy": null
+    },
+    {
+        "name": "Golem",
+        "id": 76,
+        "candy": null
+    },
+    {
+        "name": "Rapidash",
+        "id": 78,
+        "candy": null
+    },
+    {
+        "name": "Slowpoke",
+        "id": 79,
+        "candy": null
+    },
+    {
+        "name": "Slowbro",
+        "id": 80,
+        "candy": null
+    },
+    {
+        "name": "Melmetal",
+        "id": 809,
+        "candy": null
+    },
+    {
+        "name": "Farfetch’d",
+        "id": 83,
+        "candy": null
+    },
+    {
+        "name": "Dodrio",
+        "id": 85,
+        "candy": null
+    },
+    {
+        "name": "Dewgong",
+        "id": 87,
+        "candy": null
+    },
+    {
+        "name": "Muk",
+        "id": 89,
+        "candy": null
+    },
+    {
+        "name": "Blastoise",
+        "id": 9,
+        "candy": null
+    },
+    {
+        "name": "Cloyster",
+        "id": 91,
+        "candy": null
+    },
+    {
+        "name": "Gengar",
+        "id": 94,
+        "candy": null
+    },
+    {
+        "name": "Hypno",
+        "id": 97,
+        "candy": null
+    },
+    {
+        "name": "Kingler",
+        "id": 99,
+        "candy": null
+    }
+]
