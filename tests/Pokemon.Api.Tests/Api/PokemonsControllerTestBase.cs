@@ -18,7 +18,7 @@ namespace Pokemon.Api.Tests.Api
         protected readonly Mock<IPokemonService> MockedPokemonService;
         protected readonly IMapper AutoMapper;
         protected readonly PagedList<Core.Entities.Pokemon> PagedListPokemon;
-        protected readonly PokemonsController PokemonsController;
+        protected PokemonsController PokemonsController;
 
         protected PokemonsControllerTestBase()
         {
@@ -26,6 +26,17 @@ namespace Pokemon.Api.Tests.Api
             MockedPokemons =
                 new List<Core.Entities.Pokemon>
                 {
+                     new Core.Entities.Pokemon
+                    {
+                        Index = 145,
+                        Name = "Zapdos",
+                        ImageUrl = "http://serebii.net/xy/pokemon/001.png",
+                        Types = new List<string>
+                        {
+                            new string("electric"),
+                            new string("flying")
+                        }
+                     },
                     new Core.Entities.Pokemon
                     {
                         Index = 1,
@@ -142,32 +153,20 @@ namespace Pokemon.Api.Tests.Api
 
             AutoMapper = config.CreateMapper();
             PagedListPokemon = new PagedList<Core.Entities.Pokemon>(MockedPokemons, 1, 5);
-            PokemonsController = new PokemonsController(MockedPokemonRepository.Object, AutoMapper, MockedPokemonService.Object);
         }
 
-        protected void ReturnProperty(string propertyToSortOn, string sortOrder, string propertyToOrderBy)
+        protected IEnumerable<PokemonDto> GetPokemonsBySortOrder(string propertyToSortOn, string sortOrder, string propertyToOrderBy)
         {
             //Arrange
             var pagingParams = new PagingParams() { Sort = sortOrder };
 
             MockedPokemonRepository.Setup(x => x.GetPokemons(pagingParams)).Returns(PagedListPokemon);
             MockedPokemonService.Setup(x => x.GetFilteredSortQuery(It.IsAny<string>())).Returns($"{propertyToSortOn} {sortOrder}");
+            PokemonsController = new PokemonsController(MockedPokemonRepository.Object, AutoMapper, MockedPokemonService.Object);
 
             //Act
             GenericApiResponse<ObjectDto> objDto = PokemonsController.GetPokemons(pagingParams);
-            PokemonDto firstPokemon = objDto?.Data?.Pokemons?.First();
-
-            //Assert
-            switch (propertyToSortOn)
-            {
-                case "name":
-                    Assert.Equal(propertyToOrderBy, firstPokemon.name);
-                    break;
-                //fail if sort property does not match switch statement
-                default:
-                    Assert.Equal(5, 10);
-                    break;
-            }
+            return objDto?.Data?.Pokemons;
         }
     }
 }
