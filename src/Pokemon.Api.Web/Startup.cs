@@ -40,13 +40,7 @@ namespace Pokemon.Api.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            // Auto Mapper Configurations
-            var mappingConfig = new MapperConfiguration(mc =>
-            {
-                mc.AddProfile(new MappingProfile());
-            });
-
-            var mapper = mappingConfig.CreateMapper();
+            var mapper = GetMapper();
             services.AddSingleton(mapper);
 
             //Sql lite in-memory DB
@@ -71,6 +65,16 @@ namespace Pokemon.Api.Web
                 .AddNewtonsoftJson();
         }
 
+        IMapper GetMapper()
+        {
+            var mappingConfig = new MapperConfiguration(mc =>
+            {
+                mc.AddProfile(new MappingProfile());
+            });
+
+            return mappingConfig.CreateMapper();
+        }
+
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
@@ -83,15 +87,6 @@ namespace Pokemon.Api.Web
             app.UseExceptionHandler("/api/error");
             app.UseMvc();
 
-
-
-            var mappingConfig = new MapperConfiguration(mc =>
-            {
-                mc.AddProfile(new MappingProfile());
-            });
-
-            var mapper = mappingConfig.CreateMapper();
-
             var opts = new DbContextOptionsBuilder<PokemonContext>()
                 .UseSqlite(_inMemorySqlite)
                 .Options;
@@ -102,6 +97,7 @@ namespace Pokemon.Api.Web
             using (var context = new PokemonContext(opts))
             {
                 // Create the schema in the database
+                var mapper = GetMapper();
                 context.Database.EnsureCreated();
                 foreach (var file in files)
                 {
