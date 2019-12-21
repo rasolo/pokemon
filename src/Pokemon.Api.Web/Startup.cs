@@ -57,30 +57,6 @@ namespace Pokemon.Api.Web
                 options.UseSqlite(_inMemorySqlite);
             });
 
-            var opts = new DbContextOptionsBuilder<PokemonContext>()
-                .UseSqlite(_inMemorySqlite)
-                .Options;
-
-            //TODO: Move to service class. Error handling, logging.
-            var path = Path.GetFullPath(Path.Combine(HostingEnvironment.ContentRootPath, @"..\..\")) +
-                       "\\appdata\\json\\pokemon";
-            var files = Directory.GetFiles(path);
-            using (var context = new PokemonContext(opts))
-            {
-                // Create the schema in the database
-                context.Database.EnsureCreated();
-                foreach (var file in files)
-                {
-                    var jsonString = File.ReadAllText(file);
-                    var pokemonDto = JsonConvert.DeserializeObject<PokemonDto>(jsonString);
-                    var pokemon = mapper.Map(pokemonDto, new Core.Entities.Pokemon());
-                    context.Pokemon.Add(mapper.Map(pokemonDto, pokemon));
-                }
-
-                context.SaveChanges();
-            }
-
-
             services.AddScoped<IPokemonRepository, PokemonRepository>();
             services.AddScoped<IPokemonService, PokemonService>();
             services.AddSingleton<ILoggingService, Log4NetLoggingService>();
@@ -106,6 +82,37 @@ namespace Pokemon.Api.Web
             app.UseStatusCodePagesWithReExecute("/api/error");
             app.UseExceptionHandler("/api/error");
             app.UseMvc();
+
+
+
+            var mappingConfig = new MapperConfiguration(mc =>
+            {
+                mc.AddProfile(new MappingProfile());
+            });
+
+            var mapper = mappingConfig.CreateMapper();
+
+            var opts = new DbContextOptionsBuilder<PokemonContext>()
+                .UseSqlite(_inMemorySqlite)
+                .Options;
+
+            //TODO: Move to service class. Error handling, logging.
+            var path = Path.Combine(env.WebRootPath,"pokemon");
+            var files = Directory.GetFiles(path);
+            using (var context = new PokemonContext(opts))
+            {
+                // Create the schema in the database
+                context.Database.EnsureCreated();
+                foreach (var file in files)
+                {
+                    var jsonString = File.ReadAllText(file);
+                    var pokemonDto = JsonConvert.DeserializeObject<PokemonDto>(jsonString);
+                    var pokemon = mapper.Map(pokemonDto, new Core.Entities.Pokemon());
+                    context.Pokemon.Add(mapper.Map(pokemonDto, pokemon));
+                }
+
+                context.SaveChanges();
+            }
         }
     }
 }
