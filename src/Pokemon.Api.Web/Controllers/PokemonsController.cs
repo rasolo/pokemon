@@ -8,17 +8,17 @@ using Pokemon.Api.Core.Extensions;
 using Pokemon.Api.Core.Paging;
 using Pokemon.Api.Core.Repositories;
 using Pokemon.Api.Core.Services;
+using Pokemon.Api.Models;
 using Pokemon.Api.Web.Filters;
-using Pokemon.Api.Web.V1._1._0.Models;
+using Pokemon.Api.Web.Models;
 
-namespace Pokemon.Api.Web.V1._1._0.Controllers
+namespace Pokemon.Api.Web.Controllers
 {
     //[ApiVersion(ApiVersion)]
     [Route(ControllerRoute)]
     public class PokemonsController : Controller
     {
-        private const string ApiVersion = "1.0";
-        private const string ControllerRoute = "api/v" + ApiVersion + "/pokemon"; //api/v1.0/pokemon
+        private const string ControllerRoute = "api/pokemon";
         private readonly IMapper _mapper;
         private readonly IPokemonRepository _pokemonRepository;
         private readonly IPokemonService _pokemonService;

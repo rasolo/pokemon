@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using Pokemon.Api.Web.Models;
 
-namespace Pokemon.Api.Web.V1._1._0.Models
+namespace Pokemon.Api.Models
 {
     public class PokemonForCreationDto
     {
