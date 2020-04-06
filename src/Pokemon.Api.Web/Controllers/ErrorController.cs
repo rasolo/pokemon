@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 using Pokemon.Api.Core.Exceptions;
 using Pokemon.Api.Core.Extensions;
 using Pokemon.Api.Core.Logging;
-using Pokemon.Api.Web.V1._1._0.Models;
+using Pokemon.Api.Web.Models;
 
-namespace Pokemon.Api.Web.V1._1._0.Controllers
+namespace Pokemon.Api.Web.Controllers
 {
     [Route("api/[controller]")]
     public class ErrorController : Controller

@@ -5,7 +5,6 @@ using log4net;
 using log4net.Config;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -18,7 +17,7 @@ using Pokemon.Api.Infrastructure.Data;
 using Pokemon.Api.Infrastructure.Repositories;
 using Pokemon.Api.Infrastructure.Services;
 using Pokemon.Api.Web.Mapper;
-using Pokemon.Api.Web.V1._1._0.Models;
+using Pokemon.Api.Web.Models;
 
 namespace Pokemon.Api.Web
 {
@@ -54,12 +53,6 @@ namespace Pokemon.Api.Web
             services.AddScoped<IPokemonRepository, PokemonRepository>();
             services.AddScoped<IPokemonService, PokemonService>();
             services.AddSingleton<ILoggingService, Log4NetLoggingService>();
-
-            services.AddApiVersioning(o =>
-            {
-                o.AssumeDefaultVersionWhenUnspecified = true;
-                o.DefaultApiVersion = new ApiVersion(1, 0);
-            });
 
             services.AddMvc(options => options.EnableEndpointRouting = false)
                 .AddNewtonsoftJson();

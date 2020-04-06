@@ -5,9 +5,9 @@ using Pokemon.Api.Core.Repositories;
 using Pokemon.Api.Core.Services;
 using System.Collections.Generic;
 using System.Linq;
-using Pokemon.Api.Web.V1._1._0.Controllers;
-using Pokemon.Api.Web.V1._1._0.Models;
-using Xunit;
+using Pokemon.Api.Models;
+using Pokemon.Api.Web.Controllers;
+using Pokemon.Api.Web.Models;
 
 namespace Pokemon.Api.Tests.Api
 {

@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Pokemon.Api.Core.Entities;
-using Pokemon.Api.Web.V1._1._0.Models;
+using Pokemon.Api.Models;
+using Pokemon.Api.Web.Models;
 
 namespace Pokemon.Api.Web.Mapper
 {

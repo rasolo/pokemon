@@ -1,6 +1,6 @@
 ﻿using Pokemon.Api.Core.Contracts;
 
-namespace Pokemon.Api.Web.V1._1._0.Models
+namespace Pokemon.Api.Web.Models
 {
     public class GenericApiResponse<T> : IGenericApiResponse<T>
     {
