@@ -1,16 +1,19 @@
 # Pokemon API #
 
 ## About ##
-An Api made in .NET core 3 related to Pokemon. Get, add delete Pokémon.
 
-A folder at root level containing a certain amount of JSON files where each file represents a Pokémon. Each file is loaded into an SQL-Lite In-memory database at startup, to which the requests are made.
+http://pokeapi.azurewebsites.net/
+
+An Api made in .NET core 3.x related to Pokemon. Get, add delete Pokémon.
+
+A folder in the www root containing a certain amount of JSON files where each file represents a Pokémon. Each file is loaded into an SQL-Lite In-memory database at startup, to which the requests are made.
 ___
 
 ## Getting Started
 How to setup project on your own machine.
 ### Prerequisites
 ```
-Dotnet core 3 https://dotnet.microsoft.com/download/dotnet-core/3.0
+Dotnet core 3.1 https://dotnet.microsoft.com/download/dotnet-core/3.1
 Visual Studio 2019: https://visualstudio.microsoft.com/downloads/ or other IDE/editor of choice.
 ```
 ___
@@ -21,7 +24,7 @@ Retrieve a list of pokemon.
 
 Parameters are sent as query parameters.
 
-#### `GET` /api/v1.0/pokemon/list
+#### `GET` /api/pokemon/list
 
 | Parameter    | Value                        | Required | Example   |
 | ------------ | ---------------------------- | -------- | --------- |
@@ -34,7 +37,7 @@ ___
 
 Retrieve a single pokemon.
 
-#### `GET` `/api/v1.0/pokemon/{pokemonname}`
+#### `GET` `/api/pokemon/{pokemonname}`
 
 | Parameter | Value    | Required | Example           |
 | --------- | -------- | -------- | ----------------- |
@@ -47,7 +50,7 @@ Add a single pokemon.
 
 Parameters are sent as JSON from body.
 
-#### `POST` `api/v1.0/pokemon/add`
+#### `POST` `api/pokemon/add`
 
 | Parameter | Value    | Required | Example           |
 | --------- | -------- | -------- | ----------------- |
@@ -85,7 +88,7 @@ ___
 
 Delete a single pokemon.
 
-#### `DELETE` `/api/v1.0/pokemon/{pokemonname}`
+#### `DELETE` `/api/pokemon/{pokemonname}`
 
 | Parameter | Value    | Required | Example           |
 | --------- | -------- | -------- | ----------------- |
@@ -95,7 +98,7 @@ ___
 
 ## Requirements
 ```
-Dotnet core 3 SDK and the runtime: https://dotnet.microsoft.com/download/dotnet-core/3.0
+Dotnet core 3.1 SDK and the runtime: https://dotnet.microsoft.com/download/dotnet-core/3.1
 Visual Studio 2019: https://visualstudio.microsoft.com/downloads/
 ```
 
